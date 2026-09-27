@@ -1,0 +1,501 @@
+﻿case_id,state_ut,victim_group,reported_context,immediate_safety_concern,social_isolation_indicator,displacement_indicator,legal_delay_indicator,svi_score,risk_category,recommended_support_pathway,data_type
+SYN-CASE-0001,Punjab,SC,Prolonged legal proceeding,0,0,0,0,22,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0002,Maharashtra,SC,Social boycott,0,0,0,1,48,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0003,Jharkhand,ST,Prolonged legal proceeding,0,0,0,0,48,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0004,Bihar,ST,Threat/intimidation,0,0,0,1,48,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0005,Chhattisgarh,ST,Physical violence,0,0,1,1,66,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0006,West Bengal,SC,Displacement,0,0,0,0,8,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0007,Bihar,SC,Multiple allegations,0,0,0,0,11,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0008,Jharkhand,SC,Sexual violence report,0,0,0,0,8,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0009,Gujarat,ST,Threat/intimidation,0,0,0,1,37,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0010,Gujarat,SC,Family safety concern,1,0,0,1,35,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0011,Gujarat,ST,Property-related dispute,1,1,1,1,81,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0012,Madhya Pradesh,SC,Physical violence,0,0,0,0,6,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0013,Jharkhand,ST,Displacement,0,0,0,1,28,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0014,West Bengal,SC,Property-related dispute,0,0,0,0,48,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0015,Gujarat,ST,Social boycott,1,0,1,0,56,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0016,Rajasthan,ST,Physical violence,0,1,0,0,52,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0017,Madhya Pradesh,ST,Social boycott,0,0,0,0,23,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0018,Gujarat,SC,Prolonged legal proceeding,1,1,1,1,54,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0019,Tamil Nadu,ST,Sexual violence report,0,0,0,0,44,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0020,Uttarakhand,SC,Sexual violence report,1,1,0,0,64,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0021,Odisha,ST,Property-related dispute,0,0,0,1,12,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0022,Bihar,SC,Threat/intimidation,1,1,0,0,56,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0023,Punjab,ST,Sexual violence report,1,0,0,1,66,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0024,Uttarakhand,SC,Multiple allegations,0,0,0,0,66,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0025,Uttarakhand,ST,Threat/intimidation,0,0,1,0,17,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0026,Tamil Nadu,SC,Multiple allegations,1,1,1,1,58,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0027,Gujarat,SC,Multiple allegations,0,0,0,1,66,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0028,Punjab,ST,Threat/intimidation,0,0,0,1,28,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0029,Gujarat,SC,Family safety concern,0,0,0,0,39,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0030,Gujarat,SC,Physical violence,0,0,0,0,14,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0031,Chhattisgarh,SC,Social boycott,0,0,0,0,10,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0032,Uttarakhand,ST,Physical violence,1,0,1,0,56,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0033,Gujarat,SC,Family safety concern,1,0,0,1,29,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0034,Madhya Pradesh,SC,Sexual violence report,1,0,1,1,56,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0035,Gujarat,SC,Property-related dispute,0,0,0,0,65,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0036,Maharashtra,SC,Displacement,0,1,0,1,71,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0037,Chhattisgarh,ST,Family safety concern,1,0,1,1,55,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0038,Uttarakhand,SC,Property-related dispute,0,0,0,0,37,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0039,Maharashtra,SC,Multiple allegations,0,0,1,1,31,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0040,West Bengal,ST,Physical violence,1,0,0,0,16,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0041,Madhya Pradesh,ST,Multiple allegations,1,1,0,1,51,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0042,Odisha,ST,Multiple allegations,1,1,1,1,85,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0043,Chhattisgarh,ST,Displacement,0,0,0,0,48,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0044,West Bengal,SC,Prolonged legal proceeding,1,1,0,1,88,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0045,Punjab,SC,Prolonged legal proceeding,0,1,1,0,81,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0046,Rajasthan,ST,Physical violence,0,1,0,0,33,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0047,West Bengal,ST,Displacement,1,1,0,1,71,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0048,Uttar Pradesh,SC,Multiple allegations,0,0,0,1,66,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0049,Rajasthan,SC,Prolonged legal proceeding,0,0,0,0,17,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0050,Bihar,ST,Property-related dispute,0,0,0,0,12,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0051,Uttarakhand,SC,Threat/intimidation,0,0,0,0,42,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0052,West Bengal,SC,Prolonged legal proceeding,0,1,0,1,61,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0053,Madhya Pradesh,SC,Threat/intimidation,0,0,0,1,40,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0054,West Bengal,SC,Social boycott,0,0,0,0,63,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0055,Jharkhand,SC,Family safety concern,0,0,0,0,66,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0056,Jharkhand,SC,Sexual violence report,0,0,1,1,68,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0057,Chhattisgarh,ST,Property-related dispute,0,0,0,0,17,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0058,Chhattisgarh,SC,Multiple allegations,0,1,0,0,29,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0059,Jharkhand,SC,Social boycott,0,0,0,0,10,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0060,Rajasthan,ST,Sexual violence report,0,0,0,0,23,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0061,Bihar,ST,Prolonged legal proceeding,0,0,0,1,11,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0062,Tamil Nadu,ST,Prolonged legal proceeding,0,0,0,0,5,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0063,Tamil Nadu,ST,Displacement,0,0,0,1,11,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0064,Karnataka,SC,Threat/intimidation,0,1,0,1,30,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0065,Maharashtra,ST,Physical violence,0,1,0,0,32,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0066,Maharashtra,SC,Physical violence,0,0,0,0,24,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0067,Karnataka,SC,Physical violence,0,1,0,1,52,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0068,Odisha,ST,Social boycott,0,0,0,1,29,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0069,Punjab,ST,Family safety concern,1,0,1,1,80,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0070,Uttarakhand,SC,Physical violence,0,0,1,1,53,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0071,Gujarat,ST,Physical violence,0,0,0,0,11,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0072,Uttar Pradesh,ST,Sexual violence report,1,0,1,1,89,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0073,West Bengal,ST,Sexual violence report,0,1,0,1,67,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0074,West Bengal,SC,Multiple allegations,1,0,1,0,59,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0075,West Bengal,ST,Property-related dispute,0,0,0,1,29,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0076,Tamil Nadu,SC,Family safety concern,1,1,0,1,33,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0077,Uttarakhand,SC,Social boycott,0,0,0,0,46,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0078,Tamil Nadu,SC,Social boycott,0,0,0,1,56,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0079,Bihar,ST,Social boycott,0,0,0,1,34,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0080,Telangana,ST,Family safety concern,1,0,0,0,21,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0081,Bihar,SC,Sexual violence report,0,0,0,0,23,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0082,Uttar Pradesh,ST,Physical violence,0,0,0,0,9,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0083,Tamil Nadu,ST,Family safety concern,0,0,0,1,13,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0084,Telangana,SC,Sexual violence report,1,0,0,0,40,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0085,Madhya Pradesh,SC,Sexual violence report,1,1,1,1,84,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0086,Telangana,ST,Displacement,0,0,0,0,7,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0087,Tamil Nadu,SC,Displacement,0,0,0,0,43,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0088,Gujarat,SC,Physical violence,1,0,0,0,14,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0089,Punjab,SC,Displacement,0,0,0,1,39,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0090,Telangana,SC,Displacement,0,0,0,0,41,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0091,Jharkhand,SC,Property-related dispute,0,1,0,1,43,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0092,Tamil Nadu,SC,Multiple allegations,0,1,1,1,94,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0093,Karnataka,SC,Property-related dispute,1,1,0,0,77,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0094,Uttarakhand,SC,Social boycott,1,1,0,1,68,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0095,Rajasthan,SC,Family safety concern,1,0,1,1,57,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0096,Madhya Pradesh,ST,Multiple allegations,0,0,0,1,39,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0097,Odisha,ST,Displacement,0,1,0,0,36,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0098,Bihar,ST,Multiple allegations,0,0,0,1,29,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0099,Madhya Pradesh,SC,Family safety concern,0,0,0,1,69,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0100,Bihar,SC,Physical violence,0,0,0,0,17,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0101,Odisha,SC,Displacement,0,1,0,0,23,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0102,Maharashtra,SC,Family safety concern,0,0,0,1,20,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0103,West Bengal,ST,Sexual violence report,0,0,0,1,33,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0104,West Bengal,SC,Multiple allegations,0,0,0,1,72,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0105,Punjab,SC,Physical violence,0,0,0,0,17,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0106,West Bengal,SC,Threat/intimidation,0,0,0,1,31,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0107,Uttar Pradesh,ST,Sexual violence report,0,0,1,0,44,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0108,Madhya Pradesh,SC,Multiple allegations,0,1,0,1,57,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0109,Tamil Nadu,ST,Multiple allegations,0,0,0,0,10,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0110,Bihar,SC,Prolonged legal proceeding,0,0,0,1,23,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0111,Telangana,ST,Displacement,0,1,0,0,64,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0112,Uttar Pradesh,SC,Social boycott,0,0,0,0,33,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0113,Punjab,SC,Physical violence,0,0,0,1,65,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0114,Gujarat,ST,Physical violence,0,0,0,1,32,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0115,Jharkhand,ST,Physical violence,1,1,1,0,93,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0116,Gujarat,ST,Physical violence,0,0,0,0,29,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0117,Telangana,ST,Family safety concern,0,1,0,1,40,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0118,Rajasthan,SC,Threat/intimidation,0,1,1,1,91,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0119,Jharkhand,SC,Physical violence,0,0,0,0,7,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0120,Chhattisgarh,ST,Multiple allegations,0,0,1,0,60,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0121,Gujarat,SC,Prolonged legal proceeding,0,0,0,0,14,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0122,West Bengal,SC,Family safety concern,0,0,0,1,47,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0123,Punjab,ST,Multiple allegations,0,0,0,0,20,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0124,Madhya Pradesh,SC,Sexual violence report,0,0,0,0,44,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0125,Rajasthan,SC,Family safety concern,1,0,0,1,56,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0126,Maharashtra,SC,Physical violence,0,0,0,1,22,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0127,Karnataka,SC,Displacement,0,0,0,1,12,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0128,Rajasthan,SC,Prolonged legal proceeding,1,1,0,0,28,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0129,Jharkhand,ST,Family safety concern,0,0,0,1,6,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0130,Chhattisgarh,ST,Social boycott,0,0,0,0,49,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0131,Maharashtra,SC,Threat/intimidation,0,1,1,1,78,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0132,Odisha,SC,Family safety concern,0,0,0,0,5,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0133,Chhattisgarh,ST,Sexual violence report,0,0,1,0,40,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0134,Gujarat,ST,Physical violence,0,0,0,0,27,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0135,Uttarakhand,SC,Sexual violence report,0,0,0,0,5,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0136,Chhattisgarh,ST,Multiple allegations,0,0,0,0,13,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0137,Bihar,ST,Displacement,1,0,0,1,59,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0138,West Bengal,ST,Multiple allegations,0,0,0,1,37,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0139,Telangana,SC,Displacement,1,1,1,1,69,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0140,Punjab,ST,Physical violence,0,0,0,0,34,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0141,Telangana,SC,Prolonged legal proceeding,1,1,1,1,35,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0142,Odisha,ST,Property-related dispute,0,1,0,1,86,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0143,West Bengal,ST,Physical violence,0,0,1,0,60,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0144,Jharkhand,ST,Physical violence,1,1,0,1,86,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0145,Uttarakhand,ST,Physical violence,0,0,0,0,7,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0146,Telangana,ST,Sexual violence report,1,1,0,1,89,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0147,Telangana,SC,Displacement,1,0,1,0,74,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0148,Maharashtra,ST,Social boycott,0,0,0,1,60,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0149,West Bengal,SC,Displacement,1,1,1,0,72,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0150,Uttar Pradesh,SC,Threat/intimidation,1,1,1,1,81,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0151,Karnataka,SC,Family safety concern,1,0,0,1,49,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0152,Punjab,SC,Threat/intimidation,1,1,0,1,63,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0153,Bihar,ST,Threat/intimidation,1,0,1,1,54,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0154,Gujarat,SC,Property-related dispute,0,1,0,1,52,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0155,Punjab,SC,Property-related dispute,0,0,0,1,59,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0156,Rajasthan,SC,Multiple allegations,1,0,0,0,21,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0157,Maharashtra,SC,Multiple allegations,0,0,0,0,35,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0158,Jharkhand,SC,Prolonged legal proceeding,0,0,0,0,37,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0159,Telangana,ST,Social boycott,0,0,0,0,65,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0160,Madhya Pradesh,SC,Family safety concern,1,0,0,1,64,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0161,Uttar Pradesh,ST,Prolonged legal proceeding,0,0,0,0,61,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0162,Chhattisgarh,SC,Prolonged legal proceeding,0,1,1,1,53,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0163,Rajasthan,SC,Multiple allegations,1,0,0,0,49,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0164,Punjab,SC,Displacement,0,0,1,0,22,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0165,Punjab,SC,Multiple allegations,1,1,0,1,67,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0166,Karnataka,ST,Physical violence,1,1,1,1,82,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0167,Uttar Pradesh,ST,Family safety concern,1,1,0,1,66,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0168,Tamil Nadu,ST,Property-related dispute,1,1,0,1,92,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0169,Jharkhand,ST,Threat/intimidation,1,1,1,0,81,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0170,Rajasthan,SC,Sexual violence report,0,0,0,0,49,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0171,Chhattisgarh,ST,Property-related dispute,0,0,1,1,69,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0172,Uttarakhand,SC,Family safety concern,0,0,0,0,36,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0173,Odisha,ST,Multiple allegations,0,0,0,0,49,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0174,Chhattisgarh,SC,Property-related dispute,0,0,0,1,8,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0175,Tamil Nadu,ST,Displacement,0,0,0,0,8,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0176,Telangana,SC,Threat/intimidation,1,0,0,0,8,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0177,Bihar,ST,Threat/intimidation,1,1,0,1,72,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0178,Chhattisgarh,SC,Social boycott,0,0,0,1,14,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0179,Chhattisgarh,ST,Threat/intimidation,1,1,1,1,42,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0180,Jharkhand,SC,Prolonged legal proceeding,0,0,0,0,29,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0181,Chhattisgarh,ST,Sexual violence report,0,0,0,0,43,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0182,Bihar,ST,Social boycott,1,1,1,1,56,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0183,Jharkhand,SC,Threat/intimidation,0,0,0,0,33,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0184,Rajasthan,SC,Threat/intimidation,0,1,0,1,18,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0185,Gujarat,ST,Social boycott,0,1,0,0,93,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0186,West Bengal,ST,Physical violence,0,1,1,0,57,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0187,Madhya Pradesh,SC,Property-related dispute,0,1,0,0,56,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0188,Bihar,ST,Displacement,1,1,0,1,69,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0189,Odisha,SC,Threat/intimidation,0,0,0,0,17,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0190,Uttar Pradesh,ST,Displacement,0,1,0,1,52,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0191,Maharashtra,SC,Multiple allegations,0,0,0,0,21,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0192,Chhattisgarh,SC,Threat/intimidation,0,1,0,1,47,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0193,Gujarat,ST,Physical violence,0,0,0,0,24,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0194,Bihar,SC,Physical violence,0,0,0,1,55,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0195,Odisha,ST,Property-related dispute,0,0,0,0,21,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0196,Karnataka,SC,Physical violence,0,0,0,0,20,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0197,Madhya Pradesh,SC,Threat/intimidation,0,0,0,0,23,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0198,Tamil Nadu,ST,Physical violence,0,1,0,1,59,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0199,Uttar Pradesh,ST,Multiple allegations,0,1,0,0,16,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0200,Karnataka,SC,Sexual violence report,1,1,0,1,42,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0201,Jharkhand,SC,Prolonged legal proceeding,0,1,0,0,41,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0202,Rajasthan,ST,Threat/intimidation,0,0,0,1,61,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0203,Tamil Nadu,SC,Family safety concern,0,0,0,0,10,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0204,Uttarakhand,SC,Threat/intimidation,0,1,0,0,85,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0205,Uttarakhand,SC,Sexual violence report,0,0,0,1,40,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0206,Chhattisgarh,ST,Multiple allegations,0,0,0,1,21,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0207,Bihar,ST,Physical violence,0,0,0,0,7,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0208,Gujarat,SC,Social boycott,0,0,0,0,20,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0209,Tamil Nadu,SC,Threat/intimidation,0,0,0,0,35,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0210,Tamil Nadu,SC,Multiple allegations,0,0,0,0,10,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0211,Jharkhand,ST,Threat/intimidation,1,1,0,1,90,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0212,Punjab,SC,Physical violence,0,0,0,1,43,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0213,Jharkhand,ST,Displacement,0,0,0,0,8,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0214,Uttarakhand,SC,Physical violence,0,1,0,1,33,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0215,Rajasthan,ST,Family safety concern,0,0,0,0,23,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0216,Madhya Pradesh,ST,Threat/intimidation,1,0,0,0,5,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0217,Uttarakhand,ST,Social boycott,1,0,0,1,36,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0218,Punjab,SC,Social boycott,0,0,0,0,24,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0219,Punjab,ST,Multiple allegations,0,0,0,0,22,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0220,Madhya Pradesh,ST,Prolonged legal proceeding,0,1,0,1,85,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0221,Madhya Pradesh,ST,Family safety concern,0,0,1,0,52,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0222,Jharkhand,SC,Multiple allegations,0,1,0,1,82,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0223,Bihar,SC,Multiple allegations,0,0,0,1,13,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0224,Karnataka,ST,Multiple allegations,1,0,0,0,60,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0225,Rajasthan,ST,Multiple allegations,1,1,0,1,46,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0226,Uttarakhand,ST,Sexual violence report,0,0,0,1,17,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0227,Rajasthan,ST,Family safety concern,1,0,0,1,68,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0228,Madhya Pradesh,ST,Sexual violence report,0,0,0,1,23,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0229,Bihar,SC,Sexual violence report,1,1,0,0,46,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0230,West Bengal,SC,Threat/intimidation,0,0,0,1,56,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0231,Uttarakhand,SC,Displacement,0,1,0,1,45,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0232,Tamil Nadu,SC,Property-related dispute,0,0,0,0,48,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0233,Punjab,ST,Multiple allegations,0,0,0,0,48,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0234,Odisha,ST,Social boycott,0,0,0,0,17,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0235,Bihar,SC,Sexual violence report,0,1,1,1,86,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0236,Jharkhand,SC,Threat/intimidation,0,1,0,0,8,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0237,Uttarakhand,SC,Multiple allegations,0,0,0,1,15,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0238,Tamil Nadu,ST,Physical violence,0,0,0,0,7,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0239,Telangana,SC,Displacement,1,0,1,1,80,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0240,Telangana,ST,Family safety concern,0,1,0,0,53,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0241,Tamil Nadu,SC,Prolonged legal proceeding,0,0,0,0,30,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0242,Rajasthan,SC,Physical violence,1,1,1,1,88,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0243,Punjab,SC,Physical violence,0,0,0,0,18,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0244,Gujarat,ST,Prolonged legal proceeding,0,1,1,1,76,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0245,Telangana,ST,Social boycott,0,0,0,0,21,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0246,Punjab,ST,Multiple allegations,0,0,0,0,39,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0247,Gujarat,ST,Physical violence,0,0,0,0,22,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0248,Odisha,ST,Displacement,1,1,0,0,92,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0249,Maharashtra,SC,Family safety concern,1,1,1,1,79,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0250,West Bengal,SC,Sexual violence report,0,0,0,1,41,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0251,Karnataka,SC,Multiple allegations,0,0,0,0,24,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0252,Gujarat,SC,Sexual violence report,0,0,0,0,13,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0253,Madhya Pradesh,ST,Displacement,1,0,0,0,43,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0254,Tamil Nadu,SC,Sexual violence report,0,0,0,1,29,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0255,Rajasthan,ST,Sexual violence report,0,1,0,0,9,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0256,Rajasthan,ST,Physical violence,0,1,0,1,58,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0257,West Bengal,SC,Sexual violence report,0,0,0,1,26,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0258,Karnataka,ST,Multiple allegations,1,1,0,1,89,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0259,Odisha,ST,Family safety concern,0,0,0,1,32,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0260,Punjab,ST,Physical violence,0,0,0,0,28,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0261,Uttar Pradesh,SC,Multiple allegations,1,0,0,0,31,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0262,Maharashtra,ST,Multiple allegations,0,0,0,1,21,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0263,Chhattisgarh,ST,Threat/intimidation,0,0,1,0,68,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0264,Uttarakhand,SC,Social boycott,1,1,0,1,72,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0265,Karnataka,SC,Displacement,0,0,0,0,8,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0266,Madhya Pradesh,ST,Threat/intimidation,0,0,0,1,36,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0267,Telangana,SC,Social boycott,0,1,0,1,65,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0268,Maharashtra,SC,Displacement,0,0,0,1,47,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0269,Uttarakhand,SC,Physical violence,0,0,0,0,44,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0270,Karnataka,SC,Displacement,0,0,0,0,63,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0271,Chhattisgarh,SC,Property-related dispute,0,0,0,1,48,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0272,Rajasthan,ST,Displacement,0,0,0,0,12,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0273,Uttar Pradesh,ST,Property-related dispute,0,1,0,1,66,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0274,Tamil Nadu,SC,Multiple allegations,1,1,1,0,84,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0275,Maharashtra,SC,Multiple allegations,0,1,0,0,24,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0276,Punjab,ST,Property-related dispute,0,0,0,0,20,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0277,Punjab,ST,Multiple allegations,1,0,0,0,60,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0278,Uttarakhand,ST,Threat/intimidation,0,0,0,0,39,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0279,Odisha,SC,Property-related dispute,0,0,0,0,42,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0280,Odisha,SC,Threat/intimidation,0,0,1,0,27,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0281,Jharkhand,SC,Physical violence,0,0,0,0,72,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0282,Maharashtra,ST,Family safety concern,0,0,0,0,31,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0283,Tamil Nadu,SC,Property-related dispute,0,0,0,0,22,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0284,Odisha,ST,Threat/intimidation,0,0,0,1,9,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0285,Madhya Pradesh,SC,Family safety concern,0,0,0,0,30,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0286,Rajasthan,ST,Multiple allegations,1,0,0,0,87,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0287,Gujarat,SC,Displacement,0,0,0,0,27,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0288,Rajasthan,SC,Threat/intimidation,0,0,0,1,39,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0289,Gujarat,SC,Threat/intimidation,1,1,0,1,80,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0290,Uttarakhand,SC,Sexual violence report,0,0,0,0,26,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0291,Maharashtra,ST,Physical violence,0,0,0,0,47,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0292,Tamil Nadu,SC,Multiple allegations,0,0,0,0,12,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0293,Uttar Pradesh,SC,Physical violence,1,0,0,1,68,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0294,Chhattisgarh,ST,Displacement,0,1,0,1,68,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0295,Chhattisgarh,SC,Prolonged legal proceeding,0,0,1,0,64,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0296,Maharashtra,SC,Threat/intimidation,0,0,0,0,39,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0297,Maharashtra,SC,Threat/intimidation,0,0,1,1,49,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0298,Maharashtra,ST,Displacement,0,0,0,0,24,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0299,Maharashtra,SC,Sexual violence report,1,1,1,0,78,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0300,Tamil Nadu,SC,Property-related dispute,0,0,0,0,13,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0301,Tamil Nadu,ST,Displacement,0,1,0,1,68,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0302,Uttar Pradesh,SC,Multiple allegations,1,1,0,1,57,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0303,Madhya Pradesh,SC,Prolonged legal proceeding,0,0,0,1,11,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0304,Punjab,SC,Social boycott,1,0,0,0,37,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0305,Uttarakhand,ST,Displacement,0,0,0,0,5,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0306,Odisha,ST,Multiple allegations,0,0,0,0,28,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0307,Bihar,SC,Sexual violence report,1,1,0,0,90,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0308,Madhya Pradesh,SC,Displacement,0,0,1,0,37,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0309,Tamil Nadu,SC,Family safety concern,1,1,1,1,88,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0310,Maharashtra,ST,Sexual violence report,0,0,0,0,17,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0311,West Bengal,SC,Social boycott,0,0,0,0,46,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0312,Telangana,SC,Displacement,0,1,0,1,87,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0313,Punjab,SC,Multiple allegations,1,1,0,1,88,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0314,Rajasthan,ST,Family safety concern,0,0,0,0,41,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0315,Chhattisgarh,SC,Multiple allegations,0,0,0,0,60,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0316,Uttarakhand,ST,Physical violence,1,0,0,1,85,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0317,Telangana,SC,Multiple allegations,0,0,0,0,64,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0318,Bihar,SC,Family safety concern,0,1,0,1,65,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0319,Karnataka,ST,Multiple allegations,0,0,0,0,14,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0320,Jharkhand,SC,Physical violence,0,0,0,0,23,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0321,Chhattisgarh,ST,Sexual violence report,0,0,0,0,27,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0322,Madhya Pradesh,ST,Displacement,0,0,0,0,30,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0323,Telangana,ST,Multiple allegations,0,0,0,0,22,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0324,Bihar,ST,Physical violence,0,0,0,1,5,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0325,Chhattisgarh,SC,Property-related dispute,0,0,0,0,33,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0326,Uttarakhand,SC,Social boycott,0,0,0,0,36,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0327,Telangana,ST,Prolonged legal proceeding,0,0,0,0,26,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0328,Telangana,SC,Social boycott,0,1,0,0,45,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0329,Telangana,ST,Social boycott,1,1,0,0,17,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0330,Uttarakhand,SC,Prolonged legal proceeding,0,0,0,1,58,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0331,Punjab,SC,Threat/intimidation,0,0,1,0,43,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0332,Gujarat,ST,Family safety concern,0,0,0,0,5,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0333,Rajasthan,ST,Displacement,1,0,0,0,30,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0334,Madhya Pradesh,ST,Social boycott,0,0,0,0,41,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0335,Uttar Pradesh,ST,Physical violence,0,0,0,0,35,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0336,Karnataka,SC,Multiple allegations,1,0,0,0,36,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0337,Uttarakhand,SC,Social boycott,1,1,0,0,64,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0338,Odisha,SC,Social boycott,0,1,0,1,65,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0339,Bihar,SC,Family safety concern,0,0,0,0,6,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0340,Tamil Nadu,SC,Social boycott,0,0,0,0,48,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0341,Uttarakhand,SC,Prolonged legal proceeding,0,0,0,0,5,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0342,West Bengal,SC,Sexual violence report,0,0,0,0,40,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0343,Chhattisgarh,ST,Prolonged legal proceeding,0,0,0,1,46,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0344,Rajasthan,SC,Family safety concern,1,1,0,1,74,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0345,Telangana,SC,Family safety concern,0,0,0,0,6,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0346,Chhattisgarh,SC,Physical violence,1,1,0,1,65,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0347,Chhattisgarh,SC,Property-related dispute,0,0,0,1,26,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0348,Uttar Pradesh,ST,Property-related dispute,1,0,0,1,39,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0349,Odisha,ST,Physical violence,0,1,1,0,54,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0350,Maharashtra,ST,Social boycott,0,0,0,0,10,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0351,Telangana,ST,Family safety concern,0,0,0,1,41,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0352,Odisha,SC,Family safety concern,0,0,0,0,32,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0353,Jharkhand,SC,Prolonged legal proceeding,1,1,0,1,67,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0354,West Bengal,SC,Multiple allegations,1,0,0,0,11,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0355,Tamil Nadu,ST,Prolonged legal proceeding,1,1,1,1,90,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0356,West Bengal,ST,Sexual violence report,1,0,0,0,78,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0357,Madhya Pradesh,ST,Family safety concern,0,1,0,1,58,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0358,Bihar,SC,Threat/intimidation,0,0,0,0,6,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0359,Madhya Pradesh,ST,Property-related dispute,1,0,0,1,60,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0360,Madhya Pradesh,ST,Multiple allegations,0,0,0,0,9,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0361,Madhya Pradesh,ST,Multiple allegations,1,0,0,1,82,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0362,Uttarakhand,ST,Family safety concern,0,0,0,1,29,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0363,Chhattisgarh,ST,Physical violence,0,0,0,0,7,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0364,Telangana,ST,Sexual violence report,0,0,0,1,40,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0365,Tamil Nadu,ST,Social boycott,1,1,1,1,68,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0366,Rajasthan,SC,Family safety concern,1,1,1,0,88,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0367,Chhattisgarh,ST,Displacement,0,0,0,1,29,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0368,Chhattisgarh,SC,Displacement,1,0,0,0,29,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0369,Odisha,ST,Family safety concern,0,0,0,0,52,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0370,Karnataka,SC,Sexual violence report,0,1,0,1,63,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0371,Gujarat,SC,Multiple allegations,0,0,0,1,69,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0372,West Bengal,ST,Sexual violence report,0,0,0,1,49,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0373,Odisha,ST,Threat/intimidation,0,0,0,0,62,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0374,West Bengal,SC,Property-related dispute,0,0,0,0,66,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0375,Karnataka,ST,Multiple allegations,0,0,1,1,16,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0376,Rajasthan,ST,Family safety concern,0,1,0,0,33,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0377,Odisha,ST,Property-related dispute,0,0,0,0,23,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0378,Rajasthan,SC,Prolonged legal proceeding,0,0,0,1,39,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0379,Tamil Nadu,ST,Property-related dispute,0,0,0,0,73,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0380,Karnataka,ST,Physical violence,0,0,1,1,6,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0381,West Bengal,SC,Family safety concern,1,0,0,0,33,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0382,Karnataka,ST,Prolonged legal proceeding,0,0,0,0,5,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0383,Karnataka,ST,Prolonged legal proceeding,1,0,1,1,94,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0384,Madhya Pradesh,SC,Threat/intimidation,0,0,1,1,57,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0385,Bihar,SC,Physical violence,0,0,1,1,37,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0386,Uttarakhand,SC,Family safety concern,1,1,0,0,69,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0387,West Bengal,SC,Sexual violence report,0,0,0,0,19,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0388,West Bengal,ST,Property-related dispute,0,1,0,1,69,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0389,Chhattisgarh,SC,Property-related dispute,0,0,0,1,63,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0390,Bihar,ST,Multiple allegations,0,0,0,0,22,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0391,Gujarat,ST,Family safety concern,1,1,1,0,76,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0392,Maharashtra,SC,Sexual violence report,0,0,0,0,12,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0393,Jharkhand,ST,Threat/intimidation,0,0,1,0,74,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0394,Jharkhand,ST,Physical violence,0,0,1,0,19,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0395,Karnataka,ST,Multiple allegations,0,0,0,1,54,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0396,West Bengal,ST,Family safety concern,0,0,0,1,17,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0397,Madhya Pradesh,ST,Threat/intimidation,0,0,0,0,10,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0398,Karnataka,SC,Family safety concern,0,1,1,0,36,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0399,Uttarakhand,SC,Sexual violence report,1,1,1,0,82,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0400,Bihar,ST,Physical violence,0,1,0,1,5,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0401,Punjab,SC,Threat/intimidation,1,0,0,0,37,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0402,Rajasthan,SC,Family safety concern,0,1,0,0,39,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0403,Rajasthan,ST,Property-related dispute,0,1,0,1,73,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0404,Jharkhand,ST,Threat/intimidation,0,0,0,0,20,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0405,Rajasthan,SC,Family safety concern,0,1,0,0,44,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0406,Bihar,ST,Prolonged legal proceeding,1,1,1,1,94,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0407,Telangana,SC,Family safety concern,0,0,0,1,33,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0408,Chhattisgarh,ST,Sexual violence report,1,0,1,0,48,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0409,Uttarakhand,ST,Multiple allegations,1,0,1,0,76,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0410,Chhattisgarh,ST,Threat/intimidation,0,0,1,0,29,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0411,Punjab,SC,Social boycott,0,1,0,0,43,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0412,Rajasthan,SC,Threat/intimidation,0,0,0,0,43,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0413,Bihar,ST,Family safety concern,0,0,0,1,69,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0414,Maharashtra,SC,Social boycott,0,1,1,1,94,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0415,Telangana,ST,Social boycott,0,1,0,1,73,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0416,Punjab,SC,Multiple allegations,0,0,1,1,60,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0417,Chhattisgarh,ST,Family safety concern,0,1,0,1,27,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0418,Chhattisgarh,ST,Displacement,0,0,0,0,14,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0419,Maharashtra,SC,Sexual violence report,1,0,0,0,23,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0420,Gujarat,ST,Displacement,0,0,0,0,7,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0421,West Bengal,ST,Threat/intimidation,0,0,0,0,20,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0422,Telangana,ST,Family safety concern,1,0,0,1,62,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0423,Punjab,ST,Property-related dispute,1,0,0,0,10,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0424,Madhya Pradesh,SC,Family safety concern,1,0,0,0,16,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0425,Tamil Nadu,SC,Physical violence,0,0,0,0,28,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0426,Madhya Pradesh,SC,Family safety concern,0,0,0,0,5,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0427,Maharashtra,ST,Family safety concern,0,0,0,0,21,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0428,Gujarat,ST,Property-related dispute,0,0,0,0,22,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0429,Rajasthan,SC,Multiple allegations,1,1,0,0,15,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0430,Rajasthan,ST,Property-related dispute,1,1,0,1,26,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0431,West Bengal,SC,Family safety concern,0,0,1,0,65,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0432,Telangana,ST,Prolonged legal proceeding,1,1,0,1,65,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0433,Rajasthan,ST,Physical violence,1,1,1,1,58,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0434,Karnataka,SC,Displacement,1,0,0,0,64,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0435,Uttarakhand,ST,Physical violence,1,0,1,1,83,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0436,Karnataka,ST,Sexual violence report,0,1,1,0,26,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0437,West Bengal,ST,Threat/intimidation,0,0,0,0,64,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0438,West Bengal,SC,Property-related dispute,0,0,0,1,30,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0439,Uttar Pradesh,SC,Family safety concern,0,0,0,1,26,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0440,Chhattisgarh,SC,Multiple allegations,0,0,1,0,34,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0441,Chhattisgarh,ST,Prolonged legal proceeding,0,0,0,1,10,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0442,Uttarakhand,SC,Prolonged legal proceeding,1,0,0,1,69,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0443,Chhattisgarh,ST,Physical violence,0,0,0,0,12,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0444,Gujarat,ST,Displacement,1,1,1,0,61,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0445,West Bengal,SC,Property-related dispute,1,0,1,0,72,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0446,Punjab,SC,Threat/intimidation,0,0,0,0,39,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0447,Uttar Pradesh,SC,Sexual violence report,0,0,0,0,5,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0448,Tamil Nadu,ST,Threat/intimidation,0,0,0,1,36,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0449,Gujarat,SC,Displacement,0,1,0,1,47,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0450,Tamil Nadu,ST,Social boycott,1,0,1,0,86,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0451,West Bengal,ST,Physical violence,0,1,0,1,68,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0452,West Bengal,ST,Family safety concern,0,0,0,1,59,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0453,West Bengal,ST,Sexual violence report,0,0,0,0,48,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0454,Uttar Pradesh,SC,Family safety concern,0,0,1,1,62,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0455,Odisha,SC,Physical violence,0,0,1,1,69,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0456,Gujarat,ST,Sexual violence report,0,0,0,0,11,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0457,Chhattisgarh,SC,Multiple allegations,0,0,0,0,11,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0458,Bihar,SC,Displacement,0,0,0,0,21,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0459,Rajasthan,ST,Social boycott,0,0,0,0,26,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0460,Rajasthan,ST,Family safety concern,1,1,1,1,91,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0461,Rajasthan,ST,Social boycott,0,1,0,0,47,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0462,Bihar,SC,Prolonged legal proceeding,1,0,0,0,46,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0463,Rajasthan,ST,Physical violence,1,1,0,1,77,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0464,Karnataka,SC,Sexual violence report,0,0,0,0,18,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0465,Odisha,ST,Threat/intimidation,0,0,0,0,22,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0466,Chhattisgarh,SC,Sexual violence report,0,1,1,1,81,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0467,Madhya Pradesh,ST,Family safety concern,0,1,1,1,91,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0468,Chhattisgarh,ST,Multiple allegations,0,0,0,1,55,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0469,Karnataka,ST,Prolonged legal proceeding,0,0,0,0,17,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0470,Maharashtra,ST,Property-related dispute,0,1,0,1,82,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0471,Bihar,ST,Displacement,0,1,0,1,58,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0472,Bihar,ST,Multiple allegations,0,0,1,0,68,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0473,Madhya Pradesh,SC,Displacement,1,0,0,0,19,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0474,Uttarakhand,SC,Family safety concern,0,1,0,0,37,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0475,Telangana,ST,Displacement,0,1,0,1,51,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0476,Rajasthan,SC,Sexual violence report,0,1,0,1,57,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0477,Tamil Nadu,ST,Displacement,1,1,0,0,46,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0478,Karnataka,SC,Displacement,0,0,0,1,45,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0479,Karnataka,SC,Threat/intimidation,1,0,0,1,69,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0480,Madhya Pradesh,SC,Displacement,1,0,0,1,34,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0481,Odisha,ST,Property-related dispute,0,0,0,0,26,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0482,Gujarat,ST,Threat/intimidation,0,0,0,1,11,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0483,Chhattisgarh,SC,Threat/intimidation,0,0,0,0,19,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0484,Punjab,ST,Displacement,0,1,0,1,53,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0485,Odisha,ST,Family safety concern,0,0,1,0,6,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0486,Madhya Pradesh,SC,Sexual violence report,0,0,0,0,14,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0487,Tamil Nadu,SC,Social boycott,0,1,1,1,76,Critical,Urgent human review and authorized safety/emergency protocol assessment,synthetic_demo_data
+SYN-CASE-0488,Rajasthan,SC,Family safety concern,1,0,0,0,58,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0489,Uttar Pradesh,SC,Displacement,0,0,0,0,8,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0490,Telangana,ST,Sexual violence report,0,0,0,1,31,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0491,Karnataka,ST,Social boycott,1,0,0,1,69,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0492,West Bengal,SC,Multiple allegations,0,1,0,1,36,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0493,Odisha,ST,Prolonged legal proceeding,0,0,0,1,42,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0494,Gujarat,ST,Multiple allegations,0,0,0,1,29,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0495,Odisha,ST,Multiple allegations,0,0,0,0,5,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0496,Uttar Pradesh,SC,Property-related dispute,0,1,0,0,65,High,Priority human review and support-service assessment,synthetic_demo_data
+SYN-CASE-0497,Punjab,ST,Threat/intimidation,0,0,0,0,21,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0498,Jharkhand,SC,Multiple allegations,0,1,1,0,46,Moderate,Priority follow-up and counselling/support assessment,synthetic_demo_data
+SYN-CASE-0499,Bihar,SC,Sexual violence report,0,0,0,0,8,Low,Routine grievance handling and information/support resources,synthetic_demo_data
+SYN-CASE-0500,Tamil Nadu,SC,Displacement,1,0,0,1,8,Low,Routine grievance handling and information/support resources,synthetic_demo_data

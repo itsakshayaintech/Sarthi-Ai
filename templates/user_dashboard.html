@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <title>Your dashboard | Sarthi-AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css', v=4) }}">
+    <script src="{{ url_for('static', filename='script.js', v=3) }}" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="{{ url_for('home') }}"><span class="brand-mark">S</span> Sarthi-AI</a>
+        <div class="header-actions"><span class="user-name">{{ session.name }}</span><form method="post" action="{{ url_for('logout') }}"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><button class="quiet-button" type="submit">Sign out</button></form></div>
+    </header>
+    <main class="page-shell dashboard-shell">
+        <div class="page-heading">
+            <div><p class="eyebrow">Your private space</p><h1>Hello, {{ session.name }}</h1></div>
+            <a class="button button-primary" href="#assessment">Start an assessment</a>
+        </div>
+        <nav class="section-nav" aria-label="Dashboard sections"><a href="#assessment">Assessment</a><a href="#history">My history</a><a href="#support">Support guide</a></nav>
+
+        <section class="content-section" id="assessment">
+            <div class="section-title"><div><p class="eyebrow">Optional check-in</p><h2>Assessment</h2></div><span class="status-tag">AI-assisted</span></div>
+            <p class="section-intro">Share only what you feel comfortable sharing. Your answers are analyzed by the configured assessment models; they are not a diagnosis.</p>
+            <div class="consent-row"><label class="check-label"><input id="ai-consent" type="checkbox"> I consent to AI-assisted analysis of the answers and any audio I choose to submit.</label></div>
+            <div class="assessment-workspace">
+                <div class="assessment-main">
+                    <h3>Stress indicators</h3>
+                    <div class="assessment-grid">
+                        <div class="field-group"><label for="fear">Fear</label><input id="fear" type="range" min="0" max="100" value="0"><output for="fear">0</output></div>
+                        <div class="field-group"><label for="threat">Threat concern</label><input id="threat" type="range" min="0" max="100" value="0"><output for="threat">0</output></div>
+                        <div class="field-group"><label for="anxiety">Anxiety</label><input id="anxiety" type="range" min="0" max="100" value="0"><output for="anxiety">0</output></div>
+                        <div class="field-group"><label for="trauma">Distress</label><input id="trauma" type="range" min="0" max="100" value="0"><output for="trauma">0</output></div>
+                        <div class="field-group"><label for="social_isolation">Social isolation</label><input id="social_isolation" type="range" min="0" max="100" value="0"><output for="social_isolation">0</output></div>
+                        <div class="field-group"><label for="displacement">Displacement</label><input id="displacement" type="range" min="0" max="100" value="0"><output for="displacement">0</output></div>
+                        <div class="field-group"><label for="legal_stress">Legal stress</label><input id="legal_stress" type="range" min="0" max="100" value="0"><output for="legal_stress">0</output></div>
+                        <div class="field-group"><label for="safety_concern">Safety concern</label><input id="safety_concern" type="range" min="0" max="100" value="0"><output for="safety_concern">0</output></div>
+                    </div>
+                    <label class="block-label" for="reported-context">What would you like support with? <span>Optional</span></label>
+                    <textarea id="reported-context" rows="4" maxlength="2000" placeholder="You can describe what is affecting you in your own words."></textarea>
+                    <details class="context-details">
+                        <summary>Optional case context</summary>
+                        <div class="assessment-grid context-fields">
+                            <label for="state-ut">State / UT<select id="state-ut"><option value="">Prefer not to say</option><option>Bihar</option><option>Chhattisgarh</option><option>Gujarat</option><option>Jharkhand</option><option>Karnataka</option><option>Madhya Pradesh</option><option>Maharashtra</option><option>Odisha</option><option>Punjab</option><option>Rajasthan</option><option>Tamil Nadu</option><option>Telangana</option><option>Uttar Pradesh</option><option>Uttarakhand</option><option>West Bengal</option></select></label>
+                            <label for="incident-category">Category<select id="incident-category"><option value="">Prefer not to say</option><option value="Rape">Rape</option><option value="Harassment">Harassment</option><option value="Violence">Violence</option><option value="Gang rape">Gang rape</option><option value="Murder of family members">Murder of family members</option><option value="Social boycott">Social boycott</option><option value="Displacement threats">Displacement threats</option></select></label>
+                            <label for="immediate-safety">Immediate safety concern<select id="immediate-safety"><option value="0">No</option><option value="1">Yes</option></select></label>
+                            <label for="context-isolation">Social isolation<select id="context-isolation"><option value="0">No</option><option value="1">Yes</option></select></label>
+                            <label for="context-displacement">Displacement<select id="context-displacement"><option value="0">No</option><option value="1">Yes</option></select></label>
+                            <label for="legal-delay">Delay in legal support<select id="legal-delay"><option value="0">No</option><option value="1">Yes</option></select></label>
+                        </div>
+                    </details>
+                </div>
+                <aside class="voice-panel">
+                    <p class="eyebrow">Voice assessment</p>
+                    <p class="voice-description">Upload one or more audio clips or record directly. Speech is sent to Google for transcription; audio features are included in your assessment.</p>
+                    <label class="block-label" for="audio-file">Audio files <span>WAV, MP3, M4A, AAC, OGG, Opus, WebM or FLAC</span></label>
+                    <input id="audio-file" class="audio-upload" type="file" accept="audio/*,.wav,.mp3,.m4a,.aac,.ogg,.oga,.opus,.webm,.flac" multiple>
+                    <div class="record-controls"><button id="record-button" class="quiet-button" type="button">Start recording</button><span id="recording-status" class="small-note" aria-live="polite"></span></div>
+                    <p class="small-note">Audio is converted in your browser before upload. Maximum combined recording length: 5 minutes.</p>
+                </aside>
+            </div>
+            <p id="audio-status" class="small-note" aria-live="polite"></p>
+            <button id="assess-button" class="button button-primary" type="button">Generate assessment results</button>
+            <div id="assessment-result" class="result-panel hidden" aria-live="polite"></div>
+        </section>
+
+        <section class="content-section" id="history">
+            <div class="section-title"><div><p class="eyebrow">Saved to your account</p><h2>My history</h2></div></div>
+            {% if assessments %}
+                <div class="table-wrap"><table><thead><tr><th>Date</th><th>SVI score</th><th>Model category</th></tr></thead><tbody>
+                    {% for item in assessments %}<tr><td>{{ item.created_at }}</td><td>{{ item.final_svi }}</td><td><span class="risk-pill risk-{{ item.risk_category|lower }}">{{ item.risk_category }}</span></td></tr>{% endfor %}
+                </tbody></table></div>
+            {% else %}<p class="empty-state">Your completed assessments will appear here.</p>{% endif %}
+        </section>
+
+        <section class="content-section" id="support">
+            <div class="section-title"><div><p class="eyebrow">Information and next steps</p><h2>Support guide</h2></div><span class="status-tag status-muted">Resource assistant</span></div>
+            <p class="section-intro">Ask about general support options. This guide uses prepared responses and is not an AI counsellor.</p>
+            <div id="chat-log" class="chat-log" aria-live="polite"><p class="chat-message chat-assistant">Hello. What kind of support information are you looking for?</p></div>
+            <form id="chat-form" class="chat-form"><label class="sr-only" for="chat-input">Message the support guide</label><input id="chat-input" type="text" maxlength="300" placeholder="Ask about safety or support options" required><button class="button button-primary" type="submit">Send</button></form>
+            <p class="small-note">If someone is in immediate danger in India, call emergency services at 112.</p>
+        </section>
+    </main>
+    <footer class="site-footer">Assessment results support human review and should not be used as a diagnosis.</footer>
+</body>
+</html>

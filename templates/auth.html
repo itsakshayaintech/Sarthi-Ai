@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <title>{% if mode == 'register' %}Create account{% elif mode == 'worker_login' %}Staff sign in{% else %}User sign in{% endif %} | Sarthi-AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="{{ url_for('home') }}"><span class="brand-mark">S</span> Sarthi-AI</a>
+        <a class="quiet-link" href="{{ url_for('home') }}">Back to home</a>
+    </header>
+    <main class="page-shell narrow-shell">
+        <section class="form-panel">
+            <p class="eyebrow">{% if mode == 'worker_login' %}Helpline team{% else %}Personal account{% endif %}</p>
+            <h1>{% if mode == 'register' %}Create your account{% elif mode == 'worker_login' %}Staff sign in{% else %}Welcome back{% endif %}</h1>
+            {% with messages = get_flashed_messages() %}
+                {% if messages %}<div class="notice" role="alert">{{ messages[0] }}</div>{% endif %}
+            {% endwith %}
+            <form method="post" class="stack-form">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                {% if mode == 'register' %}
+                    <label>Your name<input name="name" autocomplete="name" required maxlength="100"></label>
+                {% endif %}
+                <label>Email address<input type="email" name="email" autocomplete="username" required></label>
+                <label>Password<input type="password" name="password" autocomplete="{% if mode == 'register' %}new-password{% else %}current-password{% endif %}" minlength="8" required></label>
+                <button class="button button-primary" type="submit">{% if mode == 'register' %}Create account{% else %}Sign in{% endif %}</button>
+            </form>
+            <p class="form-switch">
+                {% if mode == 'register' %}Already registered? <a href="{{ url_for('login') }}">Sign in</a>
+                {% elif mode == 'worker_login' %}User account? <a href="{{ url_for('login') }}">User sign in</a>
+                {% else %}New here? <a href="{{ url_for('register') }}">Create an account</a>{% endif %}
+            </p>
+            {% if mode == 'worker_login' %}<p class="small-note">Staff accounts are created by an administrator.</p>{% endif %}
+        </section>
+    </main>
+</body>
+</html>

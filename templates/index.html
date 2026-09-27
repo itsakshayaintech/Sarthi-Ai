@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sarthi-AI</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="hero">
+
+            <div class="hero-badge">
+                AI-Assisted Decision Support
+            </div>
+
+            <h1>
+                🛡 Sarthi-AI
+            </h1>
+
+            <p class="hero-subtitle">
+                Consent-Aware Stress & Trauma Assessment Support System
+            </p>
+
+            <p class="hero-description">
+                A multimodal AI-assisted system designed to support
+                authorized professionals in assessing stress, vulnerability,
+                and support needs during approved digital interactions.
+            </p>
+
+            <div class="professional-note">
+                Human professionals remain responsible for all final decisions.
+            </div>
+
+        </header>
+
+        <div class="progress-steps">
+
+            <div class="step active">
+                <span>1</span>
+                Consent
+            </div>
+
+            <div class="step-line"></div>
+
+            <div class="step">
+                <span>2</span>
+                Assessment
+            </div>
+
+            <div class="step-line"></div>
+
+            <div class="step">
+                <span>3</span>
+                Review & Support
+            </div>
+
+        </div>
+
+
+        <!-- CONSENT SECTION -->
+
+        <section class="card" id="consent-section">
+
+            <h2>AI Analysis Consent</h2>
+
+            <p>
+                Do you consent to the use of AI-assisted analysis
+                for this assessment?
+            </p>
+
+            <div class="button-group">
+
+                <button onclick="selectConsent(true)"
+                        class="consent-btn yes">
+                    Yes, I Consent
+                </button>
+
+                <button onclick="selectConsent(false)"
+                        class="consent-btn no">
+                    No, Use Human Assessment
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- AI ASSESSMENT FORM -->
+
+        <section class="card hidden" id="ai-section">
+
+            <h2>AI-Assisted Assessment</h2>
+
+
+            <h3>Stress Indicators</h3>
+
+            <div class="form-grid">
+
+                <label>
+                    Fear Level
+                    <select id="fear">
+                        <option value="0">Not Observed</option>
+                        <option value="25">Low</option>
+                        <option value="50">Moderate</option>
+                        <option value="75">High</option>
+                        <option value="100">Severe</option>
+                    </select>
+                </label>
+
+                <label>
+                    Threat (0–100)
+                    <input type="number" id="threat" min="0" max="100">
+                </label>
+
+                <label>
+                    Anxiety (0–100)
+                    <input type="number" id="anxiety" min="0" max="100">
+                </label>
+
+                <label>
+                    Trauma (0–100)
+                    <input type="number" id="trauma" min="0" max="100">
+                </label>
+
+                <label>
+                    Social Isolation (0–100)
+                    <input type="number" id="social_isolation" min="0" max="100">
+                </label>
+
+                <label>
+                    Displacement (0–100)
+                    <input type="number" id="displacement" min="0" max="100">
+                </label>
+
+                <label>
+                    Legal Stress (0–100)
+                    <input type="number" id="legal_stress" min="0" max="100">
+                </label>
+
+                <label>
+                    Safety Concern (0–100)
+                    <input type="number" id="safety_concern" min="0" max="100">
+                </label>
+
+            </div>
+
+
+            <h3>Consented Call Audio Analysis</h3>
+
+            <div class="audio-section">
+
+                <p>
+                    Upload an authorized and consented sample call recording.
+                    Sarthi-AI will extract speech features and analyse the
+                    spoken narrative for decision support.
+                </p>
+
+                <label>
+                    Upload Audio File
+                    <input
+                        type="file"
+                        id="audio_file"
+                        accept=".wav,.mp3,.m4a"
+                    >
+                </label>
+
+                <p id="audio-status"></p>
+
+            </div>
+
+            <h3>Case Context</h3>
+
+            <div class="form-grid">
+
+                <label>
+                    State / Union Territory
+
+                    <select id="state_ut">
+
+                        <option value="">Select State / UT</option>
+
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Manipur">Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Odisha">Odisha</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Tripura">Tripura</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="Uttarakhand">Uttarakhand</option>
+                        <option value="West Bengal">West Bengal</option>
+
+                        <option value="Andaman and Nicobar Islands">
+                            Andaman and Nicobar Islands
+                        </option>
+
+                        <option value="Chandigarh">
+                            Chandigarh
+                        </option>
+
+                        <option value="Dadra and Nagar Haveli and Daman and Diu">
+                            Dadra and Nagar Haveli and Daman and Diu
+                        </option>
+
+                        <option value="Delhi">
+                            Delhi
+                        </option>
+
+                        <option value="Jammu and Kashmir">
+                            Jammu and Kashmir
+                        </option>
+
+                        <option value="Ladakh">
+                            Ladakh
+                        </option>
+
+                        <option value="Lakshadweep">
+                            Lakshadweep
+                        </option>
+
+                        <option value="Puducherry">
+                            Puducherry
+                        </option>
+
+                    </select>
+                </label>
+
+                <label>
+                    Victim Group
+
+                    <select id="victim_group">
+
+                        <option value="">
+                            Select Victim Group
+                        </option>
+
+                        <option value="Scheduled Caste">
+                            Scheduled Caste (SC)
+                        </option>
+
+                        <option value="Scheduled Tribe">
+                            Scheduled Tribe (ST)
+                        </option>
+
+                    </select>
+                </label>
+
+                <label>
+                    Reported Context
+                    <input type="text" id="reported_context">
+                </label>
+
+                <label>
+                    Immediate Safety Concern
+                    <select id="immediate_safety_concern">
+                        <option value="0">No</option>
+                        <option value="1">Yes</option>
+                    </select>
+                </label>
+
+                <label>
+                    Social Isolation
+                    <select id="social_isolation_indicator">
+                        <option value="0">No</option>
+                        <option value="1">Yes</option>
+                    </select>
+                </label>
+
+                <label>
+                    Displacement
+                    <select id="displacement_indicator">
+                        <option value="0">No</option>
+                        <option value="1">Yes</option>
+                    </select>
+                </label>
+
+                <label>
+                    Legal Delay
+                    <select id="legal_delay_indicator">
+                        <option value="0">No</option>
+                        <option value="1">Yes</option>
+                    </select>
+                </label>
+
+            </div>
+
+
+            <button class="assess-btn"
+                    onclick="submitLegacyAssessment()">
+                Assess Vulnerability
+            </button>
+
+        </section>
+
+
+        <!-- HUMAN ASSESSMENT -->
+
+        <section class="card hidden"
+                 id="human-section">
+
+            <h2>Human Assessment Support Form</h2>
+
+            <p>
+                AI analysis is disabled. Assessment will be
+                supported through human professional review.
+            </p>
+
+            <label>
+                Immediate Safety Concern
+                <select>
+                    <option>No</option>
+                    <option>Yes</option>
+                </select>
+            </label>
+
+            <label>
+                Reported Threat
+                <textarea></textarea>
+            </label>
+
+            <label>
+                Support Requested
+                <textarea></textarea>
+            </label>
+
+            <label>
+                Vulnerability Concern
+                <textarea></textarea>
+            </label>
+
+            <label>
+                Follow-up Possible
+                <select>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </label>
+
+        </section>
+
+
+        <!-- RESULTS -->
+
+        <section class="card hidden"
+                 id="results-section">
+
+            <h2>Assessment Result</h2>
+
+            <div id="result-content"></div>
+
+        </section>
+
+    </div>
+
+
+    <script src="{{ url_for('static',
+                     filename='script.js', v=3) }}">
+    </script>
+
+</body>
+</html>
+

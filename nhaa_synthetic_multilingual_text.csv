@@ -1,0 +1,601 @@
+﻿case_id,language,text,fear_indicator,threat_indicator,anxiety_indicator,trauma_indicator,isolation_indicator,displacement_indicator,legal_indicator,safety_indicator,svi_score,risk_category,data_type
+SYN-TXT-0001,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,0,0,0,0,0,0,1,0,67,High,synthetic_demo_data
+SYN-TXT-0002,Punjabi,ਮੈਨੂੰ ਡਰ ਹੈ ਕਿ ਜੇ ਮਦਦ ਨਾ ਮਿਲੀ ਤਾਂ ਹਾਲਾਤ ਹੋਰ ਖਰਾਬ ਹੋ ਸਕਦੇ ਹਨ।,0,0,1,0,0,0,1,1,42,Moderate,synthetic_demo_data
+SYN-TXT-0003,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,0,1,0,1,0,1,1,0,62,High,synthetic_demo_data
+SYN-TXT-0004,Punjlish,Mainu pind wapas jaan ton darr lagda kyunki baar baar threats aa rahiyaan ne.,1,1,1,0,0,0,0,0,51,High,synthetic_demo_data
+SYN-TXT-0005,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,0,0,0,1,0,0,1,0,17,Low,synthetic_demo_data
+SYN-TXT-0006,Hinglish,Mere family par pressure hai aur mujhe abhi safe feel nahi ho raha.,1,1,1,1,1,1,1,0,80,Critical,synthetic_demo_data
+SYN-TXT-0007,Hinglish,Mujhe apni complaint aur next steps ki information chahiye.,1,0,0,0,1,0,1,0,52,High,synthetic_demo_data
+SYN-TXT-0008,Hindi,मामले में बहुत समय से देरी हो रही है और मुझे काफी चिंता हो रही है।,1,1,1,1,1,1,1,0,73,High,synthetic_demo_data
+SYN-TXT-0009,Punjabi,ਮਾਮਲੇ ਵਿੱਚ ਕਾਫ਼ੀ ਦੇਰੀ ਹੋ ਰਹੀ ਹੈ ਅਤੇ ਮੈਨੂੰ ਬਹੁਤ ਚਿੰਤਾ ਹੋ ਰਹੀ ਹੈ।,0,0,0,0,0,0,0,0,25,Low,synthetic_demo_data
+SYN-TXT-0010,Hinglish,Mujhe village wapas jaane mein darr lag raha hai kyunki baar baar threats mil rahi hain.,0,0,1,0,1,0,1,0,40,Moderate,synthetic_demo_data
+SYN-TXT-0011,Punjabi,ਮੈਂ ਇਸ ਵੇਲੇ ਠੀਕ ਹਾਂ ਅਤੇ ਸਿਰਫ਼ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਦੀ ਸਥਿਤੀ ਜਾਣਨਾ ਚਾਹੁੰਦਾ ਹਾਂ।,0,0,0,0,0,0,0,0,33,Moderate,synthetic_demo_data
+SYN-TXT-0012,English,The case has been delayed for a long time and I am becoming very anxious.,0,1,1,1,0,1,1,1,89,Critical,synthetic_demo_data
+SYN-TXT-0013,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,1,1,1,1,1,1,0,1,63,High,synthetic_demo_data
+SYN-TXT-0014,Hindi,मुझे गांव वापस जाने को लेकर बहुत डर लग रहा है क्योंकि बार-बार धमकियां मिल रही हैं।,1,1,0,1,0,0,1,1,61,High,synthetic_demo_data
+SYN-TXT-0015,Punjabi,ਮੈਂ ਇਸ ਵੇਲੇ ਠੀਕ ਹਾਂ ਅਤੇ ਸਿਰਫ਼ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਦੀ ਸਥਿਤੀ ਜਾਣਨਾ ਚਾਹੁੰਦਾ ਹਾਂ।,1,0,1,0,0,0,1,0,38,Moderate,synthetic_demo_data
+SYN-TXT-0016,Punjabi,ਮੈਂ ਇਸ ਵੇਲੇ ਠੀਕ ਹਾਂ ਅਤੇ ਸਿਰਫ਼ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਦੀ ਸਥਿਤੀ ਜਾਣਨਾ ਚਾਹੁੰਦਾ ਹਾਂ।,0,1,0,0,1,0,1,0,19,Low,synthetic_demo_data
+SYN-TXT-0017,Punjabi,ਮੈਨੂੰ ਪਿੰਡ ਵਾਪਸ ਜਾਣ ਤੋਂ ਡਰ ਲੱਗਦਾ ਹੈ ਕਿਉਂਕਿ ਵਾਰ ਵਾਰ ਧਮਕੀਆਂ ਮਿਲ ਰਹੀਆਂ ਹਨ।,0,0,0,1,0,0,1,0,33,Moderate,synthetic_demo_data
+SYN-TXT-0018,Hindi,मुझे गांव वापस जाने को लेकर बहुत डर लग रहा है क्योंकि बार-बार धमकियां मिल रही हैं।,0,0,0,0,0,0,0,0,24,Low,synthetic_demo_data
+SYN-TXT-0019,Punjabi,ਮਾਮਲੇ ਵਿੱਚ ਕਾਫ਼ੀ ਦੇਰੀ ਹੋ ਰਹੀ ਹੈ ਅਤੇ ਮੈਨੂੰ ਬਹੁਤ ਚਿੰਤਾ ਹੋ ਰਹੀ ਹੈ।,1,1,1,1,1,1,0,0,71,High,synthetic_demo_data
+SYN-TXT-0020,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,1,1,1,0,1,0,0,1,73,High,synthetic_demo_data
+SYN-TXT-0021,Punjabi,ਮੈਨੂੰ ਡਰ ਹੈ ਕਿ ਜੇ ਮਦਦ ਨਾ ਮਿਲੀ ਤਾਂ ਹਾਲਾਤ ਹੋਰ ਖਰਾਬ ਹੋ ਸਕਦੇ ਹਨ।,1,1,0,0,0,0,1,1,54,High,synthetic_demo_data
+SYN-TXT-0022,Hindi,मेरे परिवार पर दबाव है और मुझे अभी सुरक्षित महसूस नहीं हो रहा है।,0,1,0,1,0,0,0,0,42,Moderate,synthetic_demo_data
+SYN-TXT-0023,Hinglish,Main bahut isolated feel kar raha hoon aur samajh nahi aa raha kisse help loon.,1,1,1,0,1,1,1,1,84,Critical,synthetic_demo_data
+SYN-TXT-0024,Punjabi,ਮੈਨੂੰ ਡਰ ਹੈ ਕਿ ਜੇ ਮਦਦ ਨਾ ਮਿਲੀ ਤਾਂ ਹਾਲਾਤ ਹੋਰ ਖਰਾਬ ਹੋ ਸਕਦੇ ਹਨ।,0,1,1,1,0,1,1,0,77,Critical,synthetic_demo_data
+SYN-TXT-0025,Hindi,मुझे गांव वापस जाने को लेकर बहुत डर लग रहा है क्योंकि बार-बार धमकियां मिल रही हैं।,1,0,0,1,0,0,0,0,62,High,synthetic_demo_data
+SYN-TXT-0026,English,I am calm now and only want an update about my complaint.,0,0,1,0,0,1,0,0,23,Low,synthetic_demo_data
+SYN-TXT-0027,Punjlish,Mainu darr aa ke help na mili taan situation hor kharab ho sakdi aa.,0,0,0,0,0,0,0,0,34,Moderate,synthetic_demo_data
+SYN-TXT-0028,Hindi,मेरे परिवार पर दबाव है और मुझे अभी सुरक्षित महसूस नहीं हो रहा है।,0,0,0,0,0,0,1,0,13,Low,synthetic_demo_data
+SYN-TXT-0029,Hindi,मेरे परिवार पर दबाव है और मुझे अभी सुरक्षित महसूस नहीं हो रहा है।,0,0,0,0,0,0,0,0,19,Low,synthetic_demo_data
+SYN-TXT-0030,Punjabi,ਮੈਨੂੰ ਡਰ ਹੈ ਕਿ ਜੇ ਮਦਦ ਨਾ ਮਿਲੀ ਤਾਂ ਹਾਲਾਤ ਹੋਰ ਖਰਾਬ ਹੋ ਸਕਦੇ ਹਨ।,1,1,0,0,0,0,0,0,53,High,synthetic_demo_data
+SYN-TXT-0031,Punjabi,ਮੈਨੂੰ ਪਿੰਡ ਵਾਪਸ ਜਾਣ ਤੋਂ ਡਰ ਲੱਗਦਾ ਹੈ ਕਿਉਂਕਿ ਵਾਰ ਵਾਰ ਧਮਕੀਆਂ ਮਿਲ ਰਹੀਆਂ ਹਨ।,1,1,1,0,0,0,1,1,53,High,synthetic_demo_data
+SYN-TXT-0032,Punjlish,Mere family te pressure aa te main hun safe feel nahi kar reha.,1,1,1,1,0,0,1,0,87,Critical,synthetic_demo_data
+SYN-TXT-0033,Hindi,मुझे डर है कि अगर मदद नहीं मिली तो स्थिति और खराब हो सकती है।,1,0,0,1,0,0,1,0,40,Moderate,synthetic_demo_data
+SYN-TXT-0034,Punjlish,Main bahut akela feel kar reha te samajh nahi aa rahi help kithon lavaan.,0,0,1,1,0,0,0,0,34,Moderate,synthetic_demo_data
+SYN-TXT-0035,Punjabi,ਸਾਨੂੰ ਇਲਾਕਾ ਛੱਡਣ ਲਈ ਕਿਹਾ ਗਿਆ ਅਤੇ ਸਾਨੂੰ ਸਹਾਇਤਾ ਦੀ ਲੋੜ ਹੈ।,0,0,1,1,0,0,0,0,49,Moderate,synthetic_demo_data
+SYN-TXT-0036,Hindi,मुझे गांव वापस जाने को लेकर बहुत डर लग रहा है क्योंकि बार-बार धमकियां मिल रही हैं।,1,0,0,0,0,0,0,0,10,Low,synthetic_demo_data
+SYN-TXT-0037,Punjlish,Mainu darr aa ke help na mili taan situation hor kharab ho sakdi aa.,0,0,0,0,0,0,1,0,18,Low,synthetic_demo_data
+SYN-TXT-0038,Hinglish,Mujhe apni complaint aur next steps ki information chahiye.,0,0,0,0,0,1,0,0,44,Moderate,synthetic_demo_data
+SYN-TXT-0039,Hindi,मामले में बहुत समय से देरी हो रही है और मुझे काफी चिंता हो रही है।,0,0,0,0,0,0,0,0,18,Low,synthetic_demo_data
+SYN-TXT-0040,Punjabi,ਮੈਨੂੰ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਅਤੇ ਅਗਲੇ ਕਦਮਾਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਚਾਹੀਦੀ ਹੈ।,0,1,1,0,0,1,1,0,62,High,synthetic_demo_data
+SYN-TXT-0041,Hinglish,Main bahut isolated feel kar raha hoon aur samajh nahi aa raha kisse help loon.,1,0,1,0,0,0,0,0,34,Moderate,synthetic_demo_data
+SYN-TXT-0042,Punjabi,ਮੈਨੂੰ ਪਿੰਡ ਵਾਪਸ ਜਾਣ ਤੋਂ ਡਰ ਲੱਗਦਾ ਹੈ ਕਿਉਂਕਿ ਵਾਰ ਵਾਰ ਧਮਕੀਆਂ ਮਿਲ ਰਹੀਆਂ ਹਨ।,1,1,1,1,1,0,0,0,67,High,synthetic_demo_data
+SYN-TXT-0043,Punjlish,Mere family te pressure aa te main hun safe feel nahi kar reha.,1,0,0,1,0,1,1,1,58,High,synthetic_demo_data
+SYN-TXT-0044,Hinglish,Mujhe darr hai ki help na mili to situation aur worse ho sakti hai.,1,0,0,0,0,0,0,0,48,Moderate,synthetic_demo_data
+SYN-TXT-0045,Punjabi,ਮਾਮਲੇ ਵਿੱਚ ਕਾਫ਼ੀ ਦੇਰੀ ਹੋ ਰਹੀ ਹੈ ਅਤੇ ਮੈਨੂੰ ਬਹੁਤ ਚਿੰਤਾ ਹੋ ਰਹੀ ਹੈ।,0,1,1,0,0,0,0,0,72,High,synthetic_demo_data
+SYN-TXT-0046,Punjabi,ਮੈਂ ਆਪਣੇ ਆਪ ਨੂੰ ਬਹੁਤ ਇਕੱਲਾ ਮਹਿਸੂਸ ਕਰਦਾ ਹਾਂ ਅਤੇ ਮਦਦ ਲਈ ਕਿਸ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂ ਇਹ ਨਹੀਂ ਪਤਾ।,1,1,1,0,0,0,0,0,63,High,synthetic_demo_data
+SYN-TXT-0047,Hindi,अभी मैं ठीक हूं और सिर्फ अपनी शिकायत की स्थिति जानना चाहता हूं।,0,0,1,0,0,0,0,0,42,Moderate,synthetic_demo_data
+SYN-TXT-0048,Punjlish,Mere family te pressure aa te main hun safe feel nahi kar reha.,0,1,0,0,0,0,0,0,23,Low,synthetic_demo_data
+SYN-TXT-0049,Punjabi,ਮੈਨੂੰ ਡਰ ਹੈ ਕਿ ਜੇ ਮਦਦ ਨਾ ਮਿਲੀ ਤਾਂ ਹਾਲਾਤ ਹੋਰ ਖਰਾਬ ਹੋ ਸਕਦੇ ਹਨ।,1,1,1,0,0,0,1,1,57,High,synthetic_demo_data
+SYN-TXT-0050,Hindi,मामले में बहुत समय से देरी हो रही है और मुझे काफी चिंता हो रही है।,0,0,0,0,0,0,0,0,23,Low,synthetic_demo_data
+SYN-TXT-0051,English,I am afraid that the situation may become worse if nobody helps us.,0,0,1,0,0,0,0,0,12,Low,synthetic_demo_data
+SYN-TXT-0052,Hinglish,Main abhi theek hoon aur sirf complaint ka status jaana chahta hoon.,0,0,0,0,0,0,0,0,12,Low,synthetic_demo_data
+SYN-TXT-0053,Hindi,मुझे गांव वापस जाने को लेकर बहुत डर लग रहा है क्योंकि बार-बार धमकियां मिल रही हैं।,0,1,1,1,1,1,1,1,53,High,synthetic_demo_data
+SYN-TXT-0054,English,My family is under pressure and I do not feel safe right now.,0,1,1,0,0,0,0,1,67,High,synthetic_demo_data
+SYN-TXT-0055,Punjabi,ਮੈਂ ਆਪਣੇ ਆਪ ਨੂੰ ਬਹੁਤ ਇਕੱਲਾ ਮਹਿਸੂਸ ਕਰਦਾ ਹਾਂ ਅਤੇ ਮਦਦ ਲਈ ਕਿਸ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂ ਇਹ ਨਹੀਂ ਪਤਾ।,1,0,1,0,1,0,1,1,75,High,synthetic_demo_data
+SYN-TXT-0056,English,I am calm now and only want an update about my complaint.,1,1,0,1,0,1,0,1,53,High,synthetic_demo_data
+SYN-TXT-0057,English,I am afraid that the situation may become worse if nobody helps us.,0,0,1,1,0,0,0,0,35,Moderate,synthetic_demo_data
+SYN-TXT-0058,Punjlish,Mere family te pressure aa te main hun safe feel nahi kar reha.,1,1,0,0,0,0,0,0,43,Moderate,synthetic_demo_data
+SYN-TXT-0059,English,The case has been delayed for a long time and I am becoming very anxious.,0,0,0,0,0,0,1,0,21,Low,synthetic_demo_data
+SYN-TXT-0060,Hinglish,Main abhi theek hoon aur sirf complaint ka status jaana chahta hoon.,0,0,0,0,0,0,0,0,8,Low,synthetic_demo_data
+SYN-TXT-0061,English,I am worried about going back to my village because of repeated threats.,1,1,1,1,1,0,1,1,64,High,synthetic_demo_data
+SYN-TXT-0062,Hindi,मेरे परिवार पर दबाव है और मुझे अभी सुरक्षित महसूस नहीं हो रहा है।,0,0,0,0,1,1,1,0,32,Moderate,synthetic_demo_data
+SYN-TXT-0063,English,I am calm now and only want an update about my complaint.,0,0,0,0,1,0,1,0,48,Moderate,synthetic_demo_data
+SYN-TXT-0064,Punjlish,Mainu darr aa ke help na mili taan situation hor kharab ho sakdi aa.,0,1,1,0,1,0,1,1,55,High,synthetic_demo_data
+SYN-TXT-0065,Hindi,मुझे गांव वापस जाने को लेकर बहुत डर लग रहा है क्योंकि बार-बार धमकियां मिल रही हैं।,1,0,1,1,1,0,0,0,69,High,synthetic_demo_data
+SYN-TXT-0066,Hindi,अभी मैं ठीक हूं और सिर्फ अपनी शिकायत की स्थिति जानना चाहता हूं।,0,0,0,0,0,0,1,0,34,Moderate,synthetic_demo_data
+SYN-TXT-0067,Hindi,मुझे गांव वापस जाने को लेकर बहुत डर लग रहा है क्योंकि बार-बार धमकियां मिल रही हैं।,0,0,1,0,0,0,0,0,28,Moderate,synthetic_demo_data
+SYN-TXT-0068,Hinglish,Mujhe darr hai ki help na mili to situation aur worse ho sakti hai.,0,0,0,0,1,1,0,0,27,Moderate,synthetic_demo_data
+SYN-TXT-0069,Hindi,मैं खुद को बहुत अकेला महसूस कर रहा हूं और समझ नहीं आ रहा कि मदद के लिए किससे संपर्क करूं।,0,0,0,1,0,0,0,0,6,Low,synthetic_demo_data
+SYN-TXT-0070,Hindi,मैं खुद को बहुत अकेला महसूस कर रहा हूं और समझ नहीं आ रहा कि मदद के लिए किससे संपर्क करूं।,0,0,0,0,0,0,1,0,30,Moderate,synthetic_demo_data
+SYN-TXT-0071,Punjabi,ਮੇਰੇ ਪਰਿਵਾਰ ਉੱਤੇ ਦਬਾਅ ਹੈ ਅਤੇ ਮੈਂ ਇਸ ਵੇਲੇ ਸੁਰੱਖਿਅਤ ਮਹਿਸੂਸ ਨਹੀਂ ਕਰ ਰਿਹਾ।,0,0,0,0,0,0,0,0,7,Low,synthetic_demo_data
+SYN-TXT-0072,English,I am afraid that the situation may become worse if nobody helps us.,0,0,1,0,1,0,0,0,45,Moderate,synthetic_demo_data
+SYN-TXT-0073,Hinglish,Main bahut isolated feel kar raha hoon aur samajh nahi aa raha kisse help loon.,1,0,1,1,0,1,1,1,55,High,synthetic_demo_data
+SYN-TXT-0074,English,We were asked to leave the area and we need help finding support.,0,0,0,0,0,0,0,0,24,Low,synthetic_demo_data
+SYN-TXT-0075,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,0,0,0,1,0,0,0,0,20,Low,synthetic_demo_data
+SYN-TXT-0076,Punjlish,Mainu darr aa ke help na mili taan situation hor kharab ho sakdi aa.,1,0,0,0,0,0,0,0,7,Low,synthetic_demo_data
+SYN-TXT-0077,English,I am afraid that the situation may become worse if nobody helps us.,0,0,0,0,0,0,0,0,18,Low,synthetic_demo_data
+SYN-TXT-0078,Punjlish,Mere family te pressure aa te main hun safe feel nahi kar reha.,1,0,1,1,0,0,0,0,74,High,synthetic_demo_data
+SYN-TXT-0079,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,0,0,1,1,0,0,0,0,33,Moderate,synthetic_demo_data
+SYN-TXT-0080,English,I am calm now and only want an update about my complaint.,0,1,1,0,0,1,1,1,56,High,synthetic_demo_data
+SYN-TXT-0081,English,I am worried about going back to my village because of repeated threats.,1,0,1,0,1,0,0,0,54,High,synthetic_demo_data
+SYN-TXT-0082,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,1,0,0,0,0,0,1,0,28,Moderate,synthetic_demo_data
+SYN-TXT-0083,English,I feel isolated and do not know whom to contact for help.,1,1,0,1,0,1,1,0,51,High,synthetic_demo_data
+SYN-TXT-0084,Punjabi,ਮੈਨੂੰ ਡਰ ਹੈ ਕਿ ਜੇ ਮਦਦ ਨਾ ਮਿਲੀ ਤਾਂ ਹਾਲਾਤ ਹੋਰ ਖਰਾਬ ਹੋ ਸਕਦੇ ਹਨ।,0,0,0,0,0,0,0,0,14,Low,synthetic_demo_data
+SYN-TXT-0085,Punjabi,ਮੈਨੂੰ ਡਰ ਹੈ ਕਿ ਜੇ ਮਦਦ ਨਾ ਮਿਲੀ ਤਾਂ ਹਾਲਾਤ ਹੋਰ ਖਰਾਬ ਹੋ ਸਕਦੇ ਹਨ।,0,0,0,0,0,0,0,0,9,Low,synthetic_demo_data
+SYN-TXT-0086,Punjlish,Main hun theek haan te sirf complaint da status jaana chaunda haan.,0,0,0,0,0,0,0,0,18,Low,synthetic_demo_data
+SYN-TXT-0087,Punjabi,ਮਾਮਲੇ ਵਿੱਚ ਕਾਫ਼ੀ ਦੇਰੀ ਹੋ ਰਹੀ ਹੈ ਅਤੇ ਮੈਨੂੰ ਬਹੁਤ ਚਿੰਤਾ ਹੋ ਰਹੀ ਹੈ।,1,0,1,1,0,0,0,1,53,High,synthetic_demo_data
+SYN-TXT-0088,Punjlish,Main hun theek haan te sirf complaint da status jaana chaunda haan.,1,0,0,0,0,0,1,0,29,Moderate,synthetic_demo_data
+SYN-TXT-0089,Punjlish,Mainu pind wapas jaan ton darr lagda kyunki baar baar threats aa rahiyaan ne.,0,0,0,0,0,0,0,0,7,Low,synthetic_demo_data
+SYN-TXT-0090,Punjlish,Mainu pind wapas jaan ton darr lagda kyunki baar baar threats aa rahiyaan ne.,0,0,1,1,0,0,1,0,37,Moderate,synthetic_demo_data
+SYN-TXT-0091,English,My family is under pressure and I do not feel safe right now.,0,0,0,0,0,0,0,0,5,Low,synthetic_demo_data
+SYN-TXT-0092,Punjlish,Sanu area chhadn layi keha gaya te sanu support di lod aa.,1,0,0,0,1,1,1,0,75,High,synthetic_demo_data
+SYN-TXT-0093,Punjabi,ਮਾਮਲੇ ਵਿੱਚ ਕਾਫ਼ੀ ਦੇਰੀ ਹੋ ਰਹੀ ਹੈ ਅਤੇ ਮੈਨੂੰ ਬਹੁਤ ਚਿੰਤਾ ਹੋ ਰਹੀ ਹੈ।,0,0,0,1,1,0,0,0,28,Moderate,synthetic_demo_data
+SYN-TXT-0094,Punjlish,Mainu pind wapas jaan ton darr lagda kyunki baar baar threats aa rahiyaan ne.,0,0,0,0,0,0,1,0,33,Moderate,synthetic_demo_data
+SYN-TXT-0095,Hinglish,Mujhe apni complaint aur next steps ki information chahiye.,0,0,0,0,1,0,0,0,45,Moderate,synthetic_demo_data
+SYN-TXT-0096,English,My family is under pressure and I do not feel safe right now.,0,1,1,0,1,0,1,1,67,High,synthetic_demo_data
+SYN-TXT-0097,Hinglish,Main abhi theek hoon aur sirf complaint ka status jaana chahta hoon.,0,0,1,1,0,0,1,0,44,Moderate,synthetic_demo_data
+SYN-TXT-0098,Punjlish,Main hun theek haan te sirf complaint da status jaana chaunda haan.,0,0,0,0,0,0,0,0,6,Low,synthetic_demo_data
+SYN-TXT-0099,Hinglish,Main bahut isolated feel kar raha hoon aur samajh nahi aa raha kisse help loon.,0,0,0,0,0,0,0,0,7,Low,synthetic_demo_data
+SYN-TXT-0100,Hindi,मुझे गांव वापस जाने को लेकर बहुत डर लग रहा है क्योंकि बार-बार धमकियां मिल रही हैं।,1,1,1,0,0,1,1,1,79,Critical,synthetic_demo_data
+SYN-TXT-0101,English,I am afraid that the situation may become worse if nobody helps us.,1,1,1,1,1,1,1,1,83,Critical,synthetic_demo_data
+SYN-TXT-0102,Punjlish,Sanu area chhadn layi keha gaya te sanu support di lod aa.,0,1,1,0,1,0,0,1,72,High,synthetic_demo_data
+SYN-TXT-0103,English,I am afraid that the situation may become worse if nobody helps us.,0,0,0,0,0,0,0,0,25,Low,synthetic_demo_data
+SYN-TXT-0104,Hindi,मेरे परिवार पर दबाव है और मुझे अभी सुरक्षित महसूस नहीं हो रहा है।,1,1,1,0,0,1,0,1,86,Critical,synthetic_demo_data
+SYN-TXT-0105,Hinglish,Mujhe village wapas jaane mein darr lag raha hai kyunki baar baar threats mil rahi hain.,0,0,0,0,0,0,0,0,56,High,synthetic_demo_data
+SYN-TXT-0106,English,We were asked to leave the area and we need help finding support.,0,1,0,1,0,0,1,0,61,High,synthetic_demo_data
+SYN-TXT-0107,Hindi,हमें इलाके से जाने के लिए कहा गया और हमें सहायता की जरूरत है।,0,0,1,1,0,0,0,1,46,Moderate,synthetic_demo_data
+SYN-TXT-0108,Punjlish,Main hun theek haan te sirf complaint da status jaana chaunda haan.,0,0,1,0,0,0,0,0,5,Low,synthetic_demo_data
+SYN-TXT-0109,Punjabi,ਸਾਨੂੰ ਇਲਾਕਾ ਛੱਡਣ ਲਈ ਕਿਹਾ ਗਿਆ ਅਤੇ ਸਾਨੂੰ ਸਹਾਇਤਾ ਦੀ ਲੋੜ ਹੈ।,0,0,0,1,0,0,0,0,7,Low,synthetic_demo_data
+SYN-TXT-0110,Punjabi,ਮੈਨੂੰ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਅਤੇ ਅਗਲੇ ਕਦਮਾਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਚਾਹੀਦੀ ਹੈ।,1,1,0,0,1,0,1,0,84,Critical,synthetic_demo_data
+SYN-TXT-0111,Hinglish,Mujhe darr hai ki help na mili to situation aur worse ho sakti hai.,1,1,1,1,1,1,0,1,39,Moderate,synthetic_demo_data
+SYN-TXT-0112,Punjlish,Main bahut akela feel kar reha te samajh nahi aa rahi help kithon lavaan.,0,0,0,0,0,0,0,0,17,Low,synthetic_demo_data
+SYN-TXT-0113,English,I am worried about going back to my village because of repeated threats.,0,0,1,1,0,0,0,0,48,Moderate,synthetic_demo_data
+SYN-TXT-0114,Hinglish,Mujhe village wapas jaane mein darr lag raha hai kyunki baar baar threats mil rahi hain.,1,0,0,0,0,0,0,0,33,Moderate,synthetic_demo_data
+SYN-TXT-0115,English,We were asked to leave the area and we need help finding support.,0,0,0,0,0,0,0,0,11,Low,synthetic_demo_data
+SYN-TXT-0116,Punjabi,ਮੈਂ ਇਸ ਵੇਲੇ ਠੀਕ ਹਾਂ ਅਤੇ ਸਿਰਫ਼ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਦੀ ਸਥਿਤੀ ਜਾਣਨਾ ਚਾਹੁੰਦਾ ਹਾਂ।,1,0,1,0,1,0,0,0,69,High,synthetic_demo_data
+SYN-TXT-0117,Punjlish,Sanu area chhadn layi keha gaya te sanu support di lod aa.,1,0,1,1,1,0,1,0,63,High,synthetic_demo_data
+SYN-TXT-0118,Punjabi,ਸਾਨੂੰ ਇਲਾਕਾ ਛੱਡਣ ਲਈ ਕਿਹਾ ਗਿਆ ਅਤੇ ਸਾਨੂੰ ਸਹਾਇਤਾ ਦੀ ਲੋੜ ਹੈ।,1,1,1,1,0,0,1,0,55,High,synthetic_demo_data
+SYN-TXT-0119,English,I am afraid that the situation may become worse if nobody helps us.,1,0,1,0,0,0,1,0,29,Moderate,synthetic_demo_data
+SYN-TXT-0120,Hinglish,Case mein bahut delay ho raha hai aur mujhe kaafi anxiety ho rahi hai.,0,1,1,1,1,0,0,0,72,High,synthetic_demo_data
+SYN-TXT-0121,Hindi,मैं खुद को बहुत अकेला महसूस कर रहा हूं और समझ नहीं आ रहा कि मदद के लिए किससे संपर्क करूं।,0,0,1,0,0,0,0,0,48,Moderate,synthetic_demo_data
+SYN-TXT-0122,Punjlish,Sanu area chhadn layi keha gaya te sanu support di lod aa.,1,1,1,0,0,0,1,0,70,High,synthetic_demo_data
+SYN-TXT-0123,Punjabi,ਮੇਰੇ ਪਰਿਵਾਰ ਉੱਤੇ ਦਬਾਅ ਹੈ ਅਤੇ ਮੈਂ ਇਸ ਵੇਲੇ ਸੁਰੱਖਿਅਤ ਮਹਿਸੂਸ ਨਹੀਂ ਕਰ ਰਿਹਾ।,0,0,0,0,0,0,0,1,7,Low,synthetic_demo_data
+SYN-TXT-0124,English,My family is under pressure and I do not feel safe right now.,1,1,1,0,1,0,1,0,42,Moderate,synthetic_demo_data
+SYN-TXT-0125,Hinglish,Case mein bahut delay ho raha hai aur mujhe kaafi anxiety ho rahi hai.,1,0,0,1,0,0,0,0,21,Low,synthetic_demo_data
+SYN-TXT-0126,Hinglish,Mujhe village wapas jaane mein darr lag raha hai kyunki baar baar threats mil rahi hain.,0,0,0,0,0,0,1,1,44,Moderate,synthetic_demo_data
+SYN-TXT-0127,Punjabi,ਮੈਂ ਆਪਣੇ ਆਪ ਨੂੰ ਬਹੁਤ ਇਕੱਲਾ ਮਹਿਸੂਸ ਕਰਦਾ ਹਾਂ ਅਤੇ ਮਦਦ ਲਈ ਕਿਸ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂ ਇਹ ਨਹੀਂ ਪਤਾ।,1,0,0,0,0,0,0,1,41,Moderate,synthetic_demo_data
+SYN-TXT-0128,Hinglish,Main bahut isolated feel kar raha hoon aur samajh nahi aa raha kisse help loon.,1,0,0,0,0,0,0,0,10,Low,synthetic_demo_data
+SYN-TXT-0129,Punjabi,ਮੈਨੂੰ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਅਤੇ ਅਗਲੇ ਕਦਮਾਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਚਾਹੀਦੀ ਹੈ।,0,0,1,0,0,0,0,0,6,Low,synthetic_demo_data
+SYN-TXT-0130,Punjlish,Mainu apni complaint te next steps bare information chahidi aa.,0,0,0,1,0,1,0,0,41,Moderate,synthetic_demo_data
+SYN-TXT-0131,Hinglish,Humein area chhodne ke liye kaha gaya aur humein support chahiye.,0,0,0,0,0,0,0,0,7,Low,synthetic_demo_data
+SYN-TXT-0132,Hindi,मुझे डर है कि अगर मदद नहीं मिली तो स्थिति और खराब हो सकती है।,1,0,1,1,0,1,1,0,93,Critical,synthetic_demo_data
+SYN-TXT-0133,Punjabi,ਮੈਨੂੰ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਅਤੇ ਅਗਲੇ ਕਦਮਾਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਚਾਹੀਦੀ ਹੈ।,0,0,1,0,0,0,1,0,33,Moderate,synthetic_demo_data
+SYN-TXT-0134,Punjlish,Mainu apni complaint te next steps bare information chahidi aa.,0,0,1,0,0,0,1,0,37,Moderate,synthetic_demo_data
+SYN-TXT-0135,Punjabi,ਮੇਰੇ ਪਰਿਵਾਰ ਉੱਤੇ ਦਬਾਅ ਹੈ ਅਤੇ ਮੈਂ ਇਸ ਵੇਲੇ ਸੁਰੱਖਿਅਤ ਮਹਿਸੂਸ ਨਹੀਂ ਕਰ ਰਿਹਾ।,1,0,1,0,0,1,0,0,44,Moderate,synthetic_demo_data
+SYN-TXT-0136,English,The case has been delayed for a long time and I am becoming very anxious.,0,0,0,0,0,0,0,1,5,Low,synthetic_demo_data
+SYN-TXT-0137,Hinglish,Mere family par pressure hai aur mujhe abhi safe feel nahi ho raha.,1,1,1,0,1,0,0,1,86,Critical,synthetic_demo_data
+SYN-TXT-0138,Hinglish,Mere family par pressure hai aur mujhe abhi safe feel nahi ho raha.,0,1,1,0,1,0,0,1,49,Moderate,synthetic_demo_data
+SYN-TXT-0139,English,I am calm now and only want an update about my complaint.,1,1,0,1,1,1,0,1,52,High,synthetic_demo_data
+SYN-TXT-0140,English,We were asked to leave the area and we need help finding support.,0,0,0,0,0,0,0,0,13,Low,synthetic_demo_data
+SYN-TXT-0141,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,0,0,1,0,1,0,1,0,38,Moderate,synthetic_demo_data
+SYN-TXT-0142,Hinglish,Mere family par pressure hai aur mujhe abhi safe feel nahi ho raha.,0,0,0,0,0,0,0,0,32,Moderate,synthetic_demo_data
+SYN-TXT-0143,Punjabi,ਮੇਰੇ ਪਰਿਵਾਰ ਉੱਤੇ ਦਬਾਅ ਹੈ ਅਤੇ ਮੈਂ ਇਸ ਵੇਲੇ ਸੁਰੱਖਿਅਤ ਮਹਿਸੂਸ ਨਹੀਂ ਕਰ ਰਿਹਾ।,1,1,1,1,0,1,0,0,79,Critical,synthetic_demo_data
+SYN-TXT-0144,Hinglish,Case mein bahut delay ho raha hai aur mujhe kaafi anxiety ho rahi hai.,0,0,1,0,0,0,0,1,43,Moderate,synthetic_demo_data
+SYN-TXT-0145,Hinglish,Mere family par pressure hai aur mujhe abhi safe feel nahi ho raha.,1,1,1,0,1,0,1,0,50,Moderate,synthetic_demo_data
+SYN-TXT-0146,Hindi,मेरे परिवार पर दबाव है और मुझे अभी सुरक्षित महसूस नहीं हो रहा है।,1,1,0,0,0,0,0,0,11,Low,synthetic_demo_data
+SYN-TXT-0147,English,I am calm now and only want an update about my complaint.,0,0,0,0,0,0,1,0,49,Moderate,synthetic_demo_data
+SYN-TXT-0148,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,1,0,1,0,0,0,0,1,45,Moderate,synthetic_demo_data
+SYN-TXT-0149,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,1,0,1,0,0,0,1,0,44,Moderate,synthetic_demo_data
+SYN-TXT-0150,Hindi,मैं खुद को बहुत अकेला महसूस कर रहा हूं और समझ नहीं आ रहा कि मदद के लिए किससे संपर्क करूं।,0,0,0,0,0,0,0,0,15,Low,synthetic_demo_data
+SYN-TXT-0151,Hinglish,Mujhe darr hai ki help na mili to situation aur worse ho sakti hai.,0,0,0,1,0,1,0,0,55,High,synthetic_demo_data
+SYN-TXT-0152,Punjlish,Mainu darr aa ke help na mili taan situation hor kharab ho sakdi aa.,1,1,1,1,0,1,1,1,78,Critical,synthetic_demo_data
+SYN-TXT-0153,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,0,0,0,0,0,0,0,0,20,Low,synthetic_demo_data
+SYN-TXT-0154,Punjlish,Main hun theek haan te sirf complaint da status jaana chaunda haan.,0,0,0,1,1,0,0,0,37,Moderate,synthetic_demo_data
+SYN-TXT-0155,Hinglish,Case mein bahut delay ho raha hai aur mujhe kaafi anxiety ho rahi hai.,0,0,0,0,0,0,1,0,17,Low,synthetic_demo_data
+SYN-TXT-0156,Hinglish,Case mein bahut delay ho raha hai aur mujhe kaafi anxiety ho rahi hai.,0,0,0,1,1,0,1,1,53,High,synthetic_demo_data
+SYN-TXT-0157,Punjabi,ਮੇਰੇ ਪਰਿਵਾਰ ਉੱਤੇ ਦਬਾਅ ਹੈ ਅਤੇ ਮੈਂ ਇਸ ਵੇਲੇ ਸੁਰੱਖਿਅਤ ਮਹਿਸੂਸ ਨਹੀਂ ਕਰ ਰਿਹਾ।,0,0,0,0,0,0,0,0,5,Low,synthetic_demo_data
+SYN-TXT-0158,Hindi,मेरे परिवार पर दबाव है और मुझे अभी सुरक्षित महसूस नहीं हो रहा है।,0,1,0,0,1,0,0,0,65,High,synthetic_demo_data
+SYN-TXT-0159,English,I need information about my complaint and the next steps.,1,1,0,1,0,0,0,0,65,High,synthetic_demo_data
+SYN-TXT-0160,Punjlish,Sanu area chhadn layi keha gaya te sanu support di lod aa.,1,1,1,0,0,0,1,1,72,High,synthetic_demo_data
+SYN-TXT-0161,Hindi,मुझे गांव वापस जाने को लेकर बहुत डर लग रहा है क्योंकि बार-बार धमकियां मिल रही हैं।,1,0,0,0,0,0,0,0,17,Low,synthetic_demo_data
+SYN-TXT-0162,Hindi,मैं खुद को बहुत अकेला महसूस कर रहा हूं और समझ नहीं आ रहा कि मदद के लिए किससे संपर्क करूं।,1,1,1,1,0,0,1,1,76,Critical,synthetic_demo_data
+SYN-TXT-0163,English,My family is under pressure and I do not feel safe right now.,0,0,0,0,0,0,0,0,8,Low,synthetic_demo_data
+SYN-TXT-0164,Hindi,मेरे परिवार पर दबाव है और मुझे अभी सुरक्षित महसूस नहीं हो रहा है।,0,0,0,1,0,0,1,0,8,Low,synthetic_demo_data
+SYN-TXT-0165,Hindi,मुझे गांव वापस जाने को लेकर बहुत डर लग रहा है क्योंकि बार-बार धमकियां मिल रही हैं।,1,0,0,0,0,0,1,0,31,Moderate,synthetic_demo_data
+SYN-TXT-0166,Punjlish,Main hun theek haan te sirf complaint da status jaana chaunda haan.,0,1,1,1,0,0,0,1,35,Moderate,synthetic_demo_data
+SYN-TXT-0167,Hinglish,Main abhi theek hoon aur sirf complaint ka status jaana chahta hoon.,1,1,1,0,1,0,1,0,51,High,synthetic_demo_data
+SYN-TXT-0168,Punjabi,ਮੈਨੂੰ ਡਰ ਹੈ ਕਿ ਜੇ ਮਦਦ ਨਾ ਮਿਲੀ ਤਾਂ ਹਾਲਾਤ ਹੋਰ ਖਰਾਬ ਹੋ ਸਕਦੇ ਹਨ।,1,0,1,1,0,0,0,1,75,High,synthetic_demo_data
+SYN-TXT-0169,English,My family is under pressure and I do not feel safe right now.,0,0,1,0,0,0,1,0,40,Moderate,synthetic_demo_data
+SYN-TXT-0170,English,The case has been delayed for a long time and I am becoming very anxious.,1,1,1,1,1,0,0,1,89,Critical,synthetic_demo_data
+SYN-TXT-0171,English,I need information about my complaint and the next steps.,0,0,0,1,0,0,0,0,13,Low,synthetic_demo_data
+SYN-TXT-0172,Punjabi,ਸਾਨੂੰ ਇਲਾਕਾ ਛੱਡਣ ਲਈ ਕਿਹਾ ਗਿਆ ਅਤੇ ਸਾਨੂੰ ਸਹਾਇਤਾ ਦੀ ਲੋੜ ਹੈ।,0,0,0,0,1,0,1,0,40,Moderate,synthetic_demo_data
+SYN-TXT-0173,Punjabi,ਮੈਂ ਆਪਣੇ ਆਪ ਨੂੰ ਬਹੁਤ ਇਕੱਲਾ ਮਹਿਸੂਸ ਕਰਦਾ ਹਾਂ ਅਤੇ ਮਦਦ ਲਈ ਕਿਸ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂ ਇਹ ਨਹੀਂ ਪਤਾ।,0,0,0,0,0,0,0,0,21,Low,synthetic_demo_data
+SYN-TXT-0174,English,I need information about my complaint and the next steps.,1,1,0,1,1,0,1,1,79,Critical,synthetic_demo_data
+SYN-TXT-0175,Punjlish,Main bahut akela feel kar reha te samajh nahi aa rahi help kithon lavaan.,0,0,0,0,0,0,0,0,15,Low,synthetic_demo_data
+SYN-TXT-0176,English,I need information about my complaint and the next steps.,0,0,0,1,0,0,0,0,9,Low,synthetic_demo_data
+SYN-TXT-0177,English,I feel isolated and do not know whom to contact for help.,0,0,0,0,1,0,0,0,34,Moderate,synthetic_demo_data
+SYN-TXT-0178,English,The case has been delayed for a long time and I am becoming very anxious.,1,1,1,1,1,1,1,0,87,Critical,synthetic_demo_data
+SYN-TXT-0179,Hindi,हमें इलाके से जाने के लिए कहा गया और हमें सहायता की जरूरत है।,1,1,1,1,1,0,1,1,80,Critical,synthetic_demo_data
+SYN-TXT-0180,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,1,0,0,1,0,0,1,1,71,High,synthetic_demo_data
+SYN-TXT-0181,Punjlish,Mainu darr aa ke help na mili taan situation hor kharab ho sakdi aa.,1,1,1,0,1,1,1,0,90,Critical,synthetic_demo_data
+SYN-TXT-0182,Hindi,अभी मैं ठीक हूं और सिर्फ अपनी शिकायत की स्थिति जानना चाहता हूं।,0,0,1,1,1,1,1,1,77,Critical,synthetic_demo_data
+SYN-TXT-0183,Hindi,अभी मैं ठीक हूं और सिर्फ अपनी शिकायत की स्थिति जानना चाहता हूं।,1,0,0,1,1,0,1,0,36,Moderate,synthetic_demo_data
+SYN-TXT-0184,English,I am afraid that the situation may become worse if nobody helps us.,0,0,0,0,0,0,1,0,48,Moderate,synthetic_demo_data
+SYN-TXT-0185,English,I am calm now and only want an update about my complaint.,1,1,1,1,1,1,1,0,52,High,synthetic_demo_data
+SYN-TXT-0186,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,1,1,1,1,0,0,1,0,55,High,synthetic_demo_data
+SYN-TXT-0187,Hindi,मेरे परिवार पर दबाव है और मुझे अभी सुरक्षित महसूस नहीं हो रहा है।,0,1,0,0,0,0,0,0,44,Moderate,synthetic_demo_data
+SYN-TXT-0188,English,The case has been delayed for a long time and I am becoming very anxious.,0,1,0,0,0,0,0,0,18,Low,synthetic_demo_data
+SYN-TXT-0189,Punjlish,Mainu apni complaint te next steps bare information chahidi aa.,0,1,0,1,1,1,1,1,56,High,synthetic_demo_data
+SYN-TXT-0190,Punjabi,ਮੈਨੂੰ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਅਤੇ ਅਗਲੇ ਕਦਮਾਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਚਾਹੀਦੀ ਹੈ।,0,0,0,0,0,0,1,0,13,Low,synthetic_demo_data
+SYN-TXT-0191,Punjabi,ਮੈਨੂੰ ਡਰ ਹੈ ਕਿ ਜੇ ਮਦਦ ਨਾ ਮਿਲੀ ਤਾਂ ਹਾਲਾਤ ਹੋਰ ਖਰਾਬ ਹੋ ਸਕਦੇ ਹਨ।,1,1,1,1,1,1,1,1,77,Critical,synthetic_demo_data
+SYN-TXT-0192,Hindi,मेरे परिवार पर दबाव है और मुझे अभी सुरक्षित महसूस नहीं हो रहा है।,0,0,0,0,0,0,0,0,23,Low,synthetic_demo_data
+SYN-TXT-0193,Hindi,मुझे डर है कि अगर मदद नहीं मिली तो स्थिति और खराब हो सकती है।,0,0,0,0,0,0,0,0,25,Low,synthetic_demo_data
+SYN-TXT-0194,English,We were asked to leave the area and we need help finding support.,0,0,1,1,1,1,0,1,63,High,synthetic_demo_data
+SYN-TXT-0195,Punjlish,Main hun theek haan te sirf complaint da status jaana chaunda haan.,0,0,0,0,0,0,0,0,8,Low,synthetic_demo_data
+SYN-TXT-0196,Punjabi,ਮੈਨੂੰ ਪਿੰਡ ਵਾਪਸ ਜਾਣ ਤੋਂ ਡਰ ਲੱਗਦਾ ਹੈ ਕਿਉਂਕਿ ਵਾਰ ਵਾਰ ਧਮਕੀਆਂ ਮਿਲ ਰਹੀਆਂ ਹਨ।,0,0,0,0,0,0,0,0,22,Low,synthetic_demo_data
+SYN-TXT-0197,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,1,0,0,0,1,0,0,0,33,Moderate,synthetic_demo_data
+SYN-TXT-0198,Hindi,मामले में बहुत समय से देरी हो रही है और मुझे काफी चिंता हो रही है।,1,1,1,0,0,1,0,0,85,Critical,synthetic_demo_data
+SYN-TXT-0199,English,We were asked to leave the area and we need help finding support.,0,0,0,0,0,0,0,0,9,Low,synthetic_demo_data
+SYN-TXT-0200,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,1,0,1,0,0,0,0,0,47,Moderate,synthetic_demo_data
+SYN-TXT-0201,Punjabi,ਮੈਂ ਆਪਣੇ ਆਪ ਨੂੰ ਬਹੁਤ ਇਕੱਲਾ ਮਹਿਸੂਸ ਕਰਦਾ ਹਾਂ ਅਤੇ ਮਦਦ ਲਈ ਕਿਸ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂ ਇਹ ਨਹੀਂ ਪਤਾ।,1,0,1,1,0,0,1,1,51,High,synthetic_demo_data
+SYN-TXT-0202,Punjlish,Mainu darr aa ke help na mili taan situation hor kharab ho sakdi aa.,1,0,1,1,1,0,1,1,80,Critical,synthetic_demo_data
+SYN-TXT-0203,Hindi,मैं खुद को बहुत अकेला महसूस कर रहा हूं और समझ नहीं आ रहा कि मदद के लिए किससे संपर्क करूं।,0,1,1,0,1,0,0,0,40,Moderate,synthetic_demo_data
+SYN-TXT-0204,Punjabi,ਮੈਂ ਇਸ ਵੇਲੇ ਠੀਕ ਹਾਂ ਅਤੇ ਸਿਰਫ਼ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਦੀ ਸਥਿਤੀ ਜਾਣਨਾ ਚਾਹੁੰਦਾ ਹਾਂ।,0,0,0,0,0,0,0,0,8,Low,synthetic_demo_data
+SYN-TXT-0205,English,I am worried about going back to my village because of repeated threats.,0,0,1,0,0,0,1,0,24,Low,synthetic_demo_data
+SYN-TXT-0206,Punjlish,Sanu area chhadn layi keha gaya te sanu support di lod aa.,0,0,0,0,0,0,1,0,19,Low,synthetic_demo_data
+SYN-TXT-0207,English,I feel isolated and do not know whom to contact for help.,0,0,0,0,0,0,0,0,16,Low,synthetic_demo_data
+SYN-TXT-0208,Punjabi,ਮੈਨੂੰ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਅਤੇ ਅਗਲੇ ਕਦਮਾਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਚਾਹੀਦੀ ਹੈ।,1,1,1,0,1,1,0,0,57,High,synthetic_demo_data
+SYN-TXT-0209,Punjabi,ਮੈਨੂੰ ਡਰ ਹੈ ਕਿ ਜੇ ਮਦਦ ਨਾ ਮਿਲੀ ਤਾਂ ਹਾਲਾਤ ਹੋਰ ਖਰਾਬ ਹੋ ਸਕਦੇ ਹਨ।,0,0,1,0,0,0,0,0,16,Low,synthetic_demo_data
+SYN-TXT-0210,Hinglish,Main abhi theek hoon aur sirf complaint ka status jaana chahta hoon.,0,0,1,0,1,0,1,0,45,Moderate,synthetic_demo_data
+SYN-TXT-0211,Punjlish,Mainu pind wapas jaan ton darr lagda kyunki baar baar threats aa rahiyaan ne.,1,0,1,1,1,0,1,0,53,High,synthetic_demo_data
+SYN-TXT-0212,Punjlish,Main hun theek haan te sirf complaint da status jaana chaunda haan.,0,1,0,0,0,0,1,0,33,Moderate,synthetic_demo_data
+SYN-TXT-0213,English,I am worried about going back to my village because of repeated threats.,0,0,0,0,0,0,0,0,8,Low,synthetic_demo_data
+SYN-TXT-0214,Hinglish,Case mein bahut delay ho raha hai aur mujhe kaafi anxiety ho rahi hai.,1,1,1,0,1,1,0,1,61,High,synthetic_demo_data
+SYN-TXT-0215,Hindi,मामले में बहुत समय से देरी हो रही है और मुझे काफी चिंता हो रही है।,0,1,0,0,0,0,0,0,68,High,synthetic_demo_data
+SYN-TXT-0216,Punjabi,ਮੈਨੂੰ ਪਿੰਡ ਵਾਪਸ ਜਾਣ ਤੋਂ ਡਰ ਲੱਗਦਾ ਹੈ ਕਿਉਂਕਿ ਵਾਰ ਵਾਰ ਧਮਕੀਆਂ ਮਿਲ ਰਹੀਆਂ ਹਨ।,1,1,1,1,0,0,1,0,58,High,synthetic_demo_data
+SYN-TXT-0217,English,I need information about my complaint and the next steps.,0,0,0,0,0,0,1,0,11,Low,synthetic_demo_data
+SYN-TXT-0218,Punjabi,ਮੇਰੇ ਪਰਿਵਾਰ ਉੱਤੇ ਦਬਾਅ ਹੈ ਅਤੇ ਮੈਂ ਇਸ ਵੇਲੇ ਸੁਰੱਖਿਅਤ ਮਹਿਸੂਸ ਨਹੀਂ ਕਰ ਰਿਹਾ।,0,0,1,0,0,0,1,0,11,Low,synthetic_demo_data
+SYN-TXT-0219,Hinglish,Humein area chhodne ke liye kaha gaya aur humein support chahiye.,0,1,0,1,1,1,1,0,84,Critical,synthetic_demo_data
+SYN-TXT-0220,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,0,0,1,0,0,0,1,0,35,Moderate,synthetic_demo_data
+SYN-TXT-0221,English,The case has been delayed for a long time and I am becoming very anxious.,1,0,0,1,0,0,1,0,41,Moderate,synthetic_demo_data
+SYN-TXT-0222,English,I am worried about going back to my village because of repeated threats.,0,0,1,0,0,0,0,0,40,Moderate,synthetic_demo_data
+SYN-TXT-0223,Hinglish,Case mein bahut delay ho raha hai aur mujhe kaafi anxiety ho rahi hai.,1,1,1,1,0,1,0,1,69,High,synthetic_demo_data
+SYN-TXT-0224,Punjabi,ਮੈਨੂੰ ਪਿੰਡ ਵਾਪਸ ਜਾਣ ਤੋਂ ਡਰ ਲੱਗਦਾ ਹੈ ਕਿਉਂਕਿ ਵਾਰ ਵਾਰ ਧਮਕੀਆਂ ਮਿਲ ਰਹੀਆਂ ਹਨ।,1,0,1,1,0,1,0,1,82,Critical,synthetic_demo_data
+SYN-TXT-0225,Hinglish,Mujhe village wapas jaane mein darr lag raha hai kyunki baar baar threats mil rahi hain.,1,0,0,0,0,0,0,0,12,Low,synthetic_demo_data
+SYN-TXT-0226,Hindi,अभी मैं ठीक हूं और सिर्फ अपनी शिकायत की स्थिति जानना चाहता हूं।,1,1,1,1,1,0,1,0,81,Critical,synthetic_demo_data
+SYN-TXT-0227,Hinglish,Main bahut isolated feel kar raha hoon aur samajh nahi aa raha kisse help loon.,0,0,0,0,0,0,1,0,25,Low,synthetic_demo_data
+SYN-TXT-0228,Punjabi,ਮੈਨੂੰ ਡਰ ਹੈ ਕਿ ਜੇ ਮਦਦ ਨਾ ਮਿਲੀ ਤਾਂ ਹਾਲਾਤ ਹੋਰ ਖਰਾਬ ਹੋ ਸਕਦੇ ਹਨ।,0,0,0,0,0,0,0,0,30,Moderate,synthetic_demo_data
+SYN-TXT-0229,Punjlish,Mainu darr aa ke help na mili taan situation hor kharab ho sakdi aa.,1,0,1,1,0,1,0,0,59,High,synthetic_demo_data
+SYN-TXT-0230,English,I am calm now and only want an update about my complaint.,0,0,0,0,0,0,0,0,20,Low,synthetic_demo_data
+SYN-TXT-0231,Punjabi,ਮੈਨੂੰ ਪਿੰਡ ਵਾਪਸ ਜਾਣ ਤੋਂ ਡਰ ਲੱਗਦਾ ਹੈ ਕਿਉਂਕਿ ਵਾਰ ਵਾਰ ਧਮਕੀਆਂ ਮਿਲ ਰਹੀਆਂ ਹਨ।,0,0,0,0,0,0,0,0,18,Low,synthetic_demo_data
+SYN-TXT-0232,Hindi,मामले में बहुत समय से देरी हो रही है और मुझे काफी चिंता हो रही है।,1,0,1,0,0,0,1,0,45,Moderate,synthetic_demo_data
+SYN-TXT-0233,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,0,1,1,1,0,1,1,0,80,Critical,synthetic_demo_data
+SYN-TXT-0234,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,0,0,0,0,0,0,1,0,28,Moderate,synthetic_demo_data
+SYN-TXT-0235,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,1,0,1,1,1,1,0,1,86,Critical,synthetic_demo_data
+SYN-TXT-0236,Punjlish,Mainu apni complaint te next steps bare information chahidi aa.,0,0,0,1,0,0,1,1,71,High,synthetic_demo_data
+SYN-TXT-0237,Hindi,मैं खुद को बहुत अकेला महसूस कर रहा हूं और समझ नहीं आ रहा कि मदद के लिए किससे संपर्क करूं।,0,0,1,1,0,0,0,0,30,Moderate,synthetic_demo_data
+SYN-TXT-0238,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,1,1,1,1,1,1,0,1,75,High,synthetic_demo_data
+SYN-TXT-0239,Hinglish,Main abhi theek hoon aur sirf complaint ka status jaana chahta hoon.,0,0,0,0,0,0,0,0,17,Low,synthetic_demo_data
+SYN-TXT-0240,Hinglish,Mujhe apni complaint aur next steps ki information chahiye.,0,0,0,0,0,0,0,0,14,Low,synthetic_demo_data
+SYN-TXT-0241,English,I am worried about going back to my village because of repeated threats.,1,1,1,0,0,0,0,1,57,High,synthetic_demo_data
+SYN-TXT-0242,Hinglish,Humein area chhodne ke liye kaha gaya aur humein support chahiye.,0,1,0,1,1,1,0,1,70,High,synthetic_demo_data
+SYN-TXT-0243,Punjabi,ਮੈਂ ਆਪਣੇ ਆਪ ਨੂੰ ਬਹੁਤ ਇਕੱਲਾ ਮਹਿਸੂਸ ਕਰਦਾ ਹਾਂ ਅਤੇ ਮਦਦ ਲਈ ਕਿਸ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂ ਇਹ ਨਹੀਂ ਪਤਾ।,0,0,0,0,1,0,0,0,15,Low,synthetic_demo_data
+SYN-TXT-0244,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,1,0,1,0,0,0,0,0,27,Moderate,synthetic_demo_data
+SYN-TXT-0245,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,1,1,0,0,0,0,0,0,29,Moderate,synthetic_demo_data
+SYN-TXT-0246,Punjlish,Main bahut akela feel kar reha te samajh nahi aa rahi help kithon lavaan.,1,1,0,1,1,1,1,1,60,High,synthetic_demo_data
+SYN-TXT-0247,English,I am calm now and only want an update about my complaint.,1,0,1,1,0,0,0,0,40,Moderate,synthetic_demo_data
+SYN-TXT-0248,English,We were asked to leave the area and we need help finding support.,0,0,0,0,0,0,0,1,29,Moderate,synthetic_demo_data
+SYN-TXT-0249,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,1,0,0,0,0,0,0,0,46,Moderate,synthetic_demo_data
+SYN-TXT-0250,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,1,0,0,0,1,0,0,0,34,Moderate,synthetic_demo_data
+SYN-TXT-0251,Hindi,मामले में बहुत समय से देरी हो रही है और मुझे काफी चिंता हो रही है।,1,1,1,1,1,1,0,1,68,High,synthetic_demo_data
+SYN-TXT-0252,Hindi,मैं खुद को बहुत अकेला महसूस कर रहा हूं और समझ नहीं आ रहा कि मदद के लिए किससे संपर्क करूं।,1,0,1,1,0,1,0,0,73,High,synthetic_demo_data
+SYN-TXT-0253,English,I am afraid that the situation may become worse if nobody helps us.,0,0,0,1,0,1,1,0,26,Moderate,synthetic_demo_data
+SYN-TXT-0254,English,I am worried about going back to my village because of repeated threats.,1,0,0,0,0,0,0,0,19,Low,synthetic_demo_data
+SYN-TXT-0255,Hindi,हमें इलाके से जाने के लिए कहा गया और हमें सहायता की जरूरत है।,0,0,0,0,0,0,0,0,14,Low,synthetic_demo_data
+SYN-TXT-0256,English,I need information about my complaint and the next steps.,1,1,1,0,1,1,1,1,57,High,synthetic_demo_data
+SYN-TXT-0257,Hinglish,Humein area chhodne ke liye kaha gaya aur humein support chahiye.,1,1,0,0,1,0,1,0,62,High,synthetic_demo_data
+SYN-TXT-0258,Hindi,अभी मैं ठीक हूं और सिर्फ अपनी शिकायत की स्थिति जानना चाहता हूं।,0,1,1,1,0,0,0,0,25,Low,synthetic_demo_data
+SYN-TXT-0259,Hinglish,Humein area chhodne ke liye kaha gaya aur humein support chahiye.,0,0,0,0,0,0,1,0,7,Low,synthetic_demo_data
+SYN-TXT-0260,Punjlish,Sanu area chhadn layi keha gaya te sanu support di lod aa.,0,0,0,0,1,0,1,1,41,Moderate,synthetic_demo_data
+SYN-TXT-0261,Punjabi,ਮੇਰੇ ਪਰਿਵਾਰ ਉੱਤੇ ਦਬਾਅ ਹੈ ਅਤੇ ਮੈਂ ਇਸ ਵੇਲੇ ਸੁਰੱਖਿਅਤ ਮਹਿਸੂਸ ਨਹੀਂ ਕਰ ਰਿਹਾ।,0,0,0,0,0,0,0,0,19,Low,synthetic_demo_data
+SYN-TXT-0262,Punjabi,ਮਾਮਲੇ ਵਿੱਚ ਕਾਫ਼ੀ ਦੇਰੀ ਹੋ ਰਹੀ ਹੈ ਅਤੇ ਮੈਨੂੰ ਬਹੁਤ ਚਿੰਤਾ ਹੋ ਰਹੀ ਹੈ।,0,1,0,1,1,1,1,1,67,High,synthetic_demo_data
+SYN-TXT-0263,Hindi,मेरे परिवार पर दबाव है और मुझे अभी सुरक्षित महसूस नहीं हो रहा है।,0,0,0,0,0,0,0,0,43,Moderate,synthetic_demo_data
+SYN-TXT-0264,Hindi,हमें इलाके से जाने के लिए कहा गया और हमें सहायता की जरूरत है।,0,0,0,0,1,0,0,0,19,Low,synthetic_demo_data
+SYN-TXT-0265,Hinglish,Mujhe apni complaint aur next steps ki information chahiye.,0,1,0,1,0,0,1,1,95,Critical,synthetic_demo_data
+SYN-TXT-0266,Punjabi,ਮੈਨੂੰ ਡਰ ਹੈ ਕਿ ਜੇ ਮਦਦ ਨਾ ਮਿਲੀ ਤਾਂ ਹਾਲਾਤ ਹੋਰ ਖਰਾਬ ਹੋ ਸਕਦੇ ਹਨ।,0,0,0,0,0,1,0,0,24,Low,synthetic_demo_data
+SYN-TXT-0267,Hinglish,Mujhe apni complaint aur next steps ki information chahiye.,0,0,1,0,0,0,0,0,12,Low,synthetic_demo_data
+SYN-TXT-0268,Hindi,मुझे डर है कि अगर मदद नहीं मिली तो स्थिति और खराब हो सकती है।,0,0,0,0,0,0,0,0,15,Low,synthetic_demo_data
+SYN-TXT-0269,Hinglish,Mujhe apni complaint aur next steps ki information chahiye.,0,0,0,0,0,0,0,0,19,Low,synthetic_demo_data
+SYN-TXT-0270,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,0,0,0,0,0,0,0,0,22,Low,synthetic_demo_data
+SYN-TXT-0271,Punjabi,ਸਾਨੂੰ ਇਲਾਕਾ ਛੱਡਣ ਲਈ ਕਿਹਾ ਗਿਆ ਅਤੇ ਸਾਨੂੰ ਸਹਾਇਤਾ ਦੀ ਲੋੜ ਹੈ।,0,0,1,0,0,0,0,0,24,Low,synthetic_demo_data
+SYN-TXT-0272,Punjlish,Mainu apni complaint te next steps bare information chahidi aa.,0,1,1,0,0,0,0,1,19,Low,synthetic_demo_data
+SYN-TXT-0273,Hindi,मामले में बहुत समय से देरी हो रही है और मुझे काफी चिंता हो रही है।,0,1,0,0,0,0,0,0,22,Low,synthetic_demo_data
+SYN-TXT-0274,Punjabi,ਸਾਨੂੰ ਇਲਾਕਾ ਛੱਡਣ ਲਈ ਕਿਹਾ ਗਿਆ ਅਤੇ ਸਾਨੂੰ ਸਹਾਇਤਾ ਦੀ ਲੋੜ ਹੈ।,0,0,0,0,0,0,0,0,37,Moderate,synthetic_demo_data
+SYN-TXT-0275,Hindi,मैं खुद को बहुत अकेला महसूस कर रहा हूं और समझ नहीं आ रहा कि मदद के लिए किससे संपर्क करूं।,0,1,1,0,0,0,1,0,75,High,synthetic_demo_data
+SYN-TXT-0276,English,I am afraid that the situation may become worse if nobody helps us.,0,1,0,0,0,0,0,0,47,Moderate,synthetic_demo_data
+SYN-TXT-0277,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,0,0,0,0,0,0,1,0,29,Moderate,synthetic_demo_data
+SYN-TXT-0278,Punjlish,Mainu pind wapas jaan ton darr lagda kyunki baar baar threats aa rahiyaan ne.,0,0,0,1,0,0,0,0,50,Moderate,synthetic_demo_data
+SYN-TXT-0279,Punjabi,ਮਾਮਲੇ ਵਿੱਚ ਕਾਫ਼ੀ ਦੇਰੀ ਹੋ ਰਹੀ ਹੈ ਅਤੇ ਮੈਨੂੰ ਬਹੁਤ ਚਿੰਤਾ ਹੋ ਰਹੀ ਹੈ।,1,1,1,1,0,1,1,1,76,Critical,synthetic_demo_data
+SYN-TXT-0280,English,I feel isolated and do not know whom to contact for help.,0,1,1,1,1,0,1,0,68,High,synthetic_demo_data
+SYN-TXT-0281,English,My family is under pressure and I do not feel safe right now.,0,0,0,0,0,0,0,0,10,Low,synthetic_demo_data
+SYN-TXT-0282,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,0,0,0,0,0,0,0,0,21,Low,synthetic_demo_data
+SYN-TXT-0283,Hindi,अभी मैं ठीक हूं और सिर्फ अपनी शिकायत की स्थिति जानना चाहता हूं।,0,0,0,0,0,0,0,0,17,Low,synthetic_demo_data
+SYN-TXT-0284,Hindi,मुझे गांव वापस जाने को लेकर बहुत डर लग रहा है क्योंकि बार-बार धमकियां मिल रही हैं।,0,0,1,0,0,0,0,0,22,Low,synthetic_demo_data
+SYN-TXT-0285,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,0,0,1,0,0,0,1,1,40,Moderate,synthetic_demo_data
+SYN-TXT-0286,Punjlish,Main bahut akela feel kar reha te samajh nahi aa rahi help kithon lavaan.,0,0,1,1,0,0,0,1,48,Moderate,synthetic_demo_data
+SYN-TXT-0287,Hindi,मुझे गांव वापस जाने को लेकर बहुत डर लग रहा है क्योंकि बार-बार धमकियां मिल रही हैं।,0,0,0,0,0,0,0,0,12,Low,synthetic_demo_data
+SYN-TXT-0288,English,I am calm now and only want an update about my complaint.,0,0,1,0,0,0,0,0,34,Moderate,synthetic_demo_data
+SYN-TXT-0289,Punjlish,Main bahut akela feel kar reha te samajh nahi aa rahi help kithon lavaan.,1,1,0,0,0,0,1,0,32,Moderate,synthetic_demo_data
+SYN-TXT-0290,Punjlish,Sanu area chhadn layi keha gaya te sanu support di lod aa.,0,1,0,0,0,0,0,0,16,Low,synthetic_demo_data
+SYN-TXT-0291,Punjabi,ਮੈਂ ਇਸ ਵੇਲੇ ਠੀਕ ਹਾਂ ਅਤੇ ਸਿਰਫ਼ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਦੀ ਸਥਿਤੀ ਜਾਣਨਾ ਚਾਹੁੰਦਾ ਹਾਂ।,1,1,1,1,1,1,1,1,64,High,synthetic_demo_data
+SYN-TXT-0292,English,I am worried about going back to my village because of repeated threats.,0,0,0,0,0,0,1,0,9,Low,synthetic_demo_data
+SYN-TXT-0293,Punjlish,Mere family te pressure aa te main hun safe feel nahi kar reha.,1,1,1,0,0,1,1,1,77,Critical,synthetic_demo_data
+SYN-TXT-0294,Hinglish,Mujhe apni complaint aur next steps ki information chahiye.,0,0,0,0,0,0,0,0,8,Low,synthetic_demo_data
+SYN-TXT-0295,Hindi,हमें इलाके से जाने के लिए कहा गया और हमें सहायता की जरूरत है।,1,1,0,1,1,1,1,1,53,High,synthetic_demo_data
+SYN-TXT-0296,Hindi,मामले में बहुत समय से देरी हो रही है और मुझे काफी चिंता हो रही है।,1,1,1,1,1,1,0,0,87,Critical,synthetic_demo_data
+SYN-TXT-0297,Punjlish,Mainu darr aa ke help na mili taan situation hor kharab ho sakdi aa.,1,0,1,1,0,0,1,1,89,Critical,synthetic_demo_data
+SYN-TXT-0298,Punjlish,Mainu pind wapas jaan ton darr lagda kyunki baar baar threats aa rahiyaan ne.,0,0,0,1,0,0,0,0,61,High,synthetic_demo_data
+SYN-TXT-0299,Hinglish,Humein area chhodne ke liye kaha gaya aur humein support chahiye.,1,0,1,0,0,0,1,1,71,High,synthetic_demo_data
+SYN-TXT-0300,Punjabi,ਮੈਨੂੰ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਅਤੇ ਅਗਲੇ ਕਦਮਾਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਚਾਹੀਦੀ ਹੈ।,0,1,0,1,1,1,1,0,53,High,synthetic_demo_data
+SYN-TXT-0301,Hinglish,Case mein bahut delay ho raha hai aur mujhe kaafi anxiety ho rahi hai.,1,1,1,0,1,0,1,1,71,High,synthetic_demo_data
+SYN-TXT-0302,English,The case has been delayed for a long time and I am becoming very anxious.,0,0,0,0,0,0,0,0,21,Low,synthetic_demo_data
+SYN-TXT-0303,Hindi,मामले में बहुत समय से देरी हो रही है और मुझे काफी चिंता हो रही है।,0,1,0,0,1,0,0,0,43,Moderate,synthetic_demo_data
+SYN-TXT-0304,Punjlish,Mainu pind wapas jaan ton darr lagda kyunki baar baar threats aa rahiyaan ne.,1,0,0,1,0,1,1,0,50,Moderate,synthetic_demo_data
+SYN-TXT-0305,Punjabi,ਮੈਂ ਆਪਣੇ ਆਪ ਨੂੰ ਬਹੁਤ ਇਕੱਲਾ ਮਹਿਸੂਸ ਕਰਦਾ ਹਾਂ ਅਤੇ ਮਦਦ ਲਈ ਕਿਸ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂ ਇਹ ਨਹੀਂ ਪਤਾ।,0,1,1,1,1,1,1,1,62,High,synthetic_demo_data
+SYN-TXT-0306,Hinglish,Main abhi theek hoon aur sirf complaint ka status jaana chahta hoon.,0,0,0,1,0,1,0,0,41,Moderate,synthetic_demo_data
+SYN-TXT-0307,English,My family is under pressure and I do not feel safe right now.,0,0,0,0,0,1,0,0,29,Moderate,synthetic_demo_data
+SYN-TXT-0308,Hindi,अभी मैं ठीक हूं और सिर्फ अपनी शिकायत की स्थिति जानना चाहता हूं।,1,1,1,1,1,1,1,0,74,High,synthetic_demo_data
+SYN-TXT-0309,Hinglish,Main abhi theek hoon aur sirf complaint ka status jaana chahta hoon.,0,0,0,0,0,0,0,0,15,Low,synthetic_demo_data
+SYN-TXT-0310,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,0,0,0,0,0,0,0,0,10,Low,synthetic_demo_data
+SYN-TXT-0311,Punjabi,ਮੈਨੂੰ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਅਤੇ ਅਗਲੇ ਕਦਮਾਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਚਾਹੀਦੀ ਹੈ।,0,1,0,0,0,0,0,0,42,Moderate,synthetic_demo_data
+SYN-TXT-0312,Punjabi,ਮੈਨੂੰ ਪਿੰਡ ਵਾਪਸ ਜਾਣ ਤੋਂ ਡਰ ਲੱਗਦਾ ਹੈ ਕਿਉਂਕਿ ਵਾਰ ਵਾਰ ਧਮਕੀਆਂ ਮਿਲ ਰਹੀਆਂ ਹਨ।,1,1,1,0,0,1,0,1,35,Moderate,synthetic_demo_data
+SYN-TXT-0313,Hindi,मैं खुद को बहुत अकेला महसूस कर रहा हूं और समझ नहीं आ रहा कि मदद के लिए किससे संपर्क करूं।,0,0,0,0,1,0,0,0,15,Low,synthetic_demo_data
+SYN-TXT-0314,English,I am calm now and only want an update about my complaint.,0,0,0,0,0,0,1,0,42,Moderate,synthetic_demo_data
+SYN-TXT-0315,Hinglish,Main abhi theek hoon aur sirf complaint ka status jaana chahta hoon.,0,0,1,0,0,0,0,0,26,Moderate,synthetic_demo_data
+SYN-TXT-0316,Punjabi,ਮੈਂ ਇਸ ਵੇਲੇ ਠੀਕ ਹਾਂ ਅਤੇ ਸਿਰਫ਼ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਦੀ ਸਥਿਤੀ ਜਾਣਨਾ ਚਾਹੁੰਦਾ ਹਾਂ।,0,0,1,0,0,0,0,0,47,Moderate,synthetic_demo_data
+SYN-TXT-0317,English,My family is under pressure and I do not feel safe right now.,0,0,0,0,0,0,0,0,31,Moderate,synthetic_demo_data
+SYN-TXT-0318,Punjabi,ਮੈਂ ਆਪਣੇ ਆਪ ਨੂੰ ਬਹੁਤ ਇਕੱਲਾ ਮਹਿਸੂਸ ਕਰਦਾ ਹਾਂ ਅਤੇ ਮਦਦ ਲਈ ਕਿਸ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂ ਇਹ ਨਹੀਂ ਪਤਾ।,1,1,1,0,1,1,1,1,51,High,synthetic_demo_data
+SYN-TXT-0319,Hindi,हमें इलाके से जाने के लिए कहा गया और हमें सहायता की जरूरत है।,0,0,0,0,0,0,0,0,20,Low,synthetic_demo_data
+SYN-TXT-0320,Hinglish,Mujhe apni complaint aur next steps ki information chahiye.,1,0,0,1,1,1,1,1,77,Critical,synthetic_demo_data
+SYN-TXT-0321,Punjlish,Mere family te pressure aa te main hun safe feel nahi kar reha.,1,1,1,1,1,0,1,1,87,Critical,synthetic_demo_data
+SYN-TXT-0322,English,I feel isolated and do not know whom to contact for help.,1,1,0,0,1,0,0,0,31,Moderate,synthetic_demo_data
+SYN-TXT-0323,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,1,0,0,0,0,0,1,0,32,Moderate,synthetic_demo_data
+SYN-TXT-0324,English,I feel isolated and do not know whom to contact for help.,0,0,1,0,0,0,1,0,28,Moderate,synthetic_demo_data
+SYN-TXT-0325,English,The case has been delayed for a long time and I am becoming very anxious.,1,1,1,1,1,0,1,0,67,High,synthetic_demo_data
+SYN-TXT-0326,Hindi,अभी मैं ठीक हूं और सिर्फ अपनी शिकायत की स्थिति जानना चाहता हूं।,1,0,1,1,1,0,0,0,62,High,synthetic_demo_data
+SYN-TXT-0327,Hinglish,Main bahut isolated feel kar raha hoon aur samajh nahi aa raha kisse help loon.,1,0,1,1,0,0,1,1,71,High,synthetic_demo_data
+SYN-TXT-0328,Punjlish,Sanu area chhadn layi keha gaya te sanu support di lod aa.,0,0,0,1,0,0,1,0,35,Moderate,synthetic_demo_data
+SYN-TXT-0329,English,I feel isolated and do not know whom to contact for help.,0,0,1,1,0,0,1,0,61,High,synthetic_demo_data
+SYN-TXT-0330,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,0,0,0,0,0,0,0,0,25,Low,synthetic_demo_data
+SYN-TXT-0331,Hinglish,Case mein bahut delay ho raha hai aur mujhe kaafi anxiety ho rahi hai.,1,1,1,1,1,0,1,1,55,High,synthetic_demo_data
+SYN-TXT-0332,Hindi,मेरे परिवार पर दबाव है और मुझे अभी सुरक्षित महसूस नहीं हो रहा है।,0,0,0,0,0,0,1,0,10,Low,synthetic_demo_data
+SYN-TXT-0333,Hinglish,Main abhi theek hoon aur sirf complaint ka status jaana chahta hoon.,0,1,1,1,0,0,0,0,65,High,synthetic_demo_data
+SYN-TXT-0334,Hinglish,Case mein bahut delay ho raha hai aur mujhe kaafi anxiety ho rahi hai.,1,0,1,0,0,0,1,1,64,High,synthetic_demo_data
+SYN-TXT-0335,Punjlish,Main hun theek haan te sirf complaint da status jaana chaunda haan.,0,0,0,0,0,0,0,0,17,Low,synthetic_demo_data
+SYN-TXT-0336,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,0,1,0,0,0,0,0,0,35,Moderate,synthetic_demo_data
+SYN-TXT-0337,English,We were asked to leave the area and we need help finding support.,0,1,0,0,0,0,0,0,6,Low,synthetic_demo_data
+SYN-TXT-0338,Hindi,हमें इलाके से जाने के लिए कहा गया और हमें सहायता की जरूरत है।,1,1,1,1,1,1,1,1,62,High,synthetic_demo_data
+SYN-TXT-0339,Hinglish,Humein area chhodne ke liye kaha gaya aur humein support chahiye.,1,0,1,0,0,0,0,0,8,Low,synthetic_demo_data
+SYN-TXT-0340,Hinglish,Mujhe apni complaint aur next steps ki information chahiye.,1,1,1,1,0,0,0,1,80,Critical,synthetic_demo_data
+SYN-TXT-0341,English,We were asked to leave the area and we need help finding support.,0,0,0,0,0,0,0,0,25,Low,synthetic_demo_data
+SYN-TXT-0342,Punjlish,Main bahut akela feel kar reha te samajh nahi aa rahi help kithon lavaan.,1,1,1,1,0,0,0,1,78,Critical,synthetic_demo_data
+SYN-TXT-0343,Punjlish,Mainu apni complaint te next steps bare information chahidi aa.,0,1,1,1,0,1,0,0,56,High,synthetic_demo_data
+SYN-TXT-0344,English,I feel isolated and do not know whom to contact for help.,0,0,0,0,0,1,0,0,27,Moderate,synthetic_demo_data
+SYN-TXT-0345,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,0,0,1,1,1,1,1,0,73,High,synthetic_demo_data
+SYN-TXT-0346,English,I am afraid that the situation may become worse if nobody helps us.,1,0,1,0,0,1,1,1,64,High,synthetic_demo_data
+SYN-TXT-0347,Hinglish,Main bahut isolated feel kar raha hoon aur samajh nahi aa raha kisse help loon.,1,0,1,1,0,1,0,1,88,Critical,synthetic_demo_data
+SYN-TXT-0348,Punjlish,Mere family te pressure aa te main hun safe feel nahi kar reha.,0,0,0,0,0,0,0,0,12,Low,synthetic_demo_data
+SYN-TXT-0349,Punjabi,ਮੈਨੂੰ ਡਰ ਹੈ ਕਿ ਜੇ ਮਦਦ ਨਾ ਮਿਲੀ ਤਾਂ ਹਾਲਾਤ ਹੋਰ ਖਰਾਬ ਹੋ ਸਕਦੇ ਹਨ।,0,0,0,0,0,0,0,0,38,Moderate,synthetic_demo_data
+SYN-TXT-0350,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,0,0,0,1,0,0,0,0,15,Low,synthetic_demo_data
+SYN-TXT-0351,Punjlish,Mere family te pressure aa te main hun safe feel nahi kar reha.,0,1,0,1,0,0,0,0,32,Moderate,synthetic_demo_data
+SYN-TXT-0352,English,I am worried about going back to my village because of repeated threats.,0,0,0,0,0,0,0,0,6,Low,synthetic_demo_data
+SYN-TXT-0353,English,I am afraid that the situation may become worse if nobody helps us.,0,1,1,0,0,0,0,0,31,Moderate,synthetic_demo_data
+SYN-TXT-0354,Hindi,अभी मैं ठीक हूं और सिर्फ अपनी शिकायत की स्थिति जानना चाहता हूं।,1,0,0,0,0,0,0,0,46,Moderate,synthetic_demo_data
+SYN-TXT-0355,Hinglish,Mujhe apni complaint aur next steps ki information chahiye.,1,0,1,0,0,0,1,0,47,Moderate,synthetic_demo_data
+SYN-TXT-0356,Punjabi,ਮੈਨੂੰ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਅਤੇ ਅਗਲੇ ਕਦਮਾਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਚਾਹੀਦੀ ਹੈ।,1,1,1,0,0,0,1,0,47,Moderate,synthetic_demo_data
+SYN-TXT-0357,Punjabi,ਮੈਂ ਆਪਣੇ ਆਪ ਨੂੰ ਬਹੁਤ ਇਕੱਲਾ ਮਹਿਸੂਸ ਕਰਦਾ ਹਾਂ ਅਤੇ ਮਦਦ ਲਈ ਕਿਸ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂ ਇਹ ਨਹੀਂ ਪਤਾ।,0,0,0,1,0,1,1,0,63,High,synthetic_demo_data
+SYN-TXT-0358,Punjlish,Mainu pind wapas jaan ton darr lagda kyunki baar baar threats aa rahiyaan ne.,0,1,1,0,1,0,0,0,68,High,synthetic_demo_data
+SYN-TXT-0359,Hindi,मामले में बहुत समय से देरी हो रही है और मुझे काफी चिंता हो रही है।,0,1,1,0,1,0,1,0,36,Moderate,synthetic_demo_data
+SYN-TXT-0360,Hinglish,Main bahut isolated feel kar raha hoon aur samajh nahi aa raha kisse help loon.,0,1,0,0,1,0,0,0,30,Moderate,synthetic_demo_data
+SYN-TXT-0361,Punjabi,ਮੈਨੂੰ ਪਿੰਡ ਵਾਪਸ ਜਾਣ ਤੋਂ ਡਰ ਲੱਗਦਾ ਹੈ ਕਿਉਂਕਿ ਵਾਰ ਵਾਰ ਧਮਕੀਆਂ ਮਿਲ ਰਹੀਆਂ ਹਨ।,1,1,1,1,1,0,1,1,84,Critical,synthetic_demo_data
+SYN-TXT-0362,Hinglish,Mere family par pressure hai aur mujhe abhi safe feel nahi ho raha.,0,0,0,1,0,0,0,0,8,Low,synthetic_demo_data
+SYN-TXT-0363,Hindi,मुझे डर है कि अगर मदद नहीं मिली तो स्थिति और खराब हो सकती है।,0,0,1,0,0,0,0,0,11,Low,synthetic_demo_data
+SYN-TXT-0364,English,I feel isolated and do not know whom to contact for help.,0,0,0,0,0,0,0,0,15,Low,synthetic_demo_data
+SYN-TXT-0365,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,1,0,0,1,0,0,0,1,59,High,synthetic_demo_data
+SYN-TXT-0366,Hindi,मामले में बहुत समय से देरी हो रही है और मुझे काफी चिंता हो रही है।,1,0,0,1,0,0,0,0,27,Moderate,synthetic_demo_data
+SYN-TXT-0367,English,I am calm now and only want an update about my complaint.,0,0,1,1,1,1,1,1,69,High,synthetic_demo_data
+SYN-TXT-0368,Punjabi,ਮੈਂ ਆਪਣੇ ਆਪ ਨੂੰ ਬਹੁਤ ਇਕੱਲਾ ਮਹਿਸੂਸ ਕਰਦਾ ਹਾਂ ਅਤੇ ਮਦਦ ਲਈ ਕਿਸ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂ ਇਹ ਨਹੀਂ ਪਤਾ।,1,0,1,1,1,0,0,1,61,High,synthetic_demo_data
+SYN-TXT-0369,Punjlish,Mere family te pressure aa te main hun safe feel nahi kar reha.,0,1,0,0,0,0,0,0,48,Moderate,synthetic_demo_data
+SYN-TXT-0370,Hinglish,Main abhi theek hoon aur sirf complaint ka status jaana chahta hoon.,1,0,1,1,1,1,1,1,91,Critical,synthetic_demo_data
+SYN-TXT-0371,Hindi,मुझे डर है कि अगर मदद नहीं मिली तो स्थिति और खराब हो सकती है।,1,1,1,1,1,0,0,1,70,High,synthetic_demo_data
+SYN-TXT-0372,Hinglish,Main abhi theek hoon aur sirf complaint ka status jaana chahta hoon.,0,0,0,0,0,0,0,0,14,Low,synthetic_demo_data
+SYN-TXT-0373,Punjlish,Mainu apni complaint te next steps bare information chahidi aa.,1,0,1,0,0,0,1,0,49,Moderate,synthetic_demo_data
+SYN-TXT-0374,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,0,0,0,1,0,0,1,0,44,Moderate,synthetic_demo_data
+SYN-TXT-0375,Punjabi,ਸਾਨੂੰ ਇਲਾਕਾ ਛੱਡਣ ਲਈ ਕਿਹਾ ਗਿਆ ਅਤੇ ਸਾਨੂੰ ਸਹਾਇਤਾ ਦੀ ਲੋੜ ਹੈ।,1,0,0,0,0,0,1,0,8,Low,synthetic_demo_data
+SYN-TXT-0376,Hindi,हमें इलाके से जाने के लिए कहा गया और हमें सहायता की जरूरत है।,0,0,0,0,0,0,1,0,10,Low,synthetic_demo_data
+SYN-TXT-0377,English,I feel isolated and do not know whom to contact for help.,1,1,1,1,0,1,1,0,87,Critical,synthetic_demo_data
+SYN-TXT-0378,Hinglish,Mujhe darr hai ki help na mili to situation aur worse ho sakti hai.,1,0,0,0,0,0,1,0,44,Moderate,synthetic_demo_data
+SYN-TXT-0379,Hindi,अभी मैं ठीक हूं और सिर्फ अपनी शिकायत की स्थिति जानना चाहता हूं।,1,0,1,0,0,0,0,0,27,Moderate,synthetic_demo_data
+SYN-TXT-0380,Punjabi,ਮਾਮਲੇ ਵਿੱਚ ਕਾਫ਼ੀ ਦੇਰੀ ਹੋ ਰਹੀ ਹੈ ਅਤੇ ਮੈਨੂੰ ਬਹੁਤ ਚਿੰਤਾ ਹੋ ਰਹੀ ਹੈ।,1,0,1,1,0,1,1,0,73,High,synthetic_demo_data
+SYN-TXT-0381,Hindi,मुझे गांव वापस जाने को लेकर बहुत डर लग रहा है क्योंकि बार-बार धमकियां मिल रही हैं।,1,0,0,0,0,0,0,0,48,Moderate,synthetic_demo_data
+SYN-TXT-0382,Hindi,मैं खुद को बहुत अकेला महसूस कर रहा हूं और समझ नहीं आ रहा कि मदद के लिए किससे संपर्क करूं।,0,0,1,1,1,1,1,1,78,Critical,synthetic_demo_data
+SYN-TXT-0383,Punjabi,ਮਾਮਲੇ ਵਿੱਚ ਕਾਫ਼ੀ ਦੇਰੀ ਹੋ ਰਹੀ ਹੈ ਅਤੇ ਮੈਨੂੰ ਬਹੁਤ ਚਿੰਤਾ ਹੋ ਰਹੀ ਹੈ।,1,1,0,0,0,1,0,0,62,High,synthetic_demo_data
+SYN-TXT-0384,English,I am worried about going back to my village because of repeated threats.,1,0,1,0,0,1,1,0,32,Moderate,synthetic_demo_data
+SYN-TXT-0385,Punjlish,Mainu pind wapas jaan ton darr lagda kyunki baar baar threats aa rahiyaan ne.,1,1,0,1,0,0,0,0,47,Moderate,synthetic_demo_data
+SYN-TXT-0386,Punjabi,ਮੈਨੂੰ ਪਿੰਡ ਵਾਪਸ ਜਾਣ ਤੋਂ ਡਰ ਲੱਗਦਾ ਹੈ ਕਿਉਂਕਿ ਵਾਰ ਵਾਰ ਧਮਕੀਆਂ ਮਿਲ ਰਹੀਆਂ ਹਨ।,1,1,1,1,0,0,1,1,92,Critical,synthetic_demo_data
+SYN-TXT-0387,Hindi,मैं खुद को बहुत अकेला महसूस कर रहा हूं और समझ नहीं आ रहा कि मदद के लिए किससे संपर्क करूं।,0,1,1,0,1,0,1,0,68,High,synthetic_demo_data
+SYN-TXT-0388,English,The case has been delayed for a long time and I am becoming very anxious.,1,1,1,1,1,1,1,0,82,Critical,synthetic_demo_data
+SYN-TXT-0389,Punjlish,Mainu apni complaint te next steps bare information chahidi aa.,0,0,0,0,0,0,0,0,20,Low,synthetic_demo_data
+SYN-TXT-0390,Hindi,मामले में बहुत समय से देरी हो रही है और मुझे काफी चिंता हो रही है।,0,1,1,1,1,0,0,0,69,High,synthetic_demo_data
+SYN-TXT-0391,Hinglish,Mere family par pressure hai aur mujhe abhi safe feel nahi ho raha.,1,1,1,1,1,1,1,0,57,High,synthetic_demo_data
+SYN-TXT-0392,Hinglish,Case mein bahut delay ho raha hai aur mujhe kaafi anxiety ho rahi hai.,0,0,0,0,0,0,0,0,23,Low,synthetic_demo_data
+SYN-TXT-0393,Punjlish,Sanu area chhadn layi keha gaya te sanu support di lod aa.,1,0,0,0,0,0,1,0,41,Moderate,synthetic_demo_data
+SYN-TXT-0394,Hindi,मुझे डर है कि अगर मदद नहीं मिली तो स्थिति और खराब हो सकती है।,0,0,1,1,0,1,1,0,73,High,synthetic_demo_data
+SYN-TXT-0395,Punjabi,ਮੈਨੂੰ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਅਤੇ ਅਗਲੇ ਕਦਮਾਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਚਾਹੀਦੀ ਹੈ।,1,0,0,0,0,0,0,0,22,Low,synthetic_demo_data
+SYN-TXT-0396,Punjlish,Mainu pind wapas jaan ton darr lagda kyunki baar baar threats aa rahiyaan ne.,0,0,1,0,0,0,0,0,39,Moderate,synthetic_demo_data
+SYN-TXT-0397,Hinglish,Mere family par pressure hai aur mujhe abhi safe feel nahi ho raha.,0,1,1,0,0,0,1,1,70,High,synthetic_demo_data
+SYN-TXT-0398,English,The case has been delayed for a long time and I am becoming very anxious.,1,0,0,0,0,0,0,0,14,Low,synthetic_demo_data
+SYN-TXT-0399,English,My family is under pressure and I do not feel safe right now.,0,1,0,0,1,0,0,0,50,Moderate,synthetic_demo_data
+SYN-TXT-0400,English,The case has been delayed for a long time and I am becoming very anxious.,0,0,1,1,1,0,0,0,37,Moderate,synthetic_demo_data
+SYN-TXT-0401,Hinglish,Humein area chhodne ke liye kaha gaya aur humein support chahiye.,0,0,0,0,0,0,0,1,44,Moderate,synthetic_demo_data
+SYN-TXT-0402,Punjabi,ਮੈਨੂੰ ਡਰ ਹੈ ਕਿ ਜੇ ਮਦਦ ਨਾ ਮਿਲੀ ਤਾਂ ਹਾਲਾਤ ਹੋਰ ਖਰਾਬ ਹੋ ਸਕਦੇ ਹਨ।,1,1,1,1,0,1,1,1,86,Critical,synthetic_demo_data
+SYN-TXT-0403,Punjlish,Main hun theek haan te sirf complaint da status jaana chaunda haan.,0,1,1,0,0,1,0,1,71,High,synthetic_demo_data
+SYN-TXT-0404,English,I am calm now and only want an update about my complaint.,0,0,0,0,0,0,1,0,8,Low,synthetic_demo_data
+SYN-TXT-0405,Hinglish,Main abhi theek hoon aur sirf complaint ka status jaana chahta hoon.,1,1,1,1,1,0,1,1,87,Critical,synthetic_demo_data
+SYN-TXT-0406,Hindi,अभी मैं ठीक हूं और सिर्फ अपनी शिकायत की स्थिति जानना चाहता हूं।,0,1,1,1,1,1,1,1,86,Critical,synthetic_demo_data
+SYN-TXT-0407,Hindi,मामले में बहुत समय से देरी हो रही है और मुझे काफी चिंता हो रही है।,0,0,0,0,0,0,0,0,17,Low,synthetic_demo_data
+SYN-TXT-0408,English,I am afraid that the situation may become worse if nobody helps us.,1,1,0,0,1,0,1,0,65,High,synthetic_demo_data
+SYN-TXT-0409,Punjlish,Mere family te pressure aa te main hun safe feel nahi kar reha.,0,0,0,0,0,0,0,0,18,Low,synthetic_demo_data
+SYN-TXT-0410,Hindi,मुझे डर है कि अगर मदद नहीं मिली तो स्थिति और खराब हो सकती है।,1,1,1,0,1,0,1,1,79,Critical,synthetic_demo_data
+SYN-TXT-0411,English,The case has been delayed for a long time and I am becoming very anxious.,0,1,0,0,0,0,1,1,69,High,synthetic_demo_data
+SYN-TXT-0412,Hindi,हमें इलाके से जाने के लिए कहा गया और हमें सहायता की जरूरत है।,1,1,1,1,0,1,0,0,72,High,synthetic_demo_data
+SYN-TXT-0413,Hindi,मेरे परिवार पर दबाव है और मुझे अभी सुरक्षित महसूस नहीं हो रहा है।,0,0,0,0,0,0,0,0,18,Low,synthetic_demo_data
+SYN-TXT-0414,Punjlish,Mainu darr aa ke help na mili taan situation hor kharab ho sakdi aa.,1,1,1,1,1,1,0,1,86,Critical,synthetic_demo_data
+SYN-TXT-0415,Hinglish,Mujhe village wapas jaane mein darr lag raha hai kyunki baar baar threats mil rahi hain.,0,0,0,0,0,0,0,0,9,Low,synthetic_demo_data
+SYN-TXT-0416,Hindi,मेरे परिवार पर दबाव है और मुझे अभी सुरक्षित महसूस नहीं हो रहा है।,0,0,1,0,0,0,0,0,5,Low,synthetic_demo_data
+SYN-TXT-0417,Punjabi,ਮਾਮਲੇ ਵਿੱਚ ਕਾਫ਼ੀ ਦੇਰੀ ਹੋ ਰਹੀ ਹੈ ਅਤੇ ਮੈਨੂੰ ਬਹੁਤ ਚਿੰਤਾ ਹੋ ਰਹੀ ਹੈ।,0,0,0,0,0,0,0,0,9,Low,synthetic_demo_data
+SYN-TXT-0418,Hindi,हमें इलाके से जाने के लिए कहा गया और हमें सहायता की जरूरत है।,1,0,1,1,0,0,1,0,66,High,synthetic_demo_data
+SYN-TXT-0419,Punjlish,Mainu pind wapas jaan ton darr lagda kyunki baar baar threats aa rahiyaan ne.,0,0,0,0,0,0,0,0,18,Low,synthetic_demo_data
+SYN-TXT-0420,Hinglish,Main bahut isolated feel kar raha hoon aur samajh nahi aa raha kisse help loon.,1,1,1,1,1,0,1,1,89,Critical,synthetic_demo_data
+SYN-TXT-0421,Hinglish,Case mein bahut delay ho raha hai aur mujhe kaafi anxiety ho rahi hai.,1,1,0,0,0,0,0,0,61,High,synthetic_demo_data
+SYN-TXT-0422,Hindi,मैं खुद को बहुत अकेला महसूस कर रहा हूं और समझ नहीं आ रहा कि मदद के लिए किससे संपर्क करूं।,1,1,0,1,0,0,0,0,17,Low,synthetic_demo_data
+SYN-TXT-0423,Punjabi,ਮੈਨੂੰ ਡਰ ਹੈ ਕਿ ਜੇ ਮਦਦ ਨਾ ਮਿਲੀ ਤਾਂ ਹਾਲਾਤ ਹੋਰ ਖਰਾਬ ਹੋ ਸਕਦੇ ਹਨ।,0,0,0,0,0,0,0,0,25,Low,synthetic_demo_data
+SYN-TXT-0424,English,I feel isolated and do not know whom to contact for help.,0,0,0,0,0,0,0,0,25,Low,synthetic_demo_data
+SYN-TXT-0425,Punjabi,ਮੈਨੂੰ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਅਤੇ ਅਗਲੇ ਕਦਮਾਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਚਾਹੀਦੀ ਹੈ।,1,1,1,1,0,0,0,0,32,Moderate,synthetic_demo_data
+SYN-TXT-0426,Punjabi,ਮਾਮਲੇ ਵਿੱਚ ਕਾਫ਼ੀ ਦੇਰੀ ਹੋ ਰਹੀ ਹੈ ਅਤੇ ਮੈਨੂੰ ਬਹੁਤ ਚਿੰਤਾ ਹੋ ਰਹੀ ਹੈ।,1,1,1,0,1,0,1,1,58,High,synthetic_demo_data
+SYN-TXT-0427,Punjlish,Mainu pind wapas jaan ton darr lagda kyunki baar baar threats aa rahiyaan ne.,0,0,1,0,0,0,0,0,22,Low,synthetic_demo_data
+SYN-TXT-0428,Punjabi,ਮੈਨੂੰ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਅਤੇ ਅਗਲੇ ਕਦਮਾਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਚਾਹੀਦੀ ਹੈ।,1,1,0,0,0,0,0,0,69,High,synthetic_demo_data
+SYN-TXT-0429,Punjlish,Mere family te pressure aa te main hun safe feel nahi kar reha.,1,0,0,0,0,0,0,0,13,Low,synthetic_demo_data
+SYN-TXT-0430,Hinglish,Main abhi theek hoon aur sirf complaint ka status jaana chahta hoon.,0,1,0,0,0,1,1,0,69,High,synthetic_demo_data
+SYN-TXT-0431,English,The case has been delayed for a long time and I am becoming very anxious.,1,1,1,1,1,0,0,1,89,Critical,synthetic_demo_data
+SYN-TXT-0432,Hindi,मेरे परिवार पर दबाव है और मुझे अभी सुरक्षित महसूस नहीं हो रहा है।,0,1,1,1,1,0,0,0,62,High,synthetic_demo_data
+SYN-TXT-0433,Hinglish,Mujhe darr hai ki help na mili to situation aur worse ho sakti hai.,1,0,0,1,0,1,0,1,67,High,synthetic_demo_data
+SYN-TXT-0434,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,1,1,1,1,1,0,0,1,52,High,synthetic_demo_data
+SYN-TXT-0435,Hinglish,Main bahut isolated feel kar raha hoon aur samajh nahi aa raha kisse help loon.,0,0,0,0,0,0,0,0,20,Low,synthetic_demo_data
+SYN-TXT-0436,English,I am afraid that the situation may become worse if nobody helps us.,0,1,0,0,0,0,1,0,6,Low,synthetic_demo_data
+SYN-TXT-0437,English,I am calm now and only want an update about my complaint.,1,0,0,0,0,0,1,0,7,Low,synthetic_demo_data
+SYN-TXT-0438,Punjlish,Main bahut akela feel kar reha te samajh nahi aa rahi help kithon lavaan.,1,0,0,0,1,0,0,0,37,Moderate,synthetic_demo_data
+SYN-TXT-0439,Punjlish,Mainu apni complaint te next steps bare information chahidi aa.,0,1,1,1,1,0,0,1,57,High,synthetic_demo_data
+SYN-TXT-0440,Hindi,हमें इलाके से जाने के लिए कहा गया और हमें सहायता की जरूरत है।,1,1,1,0,1,1,1,1,51,High,synthetic_demo_data
+SYN-TXT-0441,English,I need information about my complaint and the next steps.,1,1,0,0,1,0,0,0,60,High,synthetic_demo_data
+SYN-TXT-0442,English,I feel isolated and do not know whom to contact for help.,0,0,0,0,0,0,0,0,14,Low,synthetic_demo_data
+SYN-TXT-0443,Punjabi,ਮੈਨੂੰ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਅਤੇ ਅਗਲੇ ਕਦਮਾਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਚਾਹੀਦੀ ਹੈ।,0,1,1,1,0,0,0,0,71,High,synthetic_demo_data
+SYN-TXT-0444,Punjabi,ਸਾਨੂੰ ਇਲਾਕਾ ਛੱਡਣ ਲਈ ਕਿਹਾ ਗਿਆ ਅਤੇ ਸਾਨੂੰ ਸਹਾਇਤਾ ਦੀ ਲੋੜ ਹੈ।,0,0,0,0,0,0,0,0,9,Low,synthetic_demo_data
+SYN-TXT-0445,English,The case has been delayed for a long time and I am becoming very anxious.,0,0,0,0,0,0,0,0,16,Low,synthetic_demo_data
+SYN-TXT-0446,Hinglish,Main abhi theek hoon aur sirf complaint ka status jaana chahta hoon.,1,0,1,1,1,0,1,1,74,High,synthetic_demo_data
+SYN-TXT-0447,Hinglish,Mere family par pressure hai aur mujhe abhi safe feel nahi ho raha.,1,0,1,1,1,0,1,1,90,Critical,synthetic_demo_data
+SYN-TXT-0448,Punjabi,ਮੈਨੂੰ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਅਤੇ ਅਗਲੇ ਕਦਮਾਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਚਾਹੀਦੀ ਹੈ।,0,0,1,0,0,0,1,0,41,Moderate,synthetic_demo_data
+SYN-TXT-0449,Punjlish,Mere family te pressure aa te main hun safe feel nahi kar reha.,0,0,0,0,1,0,0,0,21,Low,synthetic_demo_data
+SYN-TXT-0450,Hinglish,Main abhi theek hoon aur sirf complaint ka status jaana chahta hoon.,1,1,1,0,0,0,1,0,47,Moderate,synthetic_demo_data
+SYN-TXT-0451,Hindi,मुझे गांव वापस जाने को लेकर बहुत डर लग रहा है क्योंकि बार-बार धमकियां मिल रही हैं।,0,0,0,0,0,0,0,0,17,Low,synthetic_demo_data
+SYN-TXT-0452,Punjlish,Main bahut akela feel kar reha te samajh nahi aa rahi help kithon lavaan.,1,1,1,1,1,1,0,1,87,Critical,synthetic_demo_data
+SYN-TXT-0453,Hinglish,Main bahut isolated feel kar raha hoon aur samajh nahi aa raha kisse help loon.,0,0,1,1,1,0,0,1,70,High,synthetic_demo_data
+SYN-TXT-0454,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,0,0,0,0,0,0,0,0,23,Low,synthetic_demo_data
+SYN-TXT-0455,English,I feel isolated and do not know whom to contact for help.,0,0,0,0,0,0,0,0,10,Low,synthetic_demo_data
+SYN-TXT-0456,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,1,0,0,0,0,0,0,0,21,Low,synthetic_demo_data
+SYN-TXT-0457,Hinglish,Case mein bahut delay ho raha hai aur mujhe kaafi anxiety ho rahi hai.,1,1,1,1,1,1,1,1,83,Critical,synthetic_demo_data
+SYN-TXT-0458,Hinglish,Humein area chhodne ke liye kaha gaya aur humein support chahiye.,1,0,0,0,0,0,1,0,34,Moderate,synthetic_demo_data
+SYN-TXT-0459,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,0,1,1,1,1,0,1,0,74,High,synthetic_demo_data
+SYN-TXT-0460,Punjlish,Mere family te pressure aa te main hun safe feel nahi kar reha.,0,0,1,1,0,0,0,1,71,High,synthetic_demo_data
+SYN-TXT-0461,Punjabi,ਮੈਨੂੰ ਪਿੰਡ ਵਾਪਸ ਜਾਣ ਤੋਂ ਡਰ ਲੱਗਦਾ ਹੈ ਕਿਉਂਕਿ ਵਾਰ ਵਾਰ ਧਮਕੀਆਂ ਮਿਲ ਰਹੀਆਂ ਹਨ।,0,1,1,0,0,0,0,0,36,Moderate,synthetic_demo_data
+SYN-TXT-0462,Hindi,मैं खुद को बहुत अकेला महसूस कर रहा हूं और समझ नहीं आ रहा कि मदद के लिए किससे संपर्क करूं।,0,1,0,0,0,0,0,0,16,Low,synthetic_demo_data
+SYN-TXT-0463,Punjabi,ਮੈਨੂੰ ਪਿੰਡ ਵਾਪਸ ਜਾਣ ਤੋਂ ਡਰ ਲੱਗਦਾ ਹੈ ਕਿਉਂਕਿ ਵਾਰ ਵਾਰ ਧਮਕੀਆਂ ਮਿਲ ਰਹੀਆਂ ਹਨ।,1,1,1,1,0,1,0,1,94,Critical,synthetic_demo_data
+SYN-TXT-0464,Punjabi,ਮੈਂ ਆਪਣੇ ਆਪ ਨੂੰ ਬਹੁਤ ਇਕੱਲਾ ਮਹਿਸੂਸ ਕਰਦਾ ਹਾਂ ਅਤੇ ਮਦਦ ਲਈ ਕਿਸ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂ ਇਹ ਨਹੀਂ ਪਤਾ।,0,1,0,1,0,0,1,0,28,Moderate,synthetic_demo_data
+SYN-TXT-0465,Hinglish,Mujhe darr hai ki help na mili to situation aur worse ho sakti hai.,1,1,1,0,0,0,0,0,41,Moderate,synthetic_demo_data
+SYN-TXT-0466,Hinglish,Humein area chhodne ke liye kaha gaya aur humein support chahiye.,0,1,1,0,1,0,1,1,58,High,synthetic_demo_data
+SYN-TXT-0467,Punjlish,Mainu pind wapas jaan ton darr lagda kyunki baar baar threats aa rahiyaan ne.,1,1,1,0,1,1,1,0,62,High,synthetic_demo_data
+SYN-TXT-0468,English,I feel isolated and do not know whom to contact for help.,1,1,1,0,1,1,1,1,86,Critical,synthetic_demo_data
+SYN-TXT-0469,Hindi,मुझे गांव वापस जाने को लेकर बहुत डर लग रहा है क्योंकि बार-बार धमकियां मिल रही हैं।,0,0,0,0,0,0,0,0,14,Low,synthetic_demo_data
+SYN-TXT-0470,Punjlish,Main hun theek haan te sirf complaint da status jaana chaunda haan.,1,0,0,0,0,0,1,0,38,Moderate,synthetic_demo_data
+SYN-TXT-0471,English,We were asked to leave the area and we need help finding support.,0,0,1,0,0,0,0,0,34,Moderate,synthetic_demo_data
+SYN-TXT-0472,Hindi,हमें इलाके से जाने के लिए कहा गया और हमें सहायता की जरूरत है।,0,0,1,0,0,0,0,0,30,Moderate,synthetic_demo_data
+SYN-TXT-0473,Hindi,मुझे गांव वापस जाने को लेकर बहुत डर लग रहा है क्योंकि बार-बार धमकियां मिल रही हैं।,0,0,0,0,0,0,1,1,12,Low,synthetic_demo_data
+SYN-TXT-0474,Punjlish,Main hun theek haan te sirf complaint da status jaana chaunda haan.,0,0,0,0,0,0,0,0,11,Low,synthetic_demo_data
+SYN-TXT-0475,Hinglish,Main bahut isolated feel kar raha hoon aur samajh nahi aa raha kisse help loon.,0,0,0,0,0,0,0,0,24,Low,synthetic_demo_data
+SYN-TXT-0476,Punjabi,ਮੈਨੂੰ ਪਿੰਡ ਵਾਪਸ ਜਾਣ ਤੋਂ ਡਰ ਲੱਗਦਾ ਹੈ ਕਿਉਂਕਿ ਵਾਰ ਵਾਰ ਧਮਕੀਆਂ ਮਿਲ ਰਹੀਆਂ ਹਨ।,0,0,0,0,0,1,0,0,41,Moderate,synthetic_demo_data
+SYN-TXT-0477,Punjabi,ਸਾਨੂੰ ਇਲਾਕਾ ਛੱਡਣ ਲਈ ਕਿਹਾ ਗਿਆ ਅਤੇ ਸਾਨੂੰ ਸਹਾਇਤਾ ਦੀ ਲੋੜ ਹੈ।,1,0,1,0,1,0,1,0,47,Moderate,synthetic_demo_data
+SYN-TXT-0478,Hindi,मुझे गांव वापस जाने को लेकर बहुत डर लग रहा है क्योंकि बार-बार धमकियां मिल रही हैं।,0,0,1,0,0,0,0,1,37,Moderate,synthetic_demo_data
+SYN-TXT-0479,Hindi,मैं खुद को बहुत अकेला महसूस कर रहा हूं और समझ नहीं आ रहा कि मदद के लिए किससे संपर्क करूं।,0,1,1,1,1,0,1,1,63,High,synthetic_demo_data
+SYN-TXT-0480,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,1,0,1,0,0,0,0,0,43,Moderate,synthetic_demo_data
+SYN-TXT-0481,Punjlish,Mainu apni complaint te next steps bare information chahidi aa.,0,1,0,0,0,0,1,0,45,Moderate,synthetic_demo_data
+SYN-TXT-0482,Hinglish,Mujhe village wapas jaane mein darr lag raha hai kyunki baar baar threats mil rahi hain.,0,0,1,0,0,0,0,0,7,Low,synthetic_demo_data
+SYN-TXT-0483,Hindi,मैं खुद को बहुत अकेला महसूस कर रहा हूं और समझ नहीं आ रहा कि मदद के लिए किससे संपर्क करूं।,0,0,0,0,0,0,0,0,33,Moderate,synthetic_demo_data
+SYN-TXT-0484,Hinglish,Case mein bahut delay ho raha hai aur mujhe kaafi anxiety ho rahi hai.,0,0,1,0,0,1,1,0,35,Moderate,synthetic_demo_data
+SYN-TXT-0485,English,I am afraid that the situation may become worse if nobody helps us.,0,0,0,0,0,0,1,0,17,Low,synthetic_demo_data
+SYN-TXT-0486,English,My family is under pressure and I do not feel safe right now.,1,1,0,0,0,0,0,1,46,Moderate,synthetic_demo_data
+SYN-TXT-0487,Punjabi,ਮੈਂ ਇਸ ਵੇਲੇ ਠੀਕ ਹਾਂ ਅਤੇ ਸਿਰਫ਼ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਦੀ ਸਥਿਤੀ ਜਾਣਨਾ ਚਾਹੁੰਦਾ ਹਾਂ।,0,0,0,1,1,0,0,1,44,Moderate,synthetic_demo_data
+SYN-TXT-0488,Hinglish,Mere family par pressure hai aur mujhe abhi safe feel nahi ho raha.,1,0,0,0,0,0,0,0,6,Low,synthetic_demo_data
+SYN-TXT-0489,Punjabi,ਮੈਨੂੰ ਡਰ ਹੈ ਕਿ ਜੇ ਮਦਦ ਨਾ ਮਿਲੀ ਤਾਂ ਹਾਲਾਤ ਹੋਰ ਖਰਾਬ ਹੋ ਸਕਦੇ ਹਨ।,0,0,1,0,0,0,0,0,26,Moderate,synthetic_demo_data
+SYN-TXT-0490,Hinglish,Main abhi theek hoon aur sirf complaint ka status jaana chahta hoon.,0,0,1,1,0,0,0,1,45,Moderate,synthetic_demo_data
+SYN-TXT-0491,Hindi,अभी मैं ठीक हूं और सिर्फ अपनी शिकायत की स्थिति जानना चाहता हूं।,0,1,1,1,1,1,1,1,59,High,synthetic_demo_data
+SYN-TXT-0492,Hinglish,Mere family par pressure hai aur mujhe abhi safe feel nahi ho raha.,1,1,1,0,1,0,0,0,74,High,synthetic_demo_data
+SYN-TXT-0493,Punjlish,Sanu area chhadn layi keha gaya te sanu support di lod aa.,1,1,0,1,0,1,0,0,54,High,synthetic_demo_data
+SYN-TXT-0494,Punjlish,Sanu area chhadn layi keha gaya te sanu support di lod aa.,0,0,0,0,0,0,0,0,32,Moderate,synthetic_demo_data
+SYN-TXT-0495,Punjlish,Main hun theek haan te sirf complaint da status jaana chaunda haan.,1,1,0,0,1,0,0,0,66,High,synthetic_demo_data
+SYN-TXT-0496,Punjabi,ਮੇਰੇ ਪਰਿਵਾਰ ਉੱਤੇ ਦਬਾਅ ਹੈ ਅਤੇ ਮੈਂ ਇਸ ਵੇਲੇ ਸੁਰੱਖਿਅਤ ਮਹਿਸੂਸ ਨਹੀਂ ਕਰ ਰਿਹਾ।,0,0,1,0,0,1,0,0,44,Moderate,synthetic_demo_data
+SYN-TXT-0497,Hinglish,Main abhi theek hoon aur sirf complaint ka status jaana chahta hoon.,1,0,1,0,0,0,0,0,38,Moderate,synthetic_demo_data
+SYN-TXT-0498,English,The case has been delayed for a long time and I am becoming very anxious.,1,1,0,0,1,1,0,0,68,High,synthetic_demo_data
+SYN-TXT-0499,Punjlish,Main hun theek haan te sirf complaint da status jaana chaunda haan.,0,0,1,0,0,0,0,0,43,Moderate,synthetic_demo_data
+SYN-TXT-0500,Punjlish,Mainu darr aa ke help na mili taan situation hor kharab ho sakdi aa.,1,0,0,0,1,0,1,0,31,Moderate,synthetic_demo_data
+SYN-TXT-0501,Hinglish,Humein area chhodne ke liye kaha gaya aur humein support chahiye.,1,1,1,1,0,0,0,1,62,High,synthetic_demo_data
+SYN-TXT-0502,Hinglish,Mujhe apni complaint aur next steps ki information chahiye.,1,1,1,1,1,1,1,1,78,Critical,synthetic_demo_data
+SYN-TXT-0503,English,I feel isolated and do not know whom to contact for help.,1,1,1,0,0,1,1,1,90,Critical,synthetic_demo_data
+SYN-TXT-0504,Punjlish,Mainu darr aa ke help na mili taan situation hor kharab ho sakdi aa.,0,0,0,0,1,0,1,0,28,Moderate,synthetic_demo_data
+SYN-TXT-0505,Punjlish,Mainu apni complaint te next steps bare information chahidi aa.,0,1,1,0,0,0,0,0,45,Moderate,synthetic_demo_data
+SYN-TXT-0506,English,I feel isolated and do not know whom to contact for help.,1,1,1,1,0,0,0,0,75,High,synthetic_demo_data
+SYN-TXT-0507,Punjabi,ਮਾਮਲੇ ਵਿੱਚ ਕਾਫ਼ੀ ਦੇਰੀ ਹੋ ਰਹੀ ਹੈ ਅਤੇ ਮੈਨੂੰ ਬਹੁਤ ਚਿੰਤਾ ਹੋ ਰਹੀ ਹੈ।,1,0,1,0,1,0,0,0,28,Moderate,synthetic_demo_data
+SYN-TXT-0508,Punjlish,Main bahut akela feel kar reha te samajh nahi aa rahi help kithon lavaan.,1,1,1,0,1,0,0,0,57,High,synthetic_demo_data
+SYN-TXT-0509,Hinglish,Humein area chhodne ke liye kaha gaya aur humein support chahiye.,1,0,1,0,1,0,1,0,31,Moderate,synthetic_demo_data
+SYN-TXT-0510,Punjabi,ਸਾਨੂੰ ਇਲਾਕਾ ਛੱਡਣ ਲਈ ਕਿਹਾ ਗਿਆ ਅਤੇ ਸਾਨੂੰ ਸਹਾਇਤਾ ਦੀ ਲੋੜ ਹੈ।,1,0,0,0,0,0,0,1,14,Low,synthetic_demo_data
+SYN-TXT-0511,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,0,0,0,0,0,0,0,0,20,Low,synthetic_demo_data
+SYN-TXT-0512,Punjabi,ਮਾਮਲੇ ਵਿੱਚ ਕਾਫ਼ੀ ਦੇਰੀ ਹੋ ਰਹੀ ਹੈ ਅਤੇ ਮੈਨੂੰ ਬਹੁਤ ਚਿੰਤਾ ਹੋ ਰਹੀ ਹੈ।,0,1,0,1,1,0,1,0,75,High,synthetic_demo_data
+SYN-TXT-0513,Hinglish,Mere family par pressure hai aur mujhe abhi safe feel nahi ho raha.,0,0,1,0,0,0,1,0,14,Low,synthetic_demo_data
+SYN-TXT-0514,Punjlish,Mainu darr aa ke help na mili taan situation hor kharab ho sakdi aa.,0,0,0,0,0,0,1,0,17,Low,synthetic_demo_data
+SYN-TXT-0515,Punjabi,ਮੈਨੂੰ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਅਤੇ ਅਗਲੇ ਕਦਮਾਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਚਾਹੀਦੀ ਹੈ।,0,0,0,0,0,0,0,1,39,Moderate,synthetic_demo_data
+SYN-TXT-0516,English,I feel isolated and do not know whom to contact for help.,0,0,0,0,0,0,1,0,6,Low,synthetic_demo_data
+SYN-TXT-0517,English,I am calm now and only want an update about my complaint.,1,1,0,1,0,0,1,1,35,Moderate,synthetic_demo_data
+SYN-TXT-0518,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,1,1,1,1,1,0,0,0,73,High,synthetic_demo_data
+SYN-TXT-0519,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,1,0,0,0,0,0,0,1,24,Low,synthetic_demo_data
+SYN-TXT-0520,English,I feel isolated and do not know whom to contact for help.,0,0,1,1,1,0,1,0,65,High,synthetic_demo_data
+SYN-TXT-0521,Hinglish,Mujhe village wapas jaane mein darr lag raha hai kyunki baar baar threats mil rahi hain.,1,1,0,1,1,1,0,0,67,High,synthetic_demo_data
+SYN-TXT-0522,Hindi,मुझे डर है कि अगर मदद नहीं मिली तो स्थिति और खराब हो सकती है।,0,1,1,0,1,1,0,0,27,Moderate,synthetic_demo_data
+SYN-TXT-0523,Punjlish,Mere family te pressure aa te main hun safe feel nahi kar reha.,0,0,0,0,0,0,0,0,5,Low,synthetic_demo_data
+SYN-TXT-0524,Hinglish,Case mein bahut delay ho raha hai aur mujhe kaafi anxiety ho rahi hai.,0,1,0,0,0,0,0,0,29,Moderate,synthetic_demo_data
+SYN-TXT-0525,Punjlish,Sanu area chhadn layi keha gaya te sanu support di lod aa.,1,0,0,0,0,0,0,0,14,Low,synthetic_demo_data
+SYN-TXT-0526,English,I am worried about going back to my village because of repeated threats.,0,0,1,1,0,0,1,0,27,Moderate,synthetic_demo_data
+SYN-TXT-0527,English,My family is under pressure and I do not feel safe right now.,1,1,1,1,1,0,1,1,89,Critical,synthetic_demo_data
+SYN-TXT-0528,English,I am calm now and only want an update about my complaint.,1,1,1,1,0,1,0,1,79,Critical,synthetic_demo_data
+SYN-TXT-0529,Hindi,मैं खुद को बहुत अकेला महसूस कर रहा हूं और समझ नहीं आ रहा कि मदद के लिए किससे संपर्क करूं।,1,1,1,1,1,1,1,0,51,High,synthetic_demo_data
+SYN-TXT-0530,Punjabi,ਮੈਨੂੰ ਡਰ ਹੈ ਕਿ ਜੇ ਮਦਦ ਨਾ ਮਿਲੀ ਤਾਂ ਹਾਲਾਤ ਹੋਰ ਖਰਾਬ ਹੋ ਸਕਦੇ ਹਨ।,0,0,0,0,0,0,0,0,34,Moderate,synthetic_demo_data
+SYN-TXT-0531,Punjabi,ਮਾਮਲੇ ਵਿੱਚ ਕਾਫ਼ੀ ਦੇਰੀ ਹੋ ਰਹੀ ਹੈ ਅਤੇ ਮੈਨੂੰ ਬਹੁਤ ਚਿੰਤਾ ਹੋ ਰਹੀ ਹੈ।,1,1,0,0,1,0,1,1,60,High,synthetic_demo_data
+SYN-TXT-0532,Punjlish,Sanu area chhadn layi keha gaya te sanu support di lod aa.,1,0,0,1,0,0,0,1,67,High,synthetic_demo_data
+SYN-TXT-0533,Punjabi,ਮਾਮਲੇ ਵਿੱਚ ਕਾਫ਼ੀ ਦੇਰੀ ਹੋ ਰਹੀ ਹੈ ਅਤੇ ਮੈਨੂੰ ਬਹੁਤ ਚਿੰਤਾ ਹੋ ਰਹੀ ਹੈ।,1,0,0,1,0,0,0,0,38,Moderate,synthetic_demo_data
+SYN-TXT-0534,English,My family is under pressure and I do not feel safe right now.,0,1,1,1,0,1,0,1,54,High,synthetic_demo_data
+SYN-TXT-0535,Punjlish,Mainu pind wapas jaan ton darr lagda kyunki baar baar threats aa rahiyaan ne.,0,0,0,0,0,0,0,0,16,Low,synthetic_demo_data
+SYN-TXT-0536,Punjabi,ਮੈਂ ਆਪਣੇ ਆਪ ਨੂੰ ਬਹੁਤ ਇਕੱਲਾ ਮਹਿਸੂਸ ਕਰਦਾ ਹਾਂ ਅਤੇ ਮਦਦ ਲਈ ਕਿਸ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂ ਇਹ ਨਹੀਂ ਪਤਾ।,0,0,0,0,0,0,0,0,7,Low,synthetic_demo_data
+SYN-TXT-0537,English,I need information about my complaint and the next steps.,0,0,0,0,0,0,1,0,38,Moderate,synthetic_demo_data
+SYN-TXT-0538,English,My family is under pressure and I do not feel safe right now.,0,0,0,0,0,0,0,0,24,Low,synthetic_demo_data
+SYN-TXT-0539,Punjlish,Main bahut akela feel kar reha te samajh nahi aa rahi help kithon lavaan.,0,0,0,0,0,0,0,0,8,Low,synthetic_demo_data
+SYN-TXT-0540,English,I am worried about going back to my village because of repeated threats.,1,1,1,1,0,1,1,0,71,High,synthetic_demo_data
+SYN-TXT-0541,Hinglish,Main bahut isolated feel kar raha hoon aur samajh nahi aa raha kisse help loon.,1,1,1,1,1,1,0,1,80,Critical,synthetic_demo_data
+SYN-TXT-0542,Punjlish,Mere family te pressure aa te main hun safe feel nahi kar reha.,0,0,0,0,0,0,0,0,34,Moderate,synthetic_demo_data
+SYN-TXT-0543,Hinglish,Mere family par pressure hai aur mujhe abhi safe feel nahi ho raha.,0,1,1,1,1,0,1,0,52,High,synthetic_demo_data
+SYN-TXT-0544,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,1,0,0,1,1,1,1,1,90,Critical,synthetic_demo_data
+SYN-TXT-0545,Hinglish,Humein area chhodne ke liye kaha gaya aur humein support chahiye.,0,0,0,0,0,0,0,0,6,Low,synthetic_demo_data
+SYN-TXT-0546,Hindi,मामले में बहुत समय से देरी हो रही है और मुझे काफी चिंता हो रही है।,0,0,0,0,0,0,1,0,36,Moderate,synthetic_demo_data
+SYN-TXT-0547,Punjabi,ਮੈਂ ਇਸ ਵੇਲੇ ਠੀਕ ਹਾਂ ਅਤੇ ਸਿਰਫ਼ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਦੀ ਸਥਿਤੀ ਜਾਣਨਾ ਚਾਹੁੰਦਾ ਹਾਂ।,0,0,0,0,0,0,0,0,48,Moderate,synthetic_demo_data
+SYN-TXT-0548,Hinglish,Humein area chhodne ke liye kaha gaya aur humein support chahiye.,0,0,0,0,0,0,0,0,24,Low,synthetic_demo_data
+SYN-TXT-0549,English,I feel isolated and do not know whom to contact for help.,1,1,0,1,1,1,1,0,57,High,synthetic_demo_data
+SYN-TXT-0550,English,My family is under pressure and I do not feel safe right now.,0,0,1,0,0,0,0,0,50,Moderate,synthetic_demo_data
+SYN-TXT-0551,Hindi,मैं खुद को बहुत अकेला महसूस कर रहा हूं और समझ नहीं आ रहा कि मदद के लिए किससे संपर्क करूं।,0,1,0,0,1,0,1,0,50,Moderate,synthetic_demo_data
+SYN-TXT-0552,Hindi,मुझे गांव वापस जाने को लेकर बहुत डर लग रहा है क्योंकि बार-बार धमकियां मिल रही हैं।,0,0,0,0,0,0,0,0,7,Low,synthetic_demo_data
+SYN-TXT-0553,English,We were asked to leave the area and we need help finding support.,0,0,0,0,0,0,1,0,15,Low,synthetic_demo_data
+SYN-TXT-0554,Punjlish,Sanu area chhadn layi keha gaya te sanu support di lod aa.,1,1,1,0,1,1,1,1,86,Critical,synthetic_demo_data
+SYN-TXT-0555,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,1,0,0,0,0,0,0,0,15,Low,synthetic_demo_data
+SYN-TXT-0556,Punjabi,ਮੈਂ ਆਪਣੇ ਆਪ ਨੂੰ ਬਹੁਤ ਇਕੱਲਾ ਮਹਿਸੂਸ ਕਰਦਾ ਹਾਂ ਅਤੇ ਮਦਦ ਲਈ ਕਿਸ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂ ਇਹ ਨਹੀਂ ਪਤਾ।,0,0,0,0,0,0,0,0,13,Low,synthetic_demo_data
+SYN-TXT-0557,English,I am worried about going back to my village because of repeated threats.,0,0,0,0,0,0,0,0,25,Low,synthetic_demo_data
+SYN-TXT-0558,Hinglish,Main bahut isolated feel kar raha hoon aur samajh nahi aa raha kisse help loon.,0,0,0,1,0,0,1,0,37,Moderate,synthetic_demo_data
+SYN-TXT-0559,Hindi,मुझे गांव वापस जाने को लेकर बहुत डर लग रहा है क्योंकि बार-बार धमकियां मिल रही हैं।,0,0,0,0,0,0,0,1,32,Moderate,synthetic_demo_data
+SYN-TXT-0560,Punjabi,ਮਾਮਲੇ ਵਿੱਚ ਕਾਫ਼ੀ ਦੇਰੀ ਹੋ ਰਹੀ ਹੈ ਅਤੇ ਮੈਨੂੰ ਬਹੁਤ ਚਿੰਤਾ ਹੋ ਰਹੀ ਹੈ।,1,0,0,0,0,0,0,0,32,Moderate,synthetic_demo_data
+SYN-TXT-0561,Punjabi,ਮੈਨੂੰ ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਅਤੇ ਅਗਲੇ ਕਦਮਾਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਚਾਹੀਦੀ ਹੈ।,0,0,0,0,0,0,1,0,8,Low,synthetic_demo_data
+SYN-TXT-0562,Hindi,मुझे गांव वापस जाने को लेकर बहुत डर लग रहा है क्योंकि बार-बार धमकियां मिल रही हैं।,0,0,0,0,0,0,0,0,17,Low,synthetic_demo_data
+SYN-TXT-0563,Punjlish,Sanu area chhadn layi keha gaya te sanu support di lod aa.,0,1,1,0,1,0,0,0,59,High,synthetic_demo_data
+SYN-TXT-0564,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,1,1,1,1,0,1,1,0,75,High,synthetic_demo_data
+SYN-TXT-0565,Hindi,मेरे परिवार पर दबाव है और मुझे अभी सुरक्षित महसूस नहीं हो रहा है।,0,0,1,1,1,1,1,0,57,High,synthetic_demo_data
+SYN-TXT-0566,Punjlish,Mainu pind wapas jaan ton darr lagda kyunki baar baar threats aa rahiyaan ne.,0,1,1,0,1,0,0,1,57,High,synthetic_demo_data
+SYN-TXT-0567,Hindi,मुझे गांव वापस जाने को लेकर बहुत डर लग रहा है क्योंकि बार-बार धमकियां मिल रही हैं।,0,1,1,1,0,1,0,1,62,High,synthetic_demo_data
+SYN-TXT-0568,Hindi,मुझे अपनी शिकायत और आगे की प्रक्रिया की जानकारी चाहिए।,0,0,0,0,0,0,0,0,7,Low,synthetic_demo_data
+SYN-TXT-0569,Punjlish,Main bahut akela feel kar reha te samajh nahi aa rahi help kithon lavaan.,0,0,0,0,0,0,0,0,41,Moderate,synthetic_demo_data
+SYN-TXT-0570,Hinglish,Mujhe village wapas jaane mein darr lag raha hai kyunki baar baar threats mil rahi hain.,0,0,1,0,0,0,1,0,30,Moderate,synthetic_demo_data
+SYN-TXT-0571,Hindi,अभी मैं ठीक हूं और सिर्फ अपनी शिकायत की स्थिति जानना चाहता हूं।,0,0,1,0,1,0,1,1,35,Moderate,synthetic_demo_data
+SYN-TXT-0572,English,I am calm now and only want an update about my complaint.,1,0,1,1,1,0,1,0,69,High,synthetic_demo_data
+SYN-TXT-0573,English,I am afraid that the situation may become worse if nobody helps us.,1,0,0,1,0,0,1,1,41,Moderate,synthetic_demo_data
+SYN-TXT-0574,English,I am worried about going back to my village because of repeated threats.,1,1,1,0,0,1,0,0,73,High,synthetic_demo_data
+SYN-TXT-0575,Punjabi,ਮੇਰੇ ਪਰਿਵਾਰ ਉੱਤੇ ਦਬਾਅ ਹੈ ਅਤੇ ਮੈਂ ਇਸ ਵੇਲੇ ਸੁਰੱਖਿਅਤ ਮਹਿਸੂਸ ਨਹੀਂ ਕਰ ਰਿਹਾ।,1,0,0,1,1,0,1,1,53,High,synthetic_demo_data
+SYN-TXT-0576,English,I need information about my complaint and the next steps.,1,0,1,0,0,0,0,0,27,Moderate,synthetic_demo_data
+SYN-TXT-0577,English,We were asked to leave the area and we need help finding support.,0,1,1,1,0,1,0,1,91,Critical,synthetic_demo_data
+SYN-TXT-0578,Punjlish,Mainu darr aa ke help na mili taan situation hor kharab ho sakdi aa.,1,0,1,0,0,0,0,0,37,Moderate,synthetic_demo_data
+SYN-TXT-0579,Punjlish,Mainu darr aa ke help na mili taan situation hor kharab ho sakdi aa.,1,1,1,0,0,0,1,1,71,High,synthetic_demo_data
+SYN-TXT-0580,Punjlish,Mere family te pressure aa te main hun safe feel nahi kar reha.,0,0,1,0,0,0,1,0,39,Moderate,synthetic_demo_data
+SYN-TXT-0581,Punjabi,ਮੈਂ ਆਪਣੇ ਆਪ ਨੂੰ ਬਹੁਤ ਇਕੱਲਾ ਮਹਿਸੂਸ ਕਰਦਾ ਹਾਂ ਅਤੇ ਮਦਦ ਲਈ ਕਿਸ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂ ਇਹ ਨਹੀਂ ਪਤਾ।,0,0,0,0,1,0,0,0,40,Moderate,synthetic_demo_data
+SYN-TXT-0582,Hinglish,Case mein bahut delay ho raha hai aur mujhe kaafi anxiety ho rahi hai.,1,0,1,0,0,0,0,0,29,Moderate,synthetic_demo_data
+SYN-TXT-0583,Hindi,मामले में बहुत समय से देरी हो रही है और मुझे काफी चिंता हो रही है।,0,0,0,0,0,0,1,0,6,Low,synthetic_demo_data
+SYN-TXT-0584,Punjabi,ਮੈਂ ਆਪਣੇ ਆਪ ਨੂੰ ਬਹੁਤ ਇਕੱਲਾ ਮਹਿਸੂਸ ਕਰਦਾ ਹਾਂ ਅਤੇ ਮਦਦ ਲਈ ਕਿਸ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂ ਇਹ ਨਹੀਂ ਪਤਾ।,0,0,0,1,0,1,0,0,46,Moderate,synthetic_demo_data
+SYN-TXT-0585,Hindi,हमें इलाके से जाने के लिए कहा गया और हमें सहायता की जरूरत है।,1,1,1,1,1,0,1,1,79,Critical,synthetic_demo_data
+SYN-TXT-0586,English,The case has been delayed for a long time and I am becoming very anxious.,0,0,1,1,0,0,1,1,57,High,synthetic_demo_data
+SYN-TXT-0587,Hindi,हमें इलाके से जाने के लिए कहा गया और हमें सहायता की जरूरत है।,0,0,0,0,0,0,0,0,6,Low,synthetic_demo_data
+SYN-TXT-0588,Punjabi,ਮੈਨੂੰ ਡਰ ਹੈ ਕਿ ਜੇ ਮਦਦ ਨਾ ਮਿਲੀ ਤਾਂ ਹਾਲਾਤ ਹੋਰ ਖਰਾਬ ਹੋ ਸਕਦੇ ਹਨ।,0,0,1,0,0,0,0,0,37,Moderate,synthetic_demo_data
+SYN-TXT-0589,Punjabi,ਸਾਨੂੰ ਇਲਾਕਾ ਛੱਡਣ ਲਈ ਕਿਹਾ ਗਿਆ ਅਤੇ ਸਾਨੂੰ ਸਹਾਇਤਾ ਦੀ ਲੋੜ ਹੈ।,1,0,0,0,0,0,0,0,6,Low,synthetic_demo_data
+SYN-TXT-0590,Hinglish,Main bahut isolated feel kar raha hoon aur samajh nahi aa raha kisse help loon.,0,0,0,0,0,0,0,0,17,Low,synthetic_demo_data
+SYN-TXT-0591,Punjlish,Case vich kaafi delay ho reha te main bahut worried haan.,0,1,1,0,1,0,1,1,78,Critical,synthetic_demo_data
+SYN-TXT-0592,English,I feel isolated and do not know whom to contact for help.,1,0,1,1,0,0,0,0,38,Moderate,synthetic_demo_data
+SYN-TXT-0593,Hinglish,Humein area chhodne ke liye kaha gaya aur humein support chahiye.,0,1,0,0,0,0,0,0,32,Moderate,synthetic_demo_data
+SYN-TXT-0594,Punjabi,ਮੈਨੂੰ ਡਰ ਹੈ ਕਿ ਜੇ ਮਦਦ ਨਾ ਮਿਲੀ ਤਾਂ ਹਾਲਾਤ ਹੋਰ ਖਰਾਬ ਹੋ ਸਕਦੇ ਹਨ।,1,0,0,0,0,0,0,0,30,Moderate,synthetic_demo_data
+SYN-TXT-0595,Hinglish,Mujhe apni complaint aur next steps ki information chahiye.,0,0,0,0,0,0,0,0,5,Low,synthetic_demo_data
+SYN-TXT-0596,Hindi,अभी मैं ठीक हूं और सिर्फ अपनी शिकायत की स्थिति जानना चाहता हूं।,0,0,0,0,0,0,0,0,9,Low,synthetic_demo_data
+SYN-TXT-0597,Hindi,हमें इलाके से जाने के लिए कहा गया और हमें सहायता की जरूरत है।,1,0,1,0,0,0,1,1,74,High,synthetic_demo_data
+SYN-TXT-0598,English,I am afraid that the situation may become worse if nobody helps us.,0,1,1,0,1,0,0,0,59,High,synthetic_demo_data
+SYN-TXT-0599,Hinglish,Mere family par pressure hai aur mujhe abhi safe feel nahi ho raha.,1,1,1,1,1,1,1,1,87,Critical,synthetic_demo_data
+SYN-TXT-0600,English,I am calm now and only want an update about my complaint.,0,1,1,0,1,0,0,0,66,High,synthetic_demo_data

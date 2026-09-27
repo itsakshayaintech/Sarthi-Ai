@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sarthi-AI | Support and assessment</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='location-map.js') }}" defer></script>
+</head>
+<body class="home-page">
+    <header class="site-header">
+        <a class="brand" href="{{ url_for('home') }}"><span class="brand-mark">S</span> Sarthi-AI</a>
+        <nav aria-label="Main navigation">
+            <a href="{{ url_for('login') }}">User sign in</a>
+            <a class="nav-worker" href="{{ url_for('worker_login') }}">Helpline staff</a>
+        </nav>
+    </header>
+    <main class="page-shell home-shell">
+        <section class="home-copy">
+            <p class="eyebrow">Support, at your pace</p>
+            <h1>A private place to check in and find support.</h1>
+            <p class="lead">Complete an optional AI-assisted assessment, review your results, and explore support resources. A qualified person remains responsible for care decisions.</p>
+            <div class="home-actions">
+                <a class="button button-primary" href="{{ url_for('register') }}">Create a user account</a>
+                <a class="button button-secondary" href="{{ url_for('login') }}">User sign in</a>
+            </div>
+            <p class="privacy-note">Your assessment is private to your account. AI analysis is optional and requires your consent.</p>
+        </section>
+        <aside class="portal-panel location-panel" aria-labelledby="location-title">
+            <span class="panel-kicker">Your location</span>
+            <h2 id="location-title">See your area on the map</h2>
+            <p class="location-privacy">Your coordinates are sent to Google Maps to display the map. Sarthi-AI does not store them.</p>
+            <button class="button button-primary" id="show-location" type="button">Show my location</button>
+            <p class="location-status" id="location-status" role="status" aria-live="polite">Your location stays hidden until you choose to share it with Google Maps.</p>
+            <div class="location-map-frame" id="location-map-frame" hidden>
+                <iframe class="location-map" id="location-map" title="Google Map centered on your location" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            </div>
+            <a class="text-link location-staff-link" href="{{ url_for('worker_login') }}">Helpline team sign in <span aria-hidden="true">→</span></a>
+        </aside>
+    </main>
+    <footer class="site-footer">Sarthi-AI is a decision-support tool, not a diagnosis or emergency service.</footer>
+</body>
+</html>

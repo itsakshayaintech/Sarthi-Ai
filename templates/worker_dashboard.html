@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Helpline overview | Sarthi-AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="{{ url_for('home') }}"><span class="brand-mark">S</span> Sarthi-AI <span class="staff-label">Staff</span></a>
+        <div class="header-actions"><span class="user-name">{{ session.name }}</span><form method="post" action="{{ url_for('logout') }}"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><button class="quiet-button" type="submit">Sign out</button></form></div>
+    </header>
+    <main class="page-shell dashboard-shell">
+        <div class="page-heading"><div><p class="eyebrow">Helpline overview</p><h1>Assessment analytics</h1></div><span class="status-tag">Human review required</span></div>
+        <div class="metric-row">
+            <section class="metric"><span>Total assessments</span><strong>{{ totals.total }}</strong></section>
+            <section class="metric"><span>Average SVI</span><strong>{{ totals.average if totals.average is not none else '—' }}</strong></section>
+            <section class="metric"><span>Model categories</span><strong>{{ categories|length }}</strong></section>
+        </div>
+        <section class="content-section">
+            <div class="section-title"><div><p class="eyebrow">Across all saved assessments</p><h2>Category counts</h2></div></div>
+            {% if categories %}<div class="category-row">{% for item in categories %}<div class="category-count"><span class="risk-pill risk-{{ item.risk_category|lower }}">{{ item.risk_category }}</span><strong>{{ item.count }}</strong></div>{% endfor %}</div>{% else %}<p class="empty-state">No assessments have been completed yet.</p>{% endif %}
+        </section>
+        <section class="content-section">
+            <div class="section-title"><div><p class="eyebrow">Most recent first</p><h2>Recent model results</h2></div></div>
+            {% if cases %}<div class="table-wrap"><table><thead><tr><th>Case ref.</th><th>Date</th><th>SVI</th><th>Category</th><th>Model scores</th></tr></thead><tbody>
+                {% for item in cases %}<tr><td>#{{ item.id }}</td><td>{{ item.created_at }}</td><td>{{ item.final_svi }}</td><td><span class="risk-pill risk-{{ item.risk_category|lower }}">{{ item.risk_category }}</span></td><td>{% for name, score in item.scores.items() %}{% if score is not none %}<span class="score-chip">{{ name|replace('_svi', '')|replace('_', ' ') }} {{ score }}</span>{% endif %}{% endfor %}</td></tr>{% endfor %}
+            </tbody></table></div>{% else %}<p class="empty-state">No model results are available yet.</p>{% endif %}
+            <p class="small-note">Only model outputs are shown here. User narratives, contact details, and audio are not included. Categories are model outputs, not clinical decisions.</p>
+        </section>
+    </main>
+    <footer class="site-footer">Use these results as decision support alongside appropriate professional review.</footer>
+</body>
+</html>
