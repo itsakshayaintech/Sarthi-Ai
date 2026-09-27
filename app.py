@@ -35,7 +35,9 @@ app = Flask(__name__)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_DIR = os.path.join(BASE_DIR, "models")
-DATABASE_DIR = os.path.join(BASE_DIR, "database")
+import tempfile
+
+DATABASE_DIR = os.path.join(tempfile.gettempdir(), "sarthi_database")
 DATABASE_PATH = os.path.join(DATABASE_DIR, "sahayak.sqlite3")
 app.config.update(
     SECRET_KEY=os.environ.get("SAHAYAK_SECRET_KEY") or secrets.token_hex(32),
