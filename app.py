@@ -431,6 +431,7 @@ def register():
     if request.method == "POST":
         validate_csrf()
         name = request.form.get("name", "").strip()
+        
         email = request.form.get("email", "").strip().lower()
         password = request.form.get("password", "")
         if not name or not email or len(password) < 8:
