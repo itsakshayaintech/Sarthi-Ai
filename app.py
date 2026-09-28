@@ -32,6 +32,7 @@ from werkzeug.security import check_password_hash, generate_password_hash
 # =========================================================
 
 app = Flask(__name__)
+app.secret_key = os.environ.get("SECRET_KEY")
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_DIR = os.path.join(BASE_DIR, "models")
