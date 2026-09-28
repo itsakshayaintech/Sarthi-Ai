@@ -1451,6 +1451,31 @@ if __name__ == "__main__":
                 "An account with that email already exists."
             )
 
+    elif len(sys.argv) > 1 and sys.argv[1] == "reset-user-password":
+
+        user_email = input("User email: ").strip().lower()
+        user_password = getpass("New password (8+ characters): ")
+
+        if len(user_password) < 8:
+            raise SystemExit(
+                "Password must have at least 8 characters."
+            )
+
+        with get_database() as connection:
+            cursor = connection.execute(
+                """
+                UPDATE users
+                SET password_hash = ?
+                WHERE email = ? AND role = 'user'
+                """,
+                (generate_password_hash(user_password), user_email),
+            )
+
+        if cursor.rowcount:
+            print("User password updated.")
+        else:
+            raise SystemExit("No user account found for that email.")
+
     else:
 
         # Automatically create/update worker on Vercel

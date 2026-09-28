@@ -6,7 +6,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Your dashboard | Sarthi-AI</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css', v=4) }}">
-    <script src="{{ url_for('static', filename='script.js', v=3) }}" defer></script>
+    <script src="{{ url_for('static', filename='script.js', v=4) }}" defer></script>
 </head>
 <body>
     <header class="site-header">
@@ -79,6 +79,7 @@
             <p class="section-intro">Ask about general support options. This guide uses prepared responses and is not an AI counsellor.</p>
             <div id="chat-log" class="chat-log" aria-live="polite"><p class="chat-message chat-assistant">Hello. What kind of support information are you looking for?</p></div>
             <form id="chat-form" class="chat-form"><label class="sr-only" for="chat-input">Message the support guide</label><input id="chat-input" type="text" maxlength="300" placeholder="Ask about safety or support options" required><button class="button button-primary" type="submit">Send</button></form>
+            <p class="small-note">For direct assistance, call <a class="text-link" href="tel:14566">NHAA (National Helpline Against Atrocities): 14566</a>.</p>
             <p class="small-note">If someone is in immediate danger in India, call emergency services at 112.</p>
         </section>
     </main>

@@ -363,10 +363,30 @@ function renderResult(panel, result, submitted) {
 
 const chatAnswers = [
     { terms: ["danger", "unsafe", "emergency", "hurt", "threat"], reply: "If you or someone else is in immediate danger in India, call 112. Move to a safer place if you can and contact someone you trust." },
+    { terms: ["helpline", "hotline", "contact", "phone number", "telephone number", "call", "nhaa", "14566"], reply: "For direct assistance, call NHAA (National Helpline Against Atrocities) at 14566." },
     { terms: ["talk", "counsel", "stress", "anxious", "feel"], reply: "Consider speaking with a qualified counsellor or a trusted healthcare professional. You can also ask your local helpline worker about available services." },
     { terms: ["legal", "police", "report", "rights"], reply: "A local legal-aid service or authorized helpline worker may explain options for your situation. Avoid sharing identifying details in this chat." },
     { terms: ["hello", "hi", "help", "support"], reply: "I can point you to general safety, counselling, and legal-support options. What would you like information about?" },
 ];
+
+function getChatReply(message) {
+    const normalized = message.toLowerCase();
+    const matches = (answer) => answer.terms.some((term) => normalized.includes(term));
+    const emergencyAnswer = chatAnswers[0];
+    const contactAnswer = chatAnswers[1];
+
+    if (matches(emergencyAnswer)) {
+        const contactDetails = matches(contactAnswer)
+            ? " For direct assistance, call NHAA (National Helpline Against Atrocities) at 14566."
+            : "";
+        return `${emergencyAnswer.reply}${contactDetails}`;
+    }
+
+    const answer = matches(contactAnswer)
+        ? contactAnswer
+        : chatAnswers.slice(2).find(matches);
+    return answer?.reply || "I don't have information on that. A helpline worker can help you find an appropriate local service.";
+}
 
 document.getElementById("chat-form")?.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -374,9 +394,7 @@ document.getElementById("chat-form")?.addEventListener("submit", (event) => {
     const message = input.value.trim();
     if (!message) return;
     addChatMessage(message, "chat-user");
-    const normalized = message.toLowerCase();
-    const answer = chatAnswers.find((item) => item.terms.some((term) => normalized.includes(term)));
-    addChatMessage(answer?.reply || "I don't have information on that. A helpline worker can help you find an appropriate local service.", "chat-assistant");
+    addChatMessage(getChatReply(message), "chat-assistant");
     input.value = "";
 });
 
