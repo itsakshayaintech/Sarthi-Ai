@@ -1554,6 +1554,8 @@ def ensure_worker_account():
 
         if DATABASE_URL:
             connection.commit()
+            
+ensure_worker_account()
 # =========================================================
 # RUN APPLICATION
 # =========================================================
