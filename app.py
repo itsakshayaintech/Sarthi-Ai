@@ -85,6 +85,52 @@ def initialize_database():
 
 initialize_database()
 
+def ensure_worker_account():
+    worker_name = os.environ.get("SAHAYAK_WORKER_NAME")
+    worker_email = os.environ.get("SAHAYAK_WORKER_EMAIL")
+    worker_password = os.environ.get("SAHAYAK_WORKER_PASSWORD")
+
+    if not worker_name or not worker_email or not worker_password:
+        return
+
+    if len(worker_password) < 8:
+        print("Worker password must contain at least 8 characters.")
+        return
+
+    worker_email = worker_email.strip().lower()
+
+    with get_database() as connection:
+        existing_worker = connection.execute(
+            "SELECT id FROM users WHERE email = ? AND role = 'worker'",
+            (worker_email,)
+        ).fetchone()
+
+        if existing_worker:
+            connection.execute(
+                """
+                UPDATE users
+                SET name = ?, password_hash = ?
+                WHERE id = ?
+                """,
+                (
+                    worker_name,
+                    generate_password_hash(worker_password),
+                    existing_worker["id"]
+                )
+            )
+        else:
+            connection.execute(
+                """
+                INSERT INTO users
+                (name, email, password_hash, role)
+                VALUES (?, ?, ?, 'worker')
+                """,
+                (
+                    worker_name,
+                    worker_email,
+                    generate_password_hash(worker_password)
+                )
+            )
 
 def csrf_token():
     if "csrf_token" not in session:
@@ -1305,21 +1351,113 @@ def assess():
 # RUN APPLICATION
 # =========================================================
 
+# =========================================================
+# WORKER ACCOUNT SETUP
+# =========================================================
+
+def ensure_worker_account():
+    worker_name = os.environ.get("SAHAYAK_WORKER_NAME")
+    worker_email = os.environ.get("SAHAYAK_WORKER_EMAIL")
+    worker_password = os.environ.get("SAHAYAK_WORKER_PASSWORD")
+
+    # If worker credentials are not configured, do nothing.
+    if not worker_name or not worker_email or not worker_password:
+        print("Worker environment variables are not configured.")
+        return
+
+    if len(worker_password) < 8:
+        print("Worker password must contain at least 8 characters.")
+        return
+
+    worker_email = worker_email.strip().lower()
+
+    with get_database() as connection:
+        existing_worker = connection.execute(
+            "SELECT id FROM users WHERE email = ? AND role = 'worker'",
+            (worker_email,),
+        ).fetchone()
+
+        if existing_worker:
+            connection.execute(
+                """
+                UPDATE users
+                SET name = ?, password_hash = ?
+                WHERE id = ?
+                """,
+                (
+                    worker_name,
+                    generate_password_hash(worker_password),
+                    existing_worker["id"],
+                ),
+            )
+
+            print("Helpline worker account updated.")
+
+        else:
+            connection.execute(
+                """
+                INSERT INTO users
+                (name, email, password_hash, role)
+                VALUES (?, ?, ?, 'worker')
+                """,
+                (
+                    worker_name,
+                    worker_email,
+                    generate_password_hash(worker_password),
+                ),
+            )
+
+            print("Helpline worker account created.")
+
+
+# =========================================================
+# RUN APPLICATION
+# =========================================================
+
 if __name__ == "__main__":
+
     if len(sys.argv) > 1 and sys.argv[1] == "create-worker":
+
         worker_name = input("Worker name: ").strip()
         worker_email = input("Worker email: ").strip().lower()
-        worker_password = getpass("Worker password (8+ characters): ")
+        worker_password = getpass(
+            "Worker password (8+ characters): "
+        )
+
         if len(worker_password) < 8:
-            raise SystemExit("Password must have at least 8 characters.")
+            raise SystemExit(
+                "Password must have at least 8 characters."
+            )
+
         try:
             with get_database() as connection:
                 connection.execute(
-                    "INSERT INTO users (name, email, password_hash, role) VALUES (?, ?, ?, 'worker')",
-                    (worker_name, worker_email, generate_password_hash(worker_password)),
+                    """
+                    INSERT INTO users
+                    (name, email, password_hash, role)
+                    VALUES (?, ?, ?, 'worker')
+                    """,
+                    (
+                        worker_name,
+                        worker_email,
+                        generate_password_hash(worker_password),
+                    ),
                 )
+
             print("Helpline worker account created.")
+
         except sqlite3.IntegrityError:
-            raise SystemExit("An account with that email already exists.")
+            raise SystemExit(
+                "An account with that email already exists."
+            )
+
     else:
-        app.run(host="127.0.0.1", port=5000, debug=os.environ.get("FLASK_DEBUG") == "1")
+
+        # Automatically create/update worker on Vercel
+        ensure_worker_account()
+
+        app.run(
+            host="127.0.0.1",
+            port=5000,
+            debug=os.environ.get("FLASK_DEBUG") == "1"
+        )
