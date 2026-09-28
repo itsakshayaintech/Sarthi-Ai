@@ -132,6 +132,9 @@ def ensure_worker_account():
                 )
             )
 
+# Create/update worker account when the app is initialized.
+ensure_worker_account()
+
 def csrf_token():
     if "csrf_token" not in session:
         session["csrf_token"] = secrets.token_urlsafe(32)
@@ -1351,6 +1354,16 @@ def assess():
 # RUN APPLICATION
 # =========================================================
 
+@app.errorhandler(500)
+def handle_server_error(error):
+    if request.path == "/assess":
+        return jsonify({
+            "error": "Assessment processing failed.",
+            "details": str(error)
+        }), 500
+
+    return error
+
 # =========================================================
 # WORKER ACCOUNT SETUP
 # =========================================================
@@ -1477,9 +1490,6 @@ if __name__ == "__main__":
             raise SystemExit("No user account found for that email.")
 
     else:
-
-        # Automatically create/update worker on Vercel
-        ensure_worker_account()
 
         app.run(
             host="127.0.0.1",
