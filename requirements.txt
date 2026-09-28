@@ -6,3 +6,4 @@ flask
 librosa
 SpeechRecognition
 psycopg2-binary
+gunicorn
