@@ -35,28 +35,156 @@ app = Flask(__name__)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_DIR = os.path.join(BASE_DIR, "models")
-import tempfile
+# =========================================================
+# DATABASE SETUP
+# =========================================================
 
-DATABASE_DIR = os.path.join(tempfile.gettempdir(), "sarthi_database")
-DATABASE_PATH = os.path.join(DATABASE_DIR, "sahayak.sqlite3")
-app.config.update(
-    SECRET_KEY=os.environ.get("SAHAYAK_SECRET_KEY") or secrets.token_hex(32),
-    SESSION_COOKIE_HTTPONLY=True,
-    SESSION_COOKIE_SAMESITE="Lax",
-    MAX_CONTENT_LENGTH=20 * 1024 * 1024,
+import sqlite3
+import psycopg2
+from psycopg2.extras import RealDictCursor
+
+
+# ---------------------------------------------------------
+# DATABASE CONNECTION
+# ---------------------------------------------------------
+# Vercel:
+#     Uses Neon PostgreSQL through DATABASE_URL
+#
+# Local VS Code:
+#     Uses the existing SQLite database
+# ---------------------------------------------------------
+
+DATABASE_URL = (
+    os.environ.get("POSTGRES_URL")
+    or os.environ.get("DATABASE_URL")
 )
 
 
 def get_database():
-    connection = sqlite3.connect(DATABASE_PATH)
+    # -----------------------------------------------------
+    # VERCEL / PRODUCTION
+    # -----------------------------------------------------
+    if DATABASE_URL:
+        connection = psycopg2.connect(DATABASE_URL)
+        return connection
+
+    # -----------------------------------------------------
+    # LOCAL DEVELOPMENT
+    # -----------------------------------------------------
+    DATABASE_DIR = os.path.join(
+        tempfile.gettempdir(),
+        "sarthi_database"
+    )
+
+    DATABASE_PATH = os.path.join(
+        DATABASE_DIR,
+        "sahayak.sqlite3"
+    )
+
+    os.makedirs(
+        DATABASE_DIR,
+        exist_ok=True
+    )
+
+    connection = sqlite3.connect(
+        DATABASE_PATH
+    )
+
     connection.row_factory = sqlite3.Row
-    connection.execute("PRAGMA foreign_keys = ON")
+
+    connection.execute(
+        "PRAGMA foreign_keys = ON"
+    )
+
     return connection
 
 
+# ---------------------------------------------------------
+# DATABASE EXECUTION HELPER
+# ---------------------------------------------------------
+# Converts SQLite-style ? placeholders into PostgreSQL
+# %s placeholders when running on Neon.
+# ---------------------------------------------------------
+
+def execute_query(connection, query, parameters=()):
+    if DATABASE_URL:
+        query = query.replace("?", "%s")
+
+        cursor = connection.cursor(
+            cursor_factory=RealDictCursor
+        )
+
+        cursor.execute(
+            query,
+            parameters
+        )
+
+        return cursor
+
+    return connection.execute(
+        query,
+        parameters
+    )
+
+
+# ---------------------------------------------------------
+# INITIALIZE DATABASE
+# ---------------------------------------------------------
+
 def initialize_database():
-    os.makedirs(DATABASE_DIR, exist_ok=True)
+
+    # =====================================================
+    # POSTGRESQL / NEON
+    # =====================================================
+
+    if DATABASE_URL:
+
+        with get_database() as connection:
+
+            with connection.cursor() as cursor:
+
+                cursor.execute(
+                    """
+                    CREATE TABLE IF NOT EXISTS users (
+                        id SERIAL PRIMARY KEY,
+                        name TEXT NOT NULL,
+                        email TEXT NOT NULL UNIQUE,
+                        password_hash TEXT NOT NULL,
+                        role TEXT NOT NULL
+                            CHECK (role IN ('user', 'worker')),
+                        created_at TIMESTAMP NOT NULL
+                            DEFAULT CURRENT_TIMESTAMP
+                    )
+                    """
+                )
+
+                cursor.execute(
+                    """
+                    CREATE TABLE IF NOT EXISTS assessments (
+                        id SERIAL PRIMARY KEY,
+                        user_id INTEGER NOT NULL
+                            REFERENCES users(id),
+                        final_svi REAL NOT NULL,
+                        risk_category TEXT NOT NULL,
+                        assessment_json TEXT NOT NULL,
+                        created_at TIMESTAMP NOT NULL
+                            DEFAULT CURRENT_TIMESTAMP
+                    )
+                    """
+                )
+
+            connection.commit()
+
+        print("PostgreSQL database initialized successfully.")
+
+        return
+
+    # =====================================================
+    # SQLITE / LOCAL DEVELOPMENT
+    # =====================================================
+
     with get_database() as connection:
+
         connection.execute(
             """
             CREATE TABLE IF NOT EXISTS users (
@@ -64,76 +192,37 @@ def initialize_database():
                 name TEXT NOT NULL,
                 email TEXT NOT NULL UNIQUE,
                 password_hash TEXT NOT NULL,
-                role TEXT NOT NULL CHECK (role IN ('user', 'worker')),
-                created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+                role TEXT NOT NULL
+                    CHECK (role IN ('user', 'worker')),
+                created_at TEXT NOT NULL
+                    DEFAULT CURRENT_TIMESTAMP
             )
             """
         )
+
         connection.execute(
             """
             CREATE TABLE IF NOT EXISTS assessments (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
-                user_id INTEGER NOT NULL REFERENCES users(id),
+                user_id INTEGER NOT NULL
+                    REFERENCES users(id),
                 final_svi REAL NOT NULL,
                 risk_category TEXT NOT NULL,
                 assessment_json TEXT NOT NULL,
-                created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+                created_at TEXT NOT NULL
+                    DEFAULT CURRENT_TIMESTAMP
             )
             """
         )
 
+        connection.commit()
+
+        print("SQLite database initialized successfully.")
+
 
 initialize_database()
 
-def ensure_worker_account():
-    worker_name = os.environ.get("SAHAYAK_WORKER_NAME")
-    worker_email = os.environ.get("SAHAYAK_WORKER_EMAIL")
-    worker_password = os.environ.get("SAHAYAK_WORKER_PASSWORD")
 
-    if not worker_name or not worker_email or not worker_password:
-        return
-
-    if len(worker_password) < 8:
-        print("Worker password must contain at least 8 characters.")
-        return
-
-    worker_email = worker_email.strip().lower()
-
-    with get_database() as connection:
-        existing_worker = connection.execute(
-            "SELECT id FROM users WHERE email = ? AND role = 'worker'",
-            (worker_email,)
-        ).fetchone()
-
-        if existing_worker:
-            connection.execute(
-                """
-                UPDATE users
-                SET name = ?, password_hash = ?
-                WHERE id = ?
-                """,
-                (
-                    worker_name,
-                    generate_password_hash(worker_password),
-                    existing_worker["id"]
-                )
-            )
-        else:
-            connection.execute(
-                """
-                INSERT INTO users
-                (name, email, password_hash, role)
-                VALUES (?, ?, ?, 'worker')
-                """,
-                (
-                    worker_name,
-                    worker_email,
-                    generate_password_hash(worker_password)
-                )
-            )
-
-# Create/update worker account when the app is initialized.
-ensure_worker_account()
 
 def csrf_token():
     if "csrf_token" not in session:
@@ -488,14 +577,26 @@ def register():
             return render_template("auth.html", mode="register"), 400
         try:
             with get_database() as connection:
-                cursor = connection.execute(
-                    "INSERT INTO users (name, email, password_hash, role) VALUES (?, ?, ?, 'user')",
+                cursor = execute_query(
+                    connection,
+                    """
+                    INSERT INTO users
+                    (name, email, password_hash, role)
+                    VALUES (?, ?, ?, 'user')
+                    RETURNING id
+                    """,
                     (name, email, generate_password_hash(password)),
                 )
-                user_id = cursor.lastrowid
-        except sqlite3.IntegrityError:
-            flash("An account with that email already exists.")
-            return render_template("auth.html", mode="register"), 409
+
+                user_id = cursor.fetchone()["id"]
+
+                if DATABASE_URL:
+                    connection.commit()
+        except Exception as error:
+            if "unique" in str(error).lower():
+                flash("An account with that email already exists.")
+                return render_template("auth.html", mode="register"), 409
+            raise
         session.clear()
         session.update(user_id=user_id, name=name, role="user")
         return redirect(url_for("user_dashboard"))
@@ -518,7 +619,8 @@ def authenticate(role):
         email = request.form.get("email", "").strip().lower()
         password = request.form.get("password", "")
         with get_database() as connection:
-            user = connection.execute(
+            user = execute_query(
+                connection,
                 "SELECT id, name, password_hash FROM users WHERE email = ? AND role = ?",
                 (email, role),
             ).fetchone()
@@ -542,7 +644,8 @@ def logout():
 @require_role("user")
 def user_dashboard():
     with get_database() as connection:
-        assessments = connection.execute(
+        assessments = execute_query(
+            connection,
             "SELECT id, final_svi, risk_category, created_at FROM assessments WHERE user_id = ? ORDER BY id DESC LIMIT 10",
             (session["user_id"],),
         ).fetchall()
@@ -553,13 +656,33 @@ def user_dashboard():
 @require_role("worker")
 def worker_dashboard():
     with get_database() as connection:
-        totals = connection.execute(
-            "SELECT COUNT(*) AS total, ROUND(AVG(final_svi), 1) AS average FROM assessments"
+        if DATABASE_URL:
+            average_query = """
+                SELECT
+                    COUNT(*) AS total,
+                    ROUND(AVG(final_svi)::numeric, 1) AS average
+                FROM assessments
+            """
+        else:
+            average_query = """
+                SELECT
+                    COUNT(*) AS total,
+                    ROUND(AVG(final_svi), 1) AS average
+                FROM assessments
+            """
+
+        totals = execute_query(
+            connection,
+            average_query
         ).fetchone()
-        categories = connection.execute(
+
+        categories = execute_query(
+            connection,
             "SELECT risk_category, COUNT(*) AS count FROM assessments GROUP BY risk_category"
         ).fetchall()
-        recent = connection.execute(
+
+        recent = execute_query(
+            connection,
             "SELECT id, final_svi, risk_category, assessment_json, created_at FROM assessments ORDER BY id DESC LIMIT 20"
         ).fetchall()
     cases = []
@@ -1338,7 +1461,8 @@ def assess():
             "by authorized human professionals."
     }
     with get_database() as connection:
-        connection.execute(
+        execute_query(
+            connection,
             "INSERT INTO assessments (user_id, final_svi, risk_category, assessment_json) VALUES (?, ?, ?, ?)",
             (
                 session["user_id"],
@@ -1347,6 +1471,9 @@ def assess():
                 json.dumps(result["assessment_scores"]),
             ),
         )
+
+        if DATABASE_URL:
+            connection.commit()
     return jsonify(result)
 
 
@@ -1385,13 +1512,15 @@ def ensure_worker_account():
     worker_email = worker_email.strip().lower()
 
     with get_database() as connection:
-        existing_worker = connection.execute(
+        existing_worker = execute_query(
+            connection,
             "SELECT id FROM users WHERE email = ? AND role = 'worker'",
             (worker_email,),
         ).fetchone()
 
         if existing_worker:
-            connection.execute(
+            execute_query(
+                connection,
                 """
                 UPDATE users
                 SET name = ?, password_hash = ?
@@ -1407,7 +1536,8 @@ def ensure_worker_account():
             print("Helpline worker account updated.")
 
         else:
-            connection.execute(
+            execute_query(
+                connection,
                 """
                 INSERT INTO users
                 (name, email, password_hash, role)
@@ -1422,7 +1552,8 @@ def ensure_worker_account():
 
             print("Helpline worker account created.")
 
-
+        if DATABASE_URL:
+            connection.commit()
 # =========================================================
 # RUN APPLICATION
 # =========================================================

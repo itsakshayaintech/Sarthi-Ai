@@ -6,3 +6,4 @@ flask
 librosa
 SpeechRecognition
 requests
+psycopg2-binary
